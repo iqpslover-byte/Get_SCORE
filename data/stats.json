@@ -1,10 +1,106 @@
 {
- "by_rocket_site": {},
+ "by_rocket_site": {
+  "Ariane 64 Block 2 @ Guiana Space Centre (FRA)": {
+   "incl": {
+    "mae": 0.93,
+    "mean": -0.93,
+    "n": 1,
+    "sd": 0.0
+   },
+   "n": 1,
+   "raan": {
+    "mae": 2.663,
+    "mean": 2.663,
+    "n": 1,
+    "sd": 0.0
+   }
+  },
+  "Falcon 9 Block 5 @ Kennedy Space Center (USA)": {
+   "incl": {
+    "mae": 0.97,
+    "mean": 0.29,
+    "n": 3,
+    "sd": 0.926
+   },
+   "n": 3,
+   "raan": {
+    "mae": 2.284,
+    "mean": -1.53,
+    "n": 2,
+    "sd": 2.284
+   }
+  },
+  "Falcon 9 Block 5 @ Vandenberg SFB (USA)": {
+   "incl": {
+    "mae": 9.805,
+    "mean": -9.805,
+    "n": 6,
+    "sd": 13.291
+   },
+   "n": 7,
+   "raan": {
+    "mae": 6.84,
+    "mean": 6.84,
+    "n": 3,
+    "sd": 5.969
+   }
+  },
+  "H3-30 @ 種子島宇宙センター (JPN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Kinetica 1 @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Kuaizhou 11 @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Long March 12 @ 海南商業宇宙発射場 (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Long March 4C @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Long March 6A @ 太原衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Pegasus XL @ Air launch to orbit": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Zhuque-2E Block 2 @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  }
+ },
  "model": "v1",
  "total": {
-  "incl": null,
-  "n": 0,
-  "raan": null
+  "incl": {
+   "mae": 6.267,
+   "mean": -5.889,
+   "n": 10,
+   "sd": 11.373
+  },
+  "n": 19,
+  "raan": {
+   "mae": 4.625,
+   "mean": 3.354,
+   "n": 6,
+   "sd": 5.802
+  }
  },
- "updated_at": "2026-07-05T12:44:04+00:00"
+ "updated_at": "2026-07-05T12:42:00+00:00"
 }

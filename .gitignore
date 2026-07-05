@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+tools/backtest_ledger.json
+tools/backtest_report.txt

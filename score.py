@@ -365,9 +365,22 @@ def launch_key(l):
     y = net.year if net else 0
     return '%d-%s' % (y, slug(l.get('name')))
 
+LEO_ORBITS = {'Low Earth Orbit', 'Sun-Synchronous Orbit', 'Polar Orbit'}
+
 def step_predict(ledger_by_year, launches, warnings, now):
     """予定打上げの予測を作成/更新 (凍結済みは触らない)"""
-    # 警報→anchor射場(全打上げのパッドで最寄り) を先に計算
+    # ── 対象打上げ(座標+net あり・過去3日〜未来21日) ──
+    cands = []
+    for l in launches:
+        net = parse_iso(l.get('net') or '')
+        if not net or not _is_num(l.get('lat')) or not _is_num(l.get('lon')):
+            continue
+        if not (now - datetime.timedelta(days=3) <= net <= now + datetime.timedelta(days=21)):
+            continue
+        cands.append({'l': l, 'key': launch_key(l), 'net': net,
+                      'lat': float(l['lat']), 'lon': float(l['lon'])})
+
+    # ── 警報→anchor射場(全打上げのパッドで最寄り) ──
     pads = [(float(l['lat']), float(l['lon'])) for l in launches
             if _is_num(l.get('lat')) and _is_num(l.get('lon'))]
     for w in warnings:
@@ -381,23 +394,53 @@ def step_predict(ledger_by_year, launches, warnings, now):
         w['anchor'] = best
         w['anchor_km'] = bd
 
+    # ── 警報の独占帰属: 各警報は最良の1打上げだけに付く ──
+    #    (同一射場から数日おきに連続する打上げへの重複帰属が誤推定の主因＝バックテストで確認)
+    for w in warnings:
+        w['assigned'] = None
+        if w['anchor'] is None or w['anchor_km'] > 2500 or not w['dates']:
+            continue
+        best = None
+        for c in cands:
+            if haversine_km(c['lat'], c['lon'], w['anchor'][0], w['anchor'][1]) > 200:
+                continue   # 別射場圏
+            dd = min(abs((datetime.date.fromisoformat(d) - c['net'].date()).days) for d in w['dates'])
+            if dd > 3:
+                continue
+            rank = (dd, haversine_km(c['lat'], c['lon'], w['anchor'][0], w['anchor'][1]))
+            if best is None or rank < best[0]:
+                best = (rank, c['key'])
+        if best:
+            w['assigned'] = best[1]
+
     n_upd = 0
-    for l in launches:
-        net = parse_iso(l.get('net') or '')
-        if not net or not _is_num(l.get('lat')) or not _is_num(l.get('lon')):
-            continue
-        # 対象窓: 過去3日〜未来21日 (過去分は凍結処理のために拾う)
-        if not (now - datetime.timedelta(days=3) <= net <= now + datetime.timedelta(days=21)):
-            continue
-        lat, lon = float(l['lat']), float(l['lon'])
-        key = launch_key(l)
+    for c in cands:
+        l, key, net, lat, lon = c['l'], c['key'], c['net'], c['lat'], c['lon']
         if net.year not in ledger_by_year:
             ledger_by_year[net.year] = load_ledger(net.year)
         led = ledger_by_year[net.year]
         rec = led['records'].get(key)
         if rec is None:
+            # ミッション名変更(例: Unknown Payload→正式名)でキーが変わった場合は旧レコードを引き継ぐ:
+            # 同一パッド(±0.02°)・net差36h以内・未凍結・かつ旧キーが現フィードに存在しないもの
+            feed_keys = {c2['key'] for c2 in cands}
+            for k2, r2 in list(led['records'].items()):
+                if k2 in feed_keys or r2['frozen_at']:
+                    continue
+                n2 = parse_iso(r2.get('net_last') or '')
+                if n2 is None:
+                    continue
+                if abs(r2['lat'] - lat) < 0.02 and abs(r2['lon'] - lon) < 0.02 \
+                   and abs((n2 - net).total_seconds()) <= 36*3600:
+                    rec = r2
+                    del led['records'][k2]
+                    led['records'][key] = rec
+                    rec['name'] = l.get('name')
+                    add_flag(rec, 'renamed')
+                    break
+        if rec is None:
             rec = {'name': l.get('name'), 'rocket': l.get('rocket'), 'lsp': l.get('lsp'),
-                   'location': l.get('location'), 'pad': l.get('pad'),
+                   'location': l.get('location'), 'pad': l.get('pad'), 'orbit': l.get('orbit'),
                    'lat': lat, 'lon': lon,
                    'net_first': l.get('net'), 'net_last': l.get('net'),
                    'status': l.get('status'), 'liftoff': None,
@@ -405,24 +448,16 @@ def step_predict(ledger_by_year, launches, warnings, now):
             led['records'][key] = rec
         rec['net_last'] = l.get('net')
         rec['status'] = l.get('status')
+        rec['orbit'] = l.get('orbit')
+        orbit = l.get('orbit') or ''
+        if orbit == 'Suborbital':
+            add_flag(rec, 'suborbital')
+        elif orbit and orbit != 'Unknown' and orbit not in LEO_ORBITS:
+            add_flag(rec, 'non-leo')
         if rec['frozen_at']:
             continue   # 凍結後は予測を書き換えない
 
-        # ── この打上げに帰属する警報: anchorがこのパッドから200km以内 + 日付±3日 ──
-        net_date = net.date()
-        matched = []
-        for w in warnings:
-            if w['anchor'] is None or haversine_km(lat, lon, w['anchor'][0], w['anchor'][1]) > 200:
-                continue
-            if w['anchor_km'] > 2500:
-                continue
-            if w['dates']:
-                ok = any(abs((datetime.date.fromisoformat(d) - net_date).days) <= 3 for d in w['dates'])
-                if not ok:
-                    continue
-            else:
-                continue   # 日付が読めない警報は帰属させない(誤爆防止)
-            matched.append(w)
+        matched = [w for w in warnings if w['assigned'] == key]
 
         site = nearest_preset_site(lat, lon)
         az0 = site['az0'] if site else None
@@ -478,6 +513,32 @@ def step_freeze(ledger_by_year, launches, now):
             n_frozen += 1
     return n_frozen
 
+def _group_incl_median(g):
+    objs = [o for o in g['objs'] if o.get('OBJECT_TYPE') == 'PAYLOAD' and o.get('INCL') not in (None, '')] \
+           or [o for o in g['objs'] if o.get('INCL') not in (None, '')]
+    if not objs:
+        return None
+    incs = sorted(float(o['INCL']) for o in objs)
+    return incs[len(incs)//2] if len(incs) % 2 else (incs[len(incs)//2 - 1] + incs[len(incs)//2]) / 2
+
+def _tiebreak_by_incl(rec, exact):
+    """同日同射場の複数COSPAR: 予測傾斜角に明確に近い(差1°未満かつ次点と3°以上離れる)1つに絞る。
+       絞れなければ (None, True)=ambiguous。※採点は選別バイアスを避けるため統計から除外する"""
+    pred_inc = (rec.get('pred') or {}).get('incl')
+    if pred_inc is None:
+        return None, True
+    scored = []
+    for c in exact:
+        gi = _group_incl_median(c[1])
+        if gi is not None:
+            scored.append((abs(gi - pred_inc), c))
+    if not scored:
+        return None, True
+    scored.sort(key=lambda x: x[0])
+    if scored[0][0] < 1.0 and (len(scored) == 1 or scored[1][0] - scored[0][0] >= 3.0):
+        return scored[0][1], False
+    return None, True
+
 def step_answer(ledger_by_year, now):
     """凍結済み・未採点レコードに実測値を付ける"""
     pending = []
@@ -485,7 +546,7 @@ def step_answer(ledger_by_year, now):
         for key, rec in led['records'].items():
             if not rec['frozen_at'] or rec['ans'] is not None:
                 continue
-            if 'launch-failure' in rec['flags']:
+            if 'launch-failure' in rec['flags'] or 'suborbital' in rec['flags']:
                 continue
             lo = parse_iso(rec.get('liftoff') or '')
             if lo is None:
@@ -546,7 +607,10 @@ def step_answer(ledger_by_year, now):
         if len(exact) == 1:
             chosen = exact[0]
         elif len(exact) > 1:
-            amb = True
+            # 同日同射場の複数打上げ: 予測傾斜角に最も近いグループが1つに絞れれば採用(透明性のためフラグ)
+            chosen, amb = _tiebreak_by_incl(rec, exact)
+            if chosen is not None:
+                add_flag(rec, 'incl-tiebreak')
         elif len(cands) == 1 and not cands[0][3]:
             chosen = cands[0]
             add_flag(rec,'site-unmapped')
@@ -617,8 +681,9 @@ def step_stats(ledger_by_year):
             a = rec.get('ans')
             if not a or not a.get('identified'):
                 continue
-            if 'multi-orbit' in rec['flags'] or 'ambiguous-cospar' in rec['flags']:
-                continue
+            if any(f in rec['flags'] for f in
+                   ('multi-orbit', 'ambiguous-cospar', 'non-leo', 'suborbital', 'incl-tiebreak')):
+                continue   # 誤同定/選別バイアス/非LEOは通算成績から除外(台帳には残る)
             bkey = '%s @ %s' % (rec.get('rocket') or '?', (rec.get('pred') or {}).get('site_ref') or rec.get('location') or '?')
             b = buckets.setdefault(bkey, {'n': 0, 'd_incl': [], 'd_raan': []})
             for tgt in (b, total):
@@ -650,7 +715,7 @@ def _is_num(v):
 def add_flag(rec, flag):
     """同じフラグを毎日の再試行で重複追加しない"""
     if flag not in rec['flags']:
-        add_flag(rec,flag)
+        rec['flags'] = rec['flags'] + [flag]
 
 def main():
     now = utcnow()
