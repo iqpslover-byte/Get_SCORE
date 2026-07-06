@@ -363,7 +363,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
@@ -1614,7 +1614,7 @@
     "model": "v1",
     "raan_at_net": 318.05,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [
      "IV-635/26"
     ],
@@ -2099,7 +2099,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
@@ -3347,7 +3347,7 @@
     "model": "v1",
     "raan_at_net": 12.34,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [
      "XII-460/26"
     ],
@@ -3603,7 +3603,7 @@
     "model": "v1",
     "raan_at_net": 86.11,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [
      "XII-453/26"
     ],
@@ -3686,7 +3686,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4127,7 +4127,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4312,7 +4312,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4597,27 +4597,29 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
    "rocket": "Long March 7A",
    "status": "To Be Confirmed"
   },
-  "2026-long-march-8a-spacesail-polar-group-tbd": {
+  "2026-long-march-8a-spacesail-polar-group-14": {
    "ans": null,
    "flags": [
-    "backtest"
+    "backtest",
+    "renamed",
+    "no-navwarn"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-07-06T07:56:49+00:00",
    "lat": 19.597275,
-   "liftoff": null,
+   "liftoff": "2026-07-05T13:43:00Z",
    "location": "Wenchang Space Launch Site, People's Republic of China",
    "lon": 110.930753,
    "lsp": "China Aerospace Science and Technology Corporation",
-   "name": "Long March 8A | SpaceSail Polar Group TBD",
+   "name": "Long March 8A | SpaceSail Polar Group #14",
    "net_first": "2026-07-05T00:00:00Z",
-   "net_last": "2026-07-05T13:40:00Z",
+   "net_last": "2026-07-05T13:43:00Z",
    "orbit": "Polar Orbit",
    "pad": "Commercial LC-1",
    "pred": {
@@ -4632,12 +4634,12 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
    "rocket": "Long March 8A",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-long-march-8a-unknown-payload": {
    "ans": null,
@@ -4903,7 +4905,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5074,7 +5076,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-05T12:44:57+00:00",
+    "updated_at": "2026-07-06T07:56:49+00:00",
     "warnings": [],
     "zones": []
    },
