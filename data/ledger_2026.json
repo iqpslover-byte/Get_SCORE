@@ -363,7 +363,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -1614,7 +1614,7 @@
     "model": "v1",
     "raan_at_net": 317.94,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [
      "IV-656/26",
      "IV-635/26"
@@ -1767,7 +1767,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -2182,7 +2182,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
    "net_first": "2026-07-12T08:00:00Z",
-   "net_last": "2026-07-13T22:38:00Z",
+   "net_last": "2026-07-14T01:16:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -2197,7 +2197,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -3331,7 +3331,141 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-17-46": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-07-08T06:08:11+00:00",
+    "cospar": "2026-150",
+    "d_incl": -1.39,
+    "d_raan": 2.609,
+    "identified": true,
+    "incl": 97.29,
+    "incl_spread": 0.0,
+    "n_objects": 24,
+    "objects": [
+     {
+      "incl": "97.29",
+      "intldes": "2026-150Z",
+      "name": "STARLINK-38019",
+      "norad": "69762"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150Y",
+      "name": "STARLINK-38069",
+      "norad": "69761"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150X",
+      "name": "STARLINK-38056",
+      "norad": "69760"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150W",
+      "name": "STARLINK-38035",
+      "norad": "69759"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150V",
+      "name": "STARLINK-38066",
+      "norad": "69758"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150U",
+      "name": "STARLINK-38058",
+      "norad": "69757"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150T",
+      "name": "STARLINK-38036",
+      "norad": "69756"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150S",
+      "name": "STARLINK-38006",
+      "norad": "69755"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150R",
+      "name": "STARLINK-38048",
+      "norad": "69754"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150Q",
+      "name": "STARLINK-37965",
+      "norad": "69753"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150P",
+      "name": "STARLINK-38029",
+      "norad": "69752"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150N",
+      "name": "STARLINK-38049",
+      "norad": "69751"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150M",
+      "name": "STARLINK-38037",
+      "norad": "69750"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150L",
+      "name": "STARLINK-37987",
+      "norad": "69749"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150K",
+      "name": "STARLINK-37988",
+      "norad": "69748"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150J",
+      "name": "STARLINK-38067",
+      "norad": "69747"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150H",
+      "name": "STARLINK-38046",
+      "norad": "69746"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150G",
+      "name": "STARLINK-38047",
+      "norad": "69745"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150F",
+      "name": "STARLINK-38078",
+      "norad": "69744"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-150E",
+      "name": "STARLINK-38087",
+      "norad": "69743"
+     }
+    ],
+    "raan": 20.677,
+    "raan_epoch": 26.414,
+    "raan_pred": 18.068
+   },
    "flags": [
     "ambiguous-cospar",
     "backtest"
@@ -3445,7 +3579,7 @@
     "model": "v1",
     "raan_at_net": 12.34,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [
      "XII-472/26",
      "XII-460/26"
@@ -3727,15 +3861,15 @@
    "flags": [
     "backtest"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-07-08T06:08:11+00:00",
    "lat": 34.632,
-   "liftoff": null,
+   "liftoff": "2026-07-07T07:12:00Z",
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
    "net_first": "2026-07-07T06:51:00Z",
-   "net_last": "2026-07-07T07:10:00Z",
+   "net_last": "2026-07-07T07:12:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -3748,9 +3882,9 @@
     "dir": "south",
     "incl": 98.73,
     "model": "v1",
-    "raan_at_net": 86.07,
+    "raan_at_net": 86.57,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [
      "XII-464/26",
      "XII-453/26"
@@ -3867,7 +4001,7 @@
     ]
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-gravity-1-unknown-payload": {
    "ans": null,
@@ -3894,7 +4028,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4335,7 +4469,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4520,7 +4654,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4805,7 +4939,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5098,7 +5232,7 @@
    "lsp": "Russian Federal Space Agency (ROSCOSMOS)",
    "name": "Soyuz 2.1a | Soyuz MS-29",
    "net_first": "2026-07-14T14:43:00Z",
-   "net_last": "2026-07-14T14:47:00Z",
+   "net_last": "2026-07-14T14:47:50Z",
    "orbit": "Low Earth Orbit",
    "pad": "31/6",
    "pred": {
@@ -5113,7 +5247,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5201,7 +5335,7 @@
    "lsp": "SpaceX",
    "name": "Starship | Flight 13",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-06-30T00:00:00Z",
+   "net_last": "2026-07-14T22:45:00Z",
    "orbit": "Suborbital",
    "pad": "Orbital Launch Pad 2",
    "pred": {
@@ -5216,12 +5350,12 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-06-13T03:15:00+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
    "rocket": "Starship V3",
-   "status": "To Be Determined"
+   "status": "To Be Confirmed"
   },
   "2026-themis-demonstrator-t1h-1": {
    "ans": null,
@@ -5284,7 +5418,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-07T06:57:19+00:00",
+    "updated_at": "2026-07-08T06:08:11+00:00",
     "warnings": [],
     "zones": []
    },
