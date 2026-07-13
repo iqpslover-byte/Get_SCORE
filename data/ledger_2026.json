@@ -482,7 +482,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | LOXSAT 1",
    "net_first": "2026-07-17T00:00:00Z",
-   "net_last": "2026-07-17T00:00:00Z",
+   "net_last": "2026-07-31T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -497,7 +497,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -530,7 +530,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -602,7 +602,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -763,7 +763,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -798,7 +798,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Cape Canaveral SFS (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -1262,7 +1262,7 @@
     "model": "v1",
     "raan_at_net": 293.52,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [
      "XII-472/26"
     ],
@@ -1920,7 +1920,7 @@
     "model": "v1",
     "raan_at_net": 295.18,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [
      "IV-656/26"
     ],
@@ -2551,7 +2551,7 @@
     "model": "v1",
     "raan_at_net": 4.23,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [
      "XII-464/26",
      "XII-460/26"
@@ -2924,7 +2924,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4260,7 +4260,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4609,7 +4609,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4645,7 +4645,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5269,7 +5269,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5554,7 +5554,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5660,7 +5660,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5892,7 +5892,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5924,7 +5924,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5995,7 +5995,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
@@ -6063,7 +6063,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-12T06:13:54+00:00",
+    "updated_at": "2026-07-13T06:31:47+00:00",
     "warnings": [],
     "zones": []
    },
