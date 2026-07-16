@@ -497,7 +497,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -530,7 +530,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -602,7 +602,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -763,7 +763,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -798,7 +798,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -1247,7 +1247,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-07-16T20:32:00Z",
+   "net_last": "2026-07-16T20:32:27Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -1260,9 +1260,9 @@
     "dir": "south",
     "incl": 97.64,
     "model": "v1",
-    "raan_at_net": 296.77,
+    "raan_at_net": 296.88,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [
      "XII-476/26"
     ],
@@ -2972,7 +2972,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4308,7 +4308,7 @@
     "model": "v1",
     "raan_at_net": 205.65,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [
      "XII-482/26"
     ],
@@ -4708,7 +4708,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -4744,7 +4744,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5368,7 +5368,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5653,7 +5653,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -5893,7 +5893,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -6158,7 +6158,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -6178,7 +6178,7 @@
    "lsp": "Isar Aerospace",
    "name": "Spectrum | Onward and Upward",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-07-31T00:00:00Z",
+   "net_last": "2026-08-06T00:00:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Orbital Launch Pad",
    "pred": {
@@ -6193,7 +6193,7 @@
     "model": "v1",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-07-10T06:56:19+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [],
     "zones": []
    },
@@ -6229,7 +6229,7 @@
     "model": "v1",
     "raan_at_net": 50.36,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
+    "updated_at": "2026-07-16T05:56:21+00:00",
     "warnings": [
      "IV-679/26"
     ],
@@ -6493,24 +6493,95 @@
    "lsp": "Skyroot Aerospace",
    "name": "Vikram-I | Demo Flight",
    "net_first": "2026-07-12T05:00:00Z",
-   "net_last": "2026-07-18T05:00:00Z",
+   "net_last": "2026-07-18T06:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Satish Dhawan Space Centre First Launch Pad",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 149.0,
+    "az_used": 149.0,
     "corridor": [
      90,
      200
     ],
-    "dir": null,
-    "incl": null,
+    "dir": "south",
+    "incl": 60.01,
     "model": "v1",
-    "raan_at_net": null,
+    "raan_at_net": 294.41,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-15T05:42:41+00:00",
-    "warnings": [],
-    "zones": []
+    "updated_at": "2026-07-16T05:56:21+00:00",
+    "warnings": [
+     "HYDROPAC-2024/26"
+    ],
+    "zones": [
+     [
+      [
+       13.733333333333333,
+       80.235
+      ]
+     ],
+     [
+      [
+       11.25,
+       82.08333333333333
+      ],
+      [
+       11.583333333333334,
+       82.41666666666667
+      ],
+      [
+       10.166666666666666,
+       83.5
+      ],
+      [
+       9.833333333333334,
+       83.16666666666667
+      ]
+     ],
+     [
+      [
+       7.083333333333333,
+       84.75
+      ],
+      [
+       7.833333333333333,
+       85.58333333333333
+      ],
+      [
+       1.3333333333333333,
+       88.91666666666667
+      ],
+      [
+       0.5833333333333334,
+       88.08333333333333
+      ]
+     ],
+     [
+      [
+       -38.5,
+       111.75
+      ],
+      [
+       -33.666666666666664,
+       108.0
+      ],
+      [
+       -31.666666666666668,
+       108.0
+      ],
+      [
+       -36.5,
+       111.75
+      ],
+      [
+       -53.0,
+       137.0
+      ],
+      [
+       -55.0,
+       137.0
+      ]
+     ]
+    ]
    },
    "rocket": "Vikram-I",
    "status": "To Be Confirmed"
