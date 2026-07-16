@@ -28,7 +28,7 @@ URL_TLE      = 'https://raw.githubusercontent.com/iqpslover-byte/Get_TLE/main/da
 URL_NAVWARN  = 'https://iqpslover-byte.github.io/Get_NAVWARN/data/DailyMem%s.txt'
 NAVWARN_AREAS = ['IV', 'XII', 'LAN', 'PAC', 'ARC']
 
-MODEL_VERSION = 'v1'
+MODEL_VERSION = 'v2'   # v2(2026-07-16): fold誤反転修正・重心アンラップ修正・頂点緯度法(デブリ警報ペアリング)
 D2R = math.pi / 180
 R2D = 180 / math.pi
 
@@ -98,14 +98,18 @@ def incl_from_az(lat, az):
     return math.acos(c) * R2D
 
 def zone_centroid(site_lon, zone):
-    """ゾーン重心。経度は射場基準で±180正規化してから平均 (アプリ orbZoneCentroid 相当)"""
+    """ゾーン重心。経度はゾーン先頭頂点基準でアンラップしてから平均 (アプリ orbZoneCentroid v3.34.7 相当)。
+       v2: 射場基準だと射場の対蹠経度をまたぐ遠方ゾーン(例:Starbase×インド洋デブリ区域)で
+       頂点が+50°/-250°など別表現に割れ平均が壊れる。ゾーンは連続領域なので先頭頂点基準が安全。
+       site_lon 引数は互換のため残置(未使用)。"""
     cla = sum(p[0] for p in zone) / len(zone)
+    ref = zone[0][1]
     s = 0.0
     for p in zone:
-        d = p[1] - site_lon
+        d = p[1] - ref
         while d > 180: d -= 360
         while d < -180: d += 360
-        s += site_lon + d
+        s += ref + d
     clo = s / len(zone)
     while clo > 180: clo -= 360
     while clo < -180: clo += 360
@@ -128,9 +132,13 @@ def _az_dist(a, b):
     return min(d, 360 - d)
 
 def az_fold_to_corridor(az, a0, a1):
-    """傾斜角を保つ4等価解{az,180-az,360-az,180+az}のうちコリドー内(無ければ中心に最近)を採用"""
+    """傾斜角を保つ4等価解{az,180-az,360-az,180+az}のうちコリドー内(無ければ中心に最近)を採用。
+       v2(アプリv3.34.2): 生方位が既にコリドー内ならそのまま。中心近傍優先だと南南東打上げが
+       ミラーの南南西へ誤反転する(VSFB 170.6°→189.4°)。折り返しはコリドー外の救済に限定。"""
     if a0 is None or a1 is None:
         return az
+    if _az_in_range(az % 360, a0, a1):
+        return az % 360
     cand = [x % 360 for x in (az, 180-az, 360-az, 180+az)]
     c = _az_center(a0, a1)
     inside = [a for a in cand if _az_in_range(a, a0, a1)]
@@ -167,6 +175,42 @@ def incl_from_zones(site_lat, site_lon, az0, az1, zones):
     cc = sum(math.cos(p['az']*D2R) for p in sel)
     mean_az = (math.atan2(ss, cc) * R2D + 360) % 360
     return {'inc': mean_inc, 'az': mean_az, 'zones_used': len(sel), 'zones_all': len(per)}
+
+def apex_lat_estimate(zones):
+    """頂点緯度法 (アプリ orbApexLatEstimate v3.34.5 と同一)。
+       地上軌跡は緯度±傾斜角で折り返す(球面幾何の恒等式)ため、危険区域が折り返し(頂点)を
+       含むなら最大|緯度|≒傾斜角。方位計算を使わないので、曲がる上昇コリドー(Starship等)や
+       遠方デブリ区域で重心方位法より強い(実証: Starship IFT 26.88° vs 実際≈26.5°・重心方位法31.9°)。
+       検出2段ゲート: (a)ゾーン緯度レンジ>=5° (b)最大|緯度|から0.3°以内の頂点が経度3°以上に広がる。
+       戻り {'inc','lat','lon'} または None"""
+    best = None
+    for z in zones:
+        if not z or len(z) < 4:
+            continue
+        latmax, vi, latmin = -1.0, -1, 1e9
+        for i, c in enumerate(z):
+            a = abs(c[0])
+            if a > latmax:
+                latmax, vi = a, i
+            if a < latmin:
+                latmin = a
+        if vi < 0 or latmax - latmin < 5:
+            continue
+        ref = z[vi][1]
+        lmin = lmax = 0.0
+        n = 0
+        for c in z:
+            if abs(c[0]) < latmax - 0.3:
+                continue
+            d = c[1] - ref
+            while d > 180: d -= 360
+            while d < -180: d += 360
+            lmin, lmax = min(lmin, d), max(lmax, d)
+            n += 1
+        if n >= 3 and (lmax - lmin) >= 3:
+            if best is None or latmax > best['inc']:
+                best = {'inc': latmax, 'lat': z[vi][0], 'lon': z[vi][1]}
+    return best
 
 # ════════════════════════ RAAN予測 (アプリ _raanVizNewBasis/_raanVizNewCompute v3.24.8 と同一) ════════════════════════
 
@@ -231,7 +275,10 @@ def raan_predict(site_lat, site_lon, az_deg, liftoff_dt):
 RE_COORD = re.compile(r'(\d{1,2})-(\d{2}(?:\.\d+)?)\s*([NS])\s+(\d{1,3})-(\d{2}(?:\.\d+)?)\s*([EW])')
 RE_HDR = re.compile(r'(NAVAREA\s+(?:IV|XII|ARC)|HYDROLANT|HYDROPAC|HYDROARC)\s+(\d+)/(\d+)', re.I)
 RE_LAUNCH = re.compile(r'ROCKET\s+LAUNCH|SPACE\s+LAUNCH|SPACE\s+VEHICLE|LAUNCH(?:ING)?\s+OPERATION', re.I)
+RE_DEBRIS = re.compile(r'SPACE\s+DEBRIS|ROCKET\s+DEBRIS|DEBRIS\s+SPLASH', re.I)
 RE_ZONE = re.compile(r'\n\s*([A-F])\.\s')
+# 最初のハザード窓 "162245Z TO 170056Z JUL" → 開始日時(デブリ警報ペアリング用)
+RE_WIN0 = re.compile(r'\b(\d{2})(\d{2})(\d{2})Z\s+TO\s+\d{6}Z\s+(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)', re.I)
 MON = {m: i+1 for i, m in enumerate(['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'])}
 
 def _dec(d, m, hemi):
@@ -271,22 +318,43 @@ def planned_dates(text, years):
                         pass
     return out
 
+def _first_window_start(block, years):
+    """最初のハザード窓の開始UTC datetime (無ければ None)。年は years から日付が成立する最初のもの"""
+    m = RE_WIN0.search(block)
+    if not m:
+        return None
+    day, hh, mm = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    mon = MON[m.group(4).upper()]
+    for y in sorted(years):
+        try:
+            return datetime.datetime(y, mon, day, hh, mm, tzinfo=datetime.timezone.utc)
+        except ValueError:
+            continue
+    return None
+
 def parse_warnings(text, years):
-    """電文ファイル → 打上げ関連警報のリスト [{id, zones, dates}]"""
+    """電文ファイル → 打上げ関連警報のリスト [{id, kind, zones, dates, win0}]
+       kind: 'launch'=打上げ警報 / 'debris'=デブリ落下警報(v2: 頂点緯度法の材料としてペアリング)"""
     out = []
     ms = list(RE_HDR.finditer(text))
     for i, mt in enumerate(ms):
         s = mt.start()
         e = ms[i+1].start() if i+1 < len(ms) else len(text)
         block = text[s:e]
-        if not RE_LAUNCH.search(block):
+        if RE_LAUNCH.search(block):
+            kind = 'launch'
+        elif RE_DEBRIS.search(block):
+            kind = 'debris'
+        else:
             continue
         zones = [z for z in split_zones(block) if z]
         if not zones:
             continue
         head = mt.group(1).split()[-1] if 'NAVAREA' in mt.group(1).upper() else mt.group(1)
         wid = ('%s-%s/%s' % (head, mt.group(2), mt.group(3))).upper()
-        out.append({'id': wid, 'zones': zones, 'dates': sorted(d.isoformat() for d in planned_dates(block, years))})
+        out.append({'id': wid, 'kind': kind, 'zones': zones,
+                    'dates': sorted(d.isoformat() for d in planned_dates(block, years)),
+                    'win0': _first_window_start(block, years)})
     return out
 
 # ════════════════════════ TLE 解析・J2巻き戻し ════════════════════════
@@ -383,7 +451,11 @@ def step_predict(ledger_by_year, launches, warnings, now):
     # ── 警報→anchor射場(全打上げのパッドで最寄り) ──
     pads = [(float(l['lat']), float(l['lon'])) for l in launches
             if _is_num(l.get('lat')) and _is_num(l.get('lon'))]
+    launch_warnings = [w for w in warnings if w.get('kind', 'launch') == 'launch']
+    debris_warnings = [w for w in warnings if w.get('kind') == 'debris']
     for w in warnings:
+        w['assigned'] = None
+    for w in launch_warnings:
         allp = [p for z in w['zones'] for p in z]
         best, bd = None, 1e9
         for (la, lo) in pads:
@@ -396,8 +468,7 @@ def step_predict(ledger_by_year, launches, warnings, now):
 
     # ── 警報の独占帰属: 各警報は最良の1打上げだけに付く ──
     #    (同一射場から数日おきに連続する打上げへの重複帰属が誤推定の主因＝バックテストで確認)
-    for w in warnings:
-        w['assigned'] = None
+    for w in launch_warnings:
         if w['anchor'] is None or w['anchor_km'] > 2500 or not w['dates']:
             continue
         best = None
@@ -412,6 +483,29 @@ def step_predict(ledger_by_year, launches, warnings, now):
                 best = (rank, c['key'])
         if best:
             w['assigned'] = best[1]
+
+    # ── v2: デブリ警報のペアリング ──
+    #    デブリ落下域は射場から数千〜1万km超で距離帰属は不可能。代わりに
+    #    「同じ日付集合 + 窓開始が打上げ警報の少し後(飛行時間ぶんシフト)」を同一ミッションの署名とする。
+    #    (実証: Starship IFT=打上げ窓+49分にデブリ窓が開く=公表タイムラインentry 47:30と一致)
+    for dw in debris_warnings:
+        if not dw['dates'] or dw['win0'] is None:
+            continue
+        dset = set(dw['dates'])
+        best = None
+        for lw in launch_warnings:
+            if not lw['assigned'] or lw['win0'] is None or not lw['dates']:
+                continue
+            inter = dset & set(lw['dates'])
+            if len(inter) < max(1, min(len(dset), len(lw['dates'])) // 2):
+                continue
+            dt_min = (dw['win0'] - lw['win0']).total_seconds() / 60.0
+            if not (-30 <= dt_min <= 360):   # 打上げ30分前〜6時間後の窓開始のみ
+                continue
+            if best is None or abs(dt_min) < best[0]:
+                best = (abs(dt_min), lw['assigned'])
+        if best:
+            dw['assigned'] = best[1]
 
     n_upd = 0
     for c in cands:
@@ -457,7 +551,8 @@ def step_predict(ledger_by_year, launches, warnings, now):
         if rec['frozen_at']:
             continue   # 凍結後は予測を書き換えない
 
-        matched = [w for w in warnings if w['assigned'] == key]
+        matched = [w for w in launch_warnings if w['assigned'] == key]
+        matched_debris = [w for w in debris_warnings if w.get('assigned') == key]
 
         site = nearest_preset_site(lat, lon)
         az0 = site['az0'] if site else None
@@ -465,23 +560,40 @@ def step_predict(ledger_by_year, launches, warnings, now):
         pred = {'model': MODEL_VERSION, 'updated_at': now.isoformat(timespec='seconds'),
                 'warnings': [w['id'] for w in matched],
                 'zones': [z for w in matched for z in w['zones']],
+                'debris_warnings': [w['id'] for w in matched_debris],
+                'zones_debris': [z for w in matched_debris for z in w['zones']],
                 'site_ref': site['name'] if site else None,
                 'corridor': [az0, az1] if site else None,
-                'incl': None, 'az_measured': None, 'az_used': None, 'dir': None,
+                'incl': None, 'incl_method': None, 'az_measured': None, 'az_used': None, 'dir': None,
                 'raan_at_net': None}
         if matched:
             est = incl_from_zones(lat, lon, az0, az1, pred['zones'])
+            # ── v2: 頂点緯度法 (アプリ v3.34.5-6 と同一判定) ──
+            #    折り返し検出 + 最遠区域>10000km(地球裏側寄り=重心方位が幾何的に無効)で昇格
+            all_zones = pred['zones'] + pred['zones_debris']
+            apex = apex_lat_estimate(all_zones)
+            dmax = 0.0
+            for z in all_zones:
+                cla, clo = zone_centroid(lon, z)
+                dmax = max(dmax, haversine_km(lat, lon, cla, clo))
+            inc_val, method = None, None
             if est:
-                pred['incl'] = round(est['inc'], 2)
+                inc_val, method = est['inc'], 'bearing'
                 pred['az_measured'] = round(est['az'], 1)
-                # RAAN用の方位: アプリの新規軌道と同じく傾斜角→コリドー自動判定。不能なら実測方位
-                az_u = auto_dir_az(est['inc'], lat, az0, az1)
-                if az_u is None:
+            if apex is not None and dmax > 10000:
+                inc_val, method = apex['inc'], 'apex'
+            if inc_val is not None:
+                pred['incl'] = round(inc_val, 2)
+                pred['incl_method'] = method
+                # RAAN用の方位: 傾斜角→コリドー自動判定。不能なら実測方位(あれば)
+                az_u = auto_dir_az(inc_val, lat, az0, az1)
+                if az_u is None and est:
                     az_u = est['az']
-                pred['az_used'] = round(az_u, 1)
-                pred['dir'] = 'south' if 90 < az_u < 270 else 'east'
-                r = raan_predict(lat, lon, az_u, net)
-                pred['raan_at_net'] = round(r, 2) if r is not None else None
+                if az_u is not None:
+                    pred['az_used'] = round(az_u, 1)
+                    pred['dir'] = 'south' if 90 < az_u < 270 else 'east'
+                    r = raan_predict(lat, lon, az_u, net)
+                    pred['raan_at_net'] = round(r, 2) if r is not None else None
         rec['pred'] = pred
         n_upd += 1
     return n_upd
