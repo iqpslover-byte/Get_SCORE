@@ -499,7 +499,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -535,7 +535,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -610,7 +610,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -812,7 +812,7 @@
     "model": "v2",
     "raan_at_net": 97.38,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [
      "IV-691/26"
     ],
@@ -3298,7 +3298,7 @@
     "model": "v2",
     "raan_at_net": 213.07,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [
      "XII-476/26"
     ],
@@ -4852,7 +4852,7 @@
     "model": "v2",
     "raan_at_net": 205.65,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [
      "XII-482/26"
     ],
@@ -4939,7 +4939,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5291,7 +5291,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5368,7 +5368,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5670,7 +5670,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6031,7 +6031,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6319,7 +6319,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6562,7 +6562,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6856,7 +6856,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6891,7 +6891,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6929,7 +6929,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6970,7 +6970,7 @@
     "model": "v2",
     "raan_at_net": 76.96,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [
      "IV-694/26"
     ],
@@ -7350,19 +7350,53 @@
    "status": "To Be Determined"
   },
   "2026-vikram-i-demo-flight": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-07-19T06:09:40+00:00",
+    "cospar": "2026-164",
+    "d_incl": -0.08,
+    "d_raan": 2.082,
+    "identified": true,
+    "incl": 59.93,
+    "incl_spread": 0.0,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "59.93",
+      "intldes": "2026-164C",
+      "name": "OBJECT C",
+      "norad": "100082"
+     },
+     {
+      "incl": "59.93",
+      "intldes": "2026-164B",
+      "name": "OBJECT B",
+      "norad": "100081"
+     },
+     {
+      "incl": "59.93",
+      "intldes": "2026-164A",
+      "name": "OBJECT A",
+      "norad": "100080"
+     }
+    ],
+    "raan": 305.4,
+    "raan_epoch": 304.481,
+    "raan_pred": 303.318
+   },
    "flags": [
-    "backtest"
+    "backtest",
+    "site-unmapped",
+    "early-tle"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-07-19T06:09:40+00:00",
    "lat": 13.733,
-   "liftoff": null,
+   "liftoff": "2026-07-18T06:35:30Z",
    "location": "Satish Dhawan Space Centre, India",
    "lon": 80.235,
    "lsp": "Skyroot Aerospace",
    "name": "Vikram-I | Demo Flight",
    "net_first": "2026-07-12T05:00:00Z",
-   "net_last": "2026-07-18T06:00:00Z",
+   "net_last": "2026-07-18T06:35:30Z",
    "orbit": "Low Earth Orbit",
    "pad": "Satish Dhawan Space Centre First Launch Pad",
    "pred": {
@@ -7377,9 +7411,9 @@
     "incl": 60.01,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 294.41,
+    "raan_at_net": 303.31,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-07-18T05:37:33+00:00",
+    "updated_at": "2026-07-19T06:09:40+00:00",
     "warnings": [
      "HYDROPAC-2024/26"
     ],
@@ -7456,7 +7490,7 @@
     "zones_debris": []
    },
    "rocket": "Vikram-I",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-zhuque-2e-block-2-2-x-satnet-dtc-test-satellites": {
    "ans": {
