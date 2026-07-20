@@ -499,7 +499,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -535,7 +535,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -610,7 +610,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -812,7 +812,7 @@
     "model": "v2",
     "raan_at_net": 97.38,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [
      "IV-691/26"
     ],
@@ -3281,7 +3281,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
    "net_first": "2026-07-18T14:00:00Z",
-   "net_last": "2026-07-20T14:00:00Z",
+   "net_last": "2026-07-20T14:36:26Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -3296,9 +3296,9 @@
     "incl": 82.36,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 213.07,
+    "raan_at_net": 222.2,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [
      "XII-476/26"
     ],
@@ -4852,7 +4852,7 @@
     "model": "v2",
     "raan_at_net": 205.65,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [
      "XII-482/26"
     ],
@@ -4939,7 +4939,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5291,7 +5291,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5368,7 +5368,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5653,7 +5653,7 @@
    "lsp": "CAS Space",
    "name": "Kinetica 1 | Unknown Payload",
    "net_first": "2026-07-24T02:00:00Z",
-   "net_last": "2026-07-24T02:00:00Z",
+   "net_last": "2026-07-23T23:30:00Z",
    "orbit": "Unknown",
    "pad": "Launch Area 130",
    "pred": {
@@ -5670,13 +5670,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Kinetica 1",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-kuaizhou-11-unknown-payload": {
    "ans": {
@@ -6031,7 +6031,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6319,7 +6319,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6562,7 +6562,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6856,7 +6856,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6891,7 +6891,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6929,7 +6929,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6951,7 +6951,7 @@
    "lsp": "SpaceX",
    "name": "Starship | Flight 13",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-07-20T22:45:00Z",
+   "net_last": "2026-07-23T22:45:00Z",
    "orbit": "Suborbital",
    "pad": "Orbital Launch Pad 2",
    "pred": {
@@ -6968,9 +6968,9 @@
     "incl": 26.88,
     "incl_method": "apex",
     "model": "v2",
-    "raan_at_net": 76.96,
+    "raan_at_net": 79.91,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-07-19T06:09:40+00:00",
+    "updated_at": "2026-07-20T06:27:31+00:00",
     "warnings": [
      "IV-694/26"
     ],
