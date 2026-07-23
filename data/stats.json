@@ -17,33 +17,38 @@
   },
   "Falcon 9 Block 5 @ Kennedy Space Center (USA)": {
    "incl": {
-    "mae": 0.886,
-    "mean": 0.478,
-    "n": 5,
-    "sd": 0.774
+    "mae": 0.932,
+    "mean": 0.592,
+    "n": 6,
+    "sd": 0.751
    },
-   "n": 5,
+   "n": 6,
    "raan": {
-    "mae": 2.188,
-    "mean": 0.281,
-    "n": 4,
-    "sd": 2.427
+    "mae": 2.16,
+    "mean": 0.635,
+    "n": 5,
+    "sd": 2.283
    }
   },
   "Falcon 9 Block 5 @ Vandenberg SFB (USA)": {
    "incl": {
-    "mae": 7.65,
-    "mean": -7.65,
-    "n": 8,
-    "sd": 12.101
+    "mae": 10.511,
+    "mean": -7.475,
+    "n": 10,
+    "sd": 14.617
    },
-   "n": 9,
+   "n": 11,
    "raan": {
-    "mae": 4.998,
-    "mean": 4.998,
-    "n": 5,
-    "sd": 5.149
+    "mae": 14.934,
+    "mean": 14.934,
+    "n": 7,
+    "sd": 18.957
    }
+  },
+  "Gravity-1 @ Haiyang Oriental Spaceport": {
+   "incl": null,
+   "n": 2,
+   "raan": null
   },
   "H3-30 @ 種子島宇宙センター (JPN)": {
    "incl": null,
@@ -119,18 +124,18 @@
  "model": "v2",
  "total": {
   "incl": {
-   "mae": 4.443,
-   "mean": -3.988,
-   "n": 15,
-   "sd": 9.682
+   "mae": 6.206,
+   "mean": -4.012,
+   "n": 18,
+   "sd": 11.576
   },
-  "n": 27,
+  "n": 32,
   "raan": {
-   "mae": 3.499,
-   "mean": 2.805,
-   "n": 11,
-   "sd": 4.329
+   "mae": 8.577,
+   "mean": 8.033,
+   "n": 14,
+   "sd": 15.149
   }
  },
- "updated_at": "2026-07-22T06:06:03+00:00"
+ "updated_at": "2026-07-23T06:11:24+00:00"
 }
