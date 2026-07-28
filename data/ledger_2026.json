@@ -499,7 +499,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -535,7 +535,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -610,7 +610,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1144,7 +1144,7 @@
     "model": "v2",
     "raan_at_net": 284.37,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [
      "IV-704/26"
     ],
@@ -2219,6 +2219,42 @@
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Launch in Flight"
+  },
+  "2026-falcon-9-block-5-starlink-group-10-19": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 28.56194122,
+   "liftoff": null,
+   "location": "Cape Canaveral SFS, FL, USA",
+   "lon": -80.57735736,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Starlink Group 10-19",
+   "net_first": "2026-08-10T11:00:00Z",
+   "net_last": "2026-08-10T11:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 40",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-07-28T06:04:28+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-starlink-group-10-35": {
    "ans": {
@@ -4080,6 +4116,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
+  "2026-falcon-9-block-5-starlink-group-17-38": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Starlink Group 17-38",
+   "net_first": "2026-08-07T14:00:00Z",
+   "net_last": "2026-08-07T14:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-07-28T06:04:28+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
   "2026-falcon-9-block-5-starlink-group-17-39": {
    "ans": {
     "checked_at": "2026-07-23T06:11:20+00:00",
@@ -5710,6 +5782,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
+  "2026-falcon-9-block-5-starlink-group-17-49": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Starlink Group 17-49",
+   "net_first": "2026-08-11T02:00:00Z",
+   "net_last": "2026-08-11T02:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-07-28T06:04:28+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
   "2026-falcon-9-block-5-starlink-group-17-51": {
    "ans": null,
    "flags": [],
@@ -5808,7 +5916,94 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
    "net_first": "2026-07-28T02:00:00Z",
-   "net_last": "2026-07-29T02:00:00Z",
+   "net_last": "2026-07-31T02:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": 190.6,
+    "az_used": 190.6,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": "south",
+    "incl": 98.68,
+    "incl_method": "bearing",
+    "model": "v2",
+    "raan_at_net": 32.05,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-07-28T06:04:28+00:00",
+    "warnings": [
+     "XII-495/26"
+    ],
+    "zones": [
+     [
+      [
+       34.483333333333334,
+       -120.48333333333333
+      ],
+      [
+       34.666666666666664,
+       -120.61666666666666
+      ],
+      [
+       34.63333333333333,
+       -120.7
+      ],
+      [
+       33.81666666666667,
+       -120.91666666666667
+      ],
+      [
+       29.216666666666665,
+       -121.93333333333334
+      ],
+      [
+       29.216666666666665,
+       -121.6
+      ]
+     ],
+     [
+      [
+       29.216666666666665,
+       -121.51666666666667
+      ],
+      [
+       29.216666666666665,
+       -122.05
+      ],
+      [
+       28.816666666666666,
+       -122.23333333333333
+      ],
+      [
+       27.683333333333334,
+       -122.1
+      ],
+      [
+       28.7,
+       -121.41666666666667
+      ]
+     ]
+    ],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
+  "2026-falcon-9-block-5-starlink-group-17-53": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Starlink Group 17-53",
+   "net_first": "2026-08-01T14:00:00Z",
+   "net_last": "2026-08-03T14:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -5825,12 +6020,11 @@
     "incl": 98.68,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 30.08,
+    "raan_at_net": 215.5,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [
      "XII-502/26",
-     "XII-495/26",
      "XII-493/261"
     ],
     "zones": [
@@ -5858,54 +6052,6 @@
       [
        29.216666666666665,
        -120.6
-      ]
-     ],
-     [
-      [
-       29.216666666666665,
-       -121.51666666666667
-      ],
-      [
-       29.216666666666665,
-       -122.05
-      ],
-      [
-       28.816666666666666,
-       -122.23333333333333
-      ],
-      [
-       27.683333333333334,
-       -122.1
-      ],
-      [
-       28.7,
-       -121.41666666666667
-      ]
-     ],
-     [
-      [
-       34.483333333333334,
-       -120.48333333333333
-      ],
-      [
-       34.666666666666664,
-       -120.61666666666666
-      ],
-      [
-       34.63333333333333,
-       -120.7
-      ],
-      [
-       33.81666666666667,
-       -120.91666666666667
-      ],
-      [
-       29.216666666666665,
-       -121.93333333333334
-      ],
-      [
-       29.216666666666665,
-       -121.6
       ]
      ],
      [
@@ -6007,42 +6153,6 @@
       ]
      ]
     ]
-   },
-   "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
-  },
-  "2026-falcon-9-block-5-starlink-group-17-53": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
-   "lat": 34.632,
-   "liftoff": null,
-   "location": "Vandenberg SFB, CA, USA",
-   "lon": -120.611,
-   "lsp": "SpaceX",
-   "name": "Falcon 9 Block 5 | Starlink Group 17-53",
-   "net_first": "2026-08-01T14:00:00Z",
-   "net_last": "2026-08-01T14:00:00Z",
-   "orbit": "Low Earth Orbit",
-   "pad": "Space Launch Complex 4E",
-   "pred": {
-    "az_measured": null,
-    "az_used": null,
-    "corridor": [
-     153,
-     240
-    ],
-    "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
-    "model": "v2",
-    "raan_at_net": null,
-    "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
-    "warnings": [],
-    "zones": [],
-    "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Go for Launch"
@@ -6791,7 +6901,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7492,7 +7602,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7870,7 +7980,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7972,7 +8082,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8215,7 +8325,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8582,7 +8692,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-07-27T06:44:10+00:00",
+    "updated_at": "2026-07-28T06:04:28+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
