@@ -772,7 +772,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1161,7 +1161,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | NROL-95",
    "net_first": "2026-06-20T06:39:00Z",
-   "net_last": "2026-07-30T07:09:00Z",
+   "net_last": "2026-07-30T07:09:01Z",
    "orbit": "Unknown",
    "pad": "Space Launch Complex 40",
    "pred": {
@@ -1178,7 +1178,7 @@
     "model": "v2",
     "raan_at_net": 307.91,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [
      "IV-725/26"
     ],
@@ -2007,7 +2007,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3886,77 +3886,26 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
    "net_first": "2026-08-07T14:00:00Z",
-   "net_last": "2026-08-07T14:00:00Z",
+   "net_last": "2026-08-08T14:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
-    "az_measured": 190.6,
-    "az_used": 190.6,
+    "az_measured": null,
+    "az_used": null,
     "corridor": [
      153,
      240
     ],
     "debris_warnings": [],
-    "dir": "south",
-    "incl": 98.68,
-    "incl_method": "bearing",
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
     "model": "v2",
-    "raan_at_net": 219.45,
+    "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
-    "warnings": [
-     "XII-509/26"
-    ],
-    "zones": [
-     [
-      [
-       34.483333333333334,
-       -120.48333333333333
-      ],
-      [
-       34.666666666666664,
-       -120.61666666666666
-      ],
-      [
-       34.63333333333333,
-       -120.7
-      ],
-      [
-       33.81666666666667,
-       -120.91666666666667
-      ],
-      [
-       29.216666666666665,
-       -121.93333333333334
-      ],
-      [
-       29.216666666666665,
-       -121.6
-      ]
-     ],
-     [
-      [
-       29.216666666666665,
-       -121.51666666666667
-      ],
-      [
-       29.216666666666665,
-       -122.05
-      ],
-      [
-       28.816666666666666,
-       -122.23333333333333
-      ],
-      [
-       27.683333333333334,
-       -122.1
-      ],
-      [
-       28.7,
-       -121.41666666666667
-      ]
-     ]
-    ],
+    "updated_at": "2026-07-30T06:00:30+00:00",
+    "warnings": [],
+    "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
@@ -5603,7 +5552,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-49",
    "net_first": "2026-08-11T02:00:00Z",
-   "net_last": "2026-08-11T02:00:00Z",
+   "net_last": "2026-08-12T02:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -5620,7 +5569,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5726,26 +5675,77 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
    "net_first": "2026-07-28T02:00:00Z",
-   "net_last": "2026-07-31T02:00:00Z",
+   "net_last": "2026-08-01T02:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 190.6,
+    "az_used": 190.6,
     "corridor": [
      153,
      240
     ],
     "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
+    "dir": "south",
+    "incl": 98.68,
+    "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": null,
+    "raan_at_net": 33.04,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
-    "warnings": [],
-    "zones": [],
+    "updated_at": "2026-07-30T06:00:30+00:00",
+    "warnings": [
+     "XII-509/26"
+    ],
+    "zones": [
+     [
+      [
+       34.483333333333334,
+       -120.48333333333333
+      ],
+      [
+       34.666666666666664,
+       -120.61666666666666
+      ],
+      [
+       34.63333333333333,
+       -120.7
+      ],
+      [
+       33.81666666666667,
+       -120.91666666666667
+      ],
+      [
+       29.216666666666665,
+       -121.93333333333334
+      ],
+      [
+       29.216666666666665,
+       -121.6
+      ]
+     ],
+     [
+      [
+       29.216666666666665,
+       -121.51666666666667
+      ],
+      [
+       29.216666666666665,
+       -122.05
+      ],
+      [
+       28.816666666666666,
+       -122.23333333333333
+      ],
+      [
+       27.683333333333334,
+       -122.1
+      ],
+      [
+       28.7,
+       -121.41666666666667
+      ]
+     ]
+    ],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
@@ -5762,7 +5762,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-53",
    "net_first": "2026-08-01T14:00:00Z",
-   "net_last": "2026-08-03T14:00:00Z",
+   "net_last": "2026-08-04T14:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -5779,9 +5779,9 @@
     "incl": 98.68,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 215.5,
+    "raan_at_net": 216.49,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [
      "XII-502/26",
      "XII-493/261"
@@ -6660,7 +6660,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7361,7 +7361,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7711,16 +7711,19 @@
    "rocket": "Long March 6A",
    "status": "Launch Successful"
   },
-  "2026-long-march-6a-unknown-payload": {
+  "2026-long-march-6a-tjsw-27a-b": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "renamed",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-07-30T06:00:30+00:00",
    "lat": 38.8583,
-   "liftoff": null,
+   "liftoff": "2026-07-30T01:00:00Z",
    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
    "lon": 111.5802,
    "lsp": "China Aerospace Science and Technology Corporation",
-   "name": "Long March 6A | Unknown Payload",
+   "name": "Long March 6A | TJSW-27A & B",
    "net_first": "2026-07-30T01:00:00Z",
    "net_last": "2026-07-30T01:00:00Z",
    "orbit": "Unknown",
@@ -7739,13 +7742,52 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Long March 6A",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
+  },
+  "2026-long-march-7a-tianlian-3-01": {
+   "ans": null,
+   "flags": [
+    "non-leo",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-07-30T06:00:30+00:00",
+   "lat": 19.618452,
+   "liftoff": "2026-07-29T11:50:00Z",
+   "location": "Wenchang Space Launch Site, People's Republic of China",
+   "lon": 110.955356,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 7A | Tianlian 3-01",
+   "net_first": "2026-07-29T11:50:00Z",
+   "net_last": "2026-07-29T11:50:00Z",
+   "orbit": "Geostationary Transfer Orbit",
+   "pad": "201",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     190
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "中国文昌航天発射場 (CHN)",
+    "updated_at": "2026-07-30T06:00:30+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 7A",
+   "status": "Launch Successful"
   },
   "2026-long-march-7a-tjsw-26a": {
    "ans": {
@@ -7841,7 +7883,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8235,7 +8277,7 @@
    "lsp": "China Rocket Co. Ltd.",
    "name": "Smart Dragon 3 | Unknown Payload",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-06-30T00:00:00Z",
+   "net_last": "2026-08-04T00:00:00Z",
    "orbit": "Unknown",
    "pad": "Haiyang offshore launch location",
    "pred": {
@@ -8252,7 +8294,7 @@
     "zones": []
    },
    "rocket": "Smart Dragon 3",
-   "status": "To Be Determined"
+   "status": "To Be Confirmed"
   },
   "2026-south-korean-add-solid-fuel-slv-demo-flight": {
    "ans": null,
@@ -8451,7 +8493,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-07-30T06:00:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
