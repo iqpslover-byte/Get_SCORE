@@ -650,7 +650,7 @@
     "model": "v2",
     "raan_at_net": 322.09,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [
      "IV-725/26"
     ],
@@ -2106,7 +2106,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -4002,7 +4002,7 @@
     "model": "v2",
     "raan_at_net": 220.43,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [
      "XII-509/26"
     ],
@@ -5719,7 +5719,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6065,7 +6065,7 @@
     "model": "v2",
     "raan_at_net": 216.49,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [
      "XII-502/26",
      "XII-493/261"
@@ -6944,7 +6944,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7645,7 +7645,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7875,6 +7875,44 @@
    },
    "rocket": "Long March 4C",
    "status": "Go for Launch"
+  },
+  "2026-long-march-5-chang-e-7": {
+   "ans": null,
+   "flags": [
+    "non-leo"
+   ],
+   "frozen_at": null,
+   "lat": 19.614334,
+   "liftoff": null,
+   "location": "Wenchang Space Launch Site, People's Republic of China",
+   "lon": 110.951011,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 5 | Chang'e 7",
+   "net_first": "2026-08-24T00:00:00Z",
+   "net_last": "2026-08-24T00:00:00Z",
+   "orbit": "Lunar Orbit",
+   "pad": "101",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     190
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "中国文昌航天発射場 (CHN)",
+    "updated_at": "2026-08-03T06:38:32+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 5",
+   "status": "To Be Confirmed"
   },
   "2026-long-march-5-tjsw-25": {
    "ans": {
@@ -8198,7 +8236,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-03T06:38:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
