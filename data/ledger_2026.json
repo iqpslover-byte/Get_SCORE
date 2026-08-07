@@ -1,5 +1,43 @@
 {
  "records": {
+  "2026-ariane-62-mtg-i2": {
+   "ans": null,
+   "flags": [
+    "non-leo"
+   ],
+   "frozen_at": null,
+   "lat": 5.256319,
+   "liftoff": null,
+   "location": "Guiana Space Centre, French Guiana",
+   "lon": -52.786838,
+   "lsp": "Arianespace",
+   "name": "Ariane 62 | MTG-I2",
+   "net_first": "2026-08-27T20:10:00Z",
+   "net_last": "2026-08-27T20:10:00Z",
+   "orbit": "Geostationary Transfer Orbit",
+   "pad": "Ariane Launch Area 4",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     349,
+     90
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Guiana Space Centre (FRA)",
+    "updated_at": "2026-08-07T05:04:02+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Ariane 62",
+   "status": "Go for Launch"
+  },
   "2026-ariane-64-block-2-amazon-leo-le-03": {
    "ans": {
     "checked_at": "2026-07-05T12:40:04+00:00",
@@ -583,17 +621,19 @@
   "2026-electron-the-grain-goddess-provides-iqps-launch-7": {
    "ans": null,
    "flags": [
-    "backtest"
+    "backtest",
+    "no-navwarn",
+    "ambiguous-cospar"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-08-07T05:04:02+00:00",
    "lat": -39.260881,
-   "liftoff": null,
+   "liftoff": "2026-08-06T09:18:00Z",
    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lon": 177.865826,
    "lsp": "Rocket Lab",
    "name": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-08-06T09:00:00Z",
+   "net_last": "2026-08-06T09:18:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -610,13 +650,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Electron",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-bluebird-11-13-block-2-6-8": {
    "ans": {
@@ -894,7 +934,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1469,6 +1509,42 @@
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Launch in Flight"
+  },
+  "2026-falcon-9-block-5-r-1": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | R-1",
+   "net_first": "2026-08-15T21:52:00Z",
+   "net_last": "2026-08-15T21:52:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-08-07T05:04:02+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "To Be Confirmed"
   },
   "2026-falcon-9-block-5-sda-tranche-1-tracking-layer-c": {
    "ans": null,
@@ -2150,7 +2226,7 @@
     "model": "v2",
     "raan_at_net": 75.6,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [
      "IV-755/26"
     ],
@@ -4101,7 +4177,7 @@
     "model": "v2",
     "raan_at_net": 220.43,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [
      "XII-509/26"
     ],
@@ -5818,7 +5894,7 @@
     "model": "v2",
     "raan_at_net": 43.88,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [
      "XII-529/26"
     ],
@@ -5872,6 +5948,42 @@
       ]
      ]
     ],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
+  "2026-falcon-9-block-5-starlink-group-17-50": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Starlink Group 17-50",
+   "net_first": "2026-08-19T02:00:00Z",
+   "net_last": "2026-08-19T02:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-08-07T05:04:02+00:00",
+    "warnings": [],
+    "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
@@ -7931,7 +8043,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8192,7 +8304,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8522,7 +8634,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9978,7 +10090,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-06T06:06:15+00:00",
+    "updated_at": "2026-08-07T05:04:02+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
