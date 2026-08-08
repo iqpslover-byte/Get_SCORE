@@ -30,7 +30,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -934,13 +934,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-mrv-1": {
    "ans": {
@@ -1538,7 +1538,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2226,7 +2226,7 @@
     "model": "v2",
     "raan_at_net": 75.6,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [
      "IV-755/26"
     ],
@@ -4160,7 +4160,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
    "net_first": "2026-08-07T14:00:00Z",
-   "net_last": "2026-08-08T14:00:00Z",
+   "net_last": "2026-08-08T16:23:41Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -4175,9 +4175,9 @@
     "incl": 98.68,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 220.43,
+    "raan_at_net": 256.45,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [
      "XII-509/26"
     ],
@@ -5894,7 +5894,7 @@
     "model": "v2",
     "raan_at_net": 43.88,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [
      "XII-529/26"
     ],
@@ -5981,7 +5981,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7325,7 +7325,7 @@
    "lsp": "Mitsubishi Heavy Industries",
    "name": "H3-22 | Michibiki 7 (QZS-7)",
    "net_first": "2026-08-06T19:30:00Z",
-   "net_last": "2026-08-06T19:30:00Z",
+   "net_last": "2026-08-09T19:00:00Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Yoshinobu Launch Complex LP-2",
    "pred": {
@@ -7342,7 +7342,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-08-03T06:38:32+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8043,7 +8043,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8304,7 +8304,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8634,7 +8634,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10090,7 +10090,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-07T05:04:02+00:00",
+    "updated_at": "2026-08-08T04:29:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
