@@ -30,7 +30,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -934,7 +934,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1425,9 +1425,13 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-project-starfall-demonstration-mission": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-09T04:38:33+00:00",
+    "identified": false
+   },
    "flags": [
-    "backtest"
+    "backtest",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-06-24T03:15:00+00:00",
    "lat": 28.56194122,
@@ -1538,7 +1542,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2226,7 +2230,7 @@
     "model": "v2",
     "raan_at_net": 75.6,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [
      "IV-755/26"
     ],
@@ -4152,15 +4156,15 @@
   "2026-falcon-9-block-5-starlink-group-17-38": {
    "ans": null,
    "flags": [],
-   "frozen_at": null,
+   "frozen_at": "2026-08-09T04:38:33+00:00",
    "lat": 34.632,
-   "liftoff": null,
+   "liftoff": "2026-08-08T16:35:02Z",
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
    "net_first": "2026-08-07T14:00:00Z",
-   "net_last": "2026-08-08T16:23:41Z",
+   "net_last": "2026-08-08T16:35:02Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -4175,9 +4179,9 @@
     "incl": 98.68,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 256.45,
+    "raan_at_net": 259.3,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [
      "XII-509/26"
     ],
@@ -4234,7 +4238,7 @@
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-17-39": {
    "ans": {
@@ -5894,7 +5898,7 @@
     "model": "v2",
     "raan_at_net": 43.88,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [
      "XII-529/26"
     ],
@@ -5981,7 +5985,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6432,7 +6436,141 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-17-53": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-09T04:38:33+00:00",
+    "cospar": "2026-177",
+    "d_incl": -1.4,
+    "d_raan": 2.539,
+    "identified": true,
+    "incl": 97.28,
+    "incl_spread": 0.02,
+    "n_objects": 24,
+    "objects": [
+     {
+      "incl": "97.28",
+      "intldes": "2026-177Z",
+      "name": "STARLINK-38139",
+      "norad": "100236"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177Y",
+      "name": "STARLINK-38126",
+      "norad": "100235"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177X",
+      "name": "STARLINK-38177",
+      "norad": "100234"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177W",
+      "name": "STARLINK-38188",
+      "norad": "100233"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177V",
+      "name": "STARLINK-38200",
+      "norad": "100232"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177U",
+      "name": "STARLINK-37832",
+      "norad": "100231"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177T",
+      "name": "STARLINK-38053",
+      "norad": "100230"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177S",
+      "name": "STARLINK-38251",
+      "norad": "100229"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177R",
+      "name": "STARLINK-37375",
+      "norad": "100228"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177Q",
+      "name": "STARLINK-38075",
+      "norad": "100227"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177P",
+      "name": "STARLINK-37717",
+      "norad": "100226"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177N",
+      "name": "STARLINK-38241",
+      "norad": "100225"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177M",
+      "name": "STARLINK-38164",
+      "norad": "100224"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177L",
+      "name": "STARLINK-38238",
+      "norad": "100223"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177K",
+      "name": "STARLINK-38254",
+      "norad": "100222"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177J",
+      "name": "STARLINK-38249",
+      "norad": "100221"
+     },
+     {
+      "incl": "97.27",
+      "intldes": "2026-177H",
+      "name": "STARLINK-37721",
+      "norad": "100220"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177G",
+      "name": "STARLINK-38190",
+      "norad": "100219"
+     },
+     {
+      "incl": "97.29",
+      "intldes": "2026-177F",
+      "name": "STARLINK-38199",
+      "norad": "100218"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-177E",
+      "name": "STARLINK-38226",
+      "norad": "100217"
+     }
+    ],
+    "raan": 265.396,
+    "raan_epoch": 269.657,
+    "raan_pred": 262.857
+   },
    "flags": [
     "ambiguous-cospar"
    ],
@@ -7325,7 +7463,7 @@
    "lsp": "Mitsubishi Heavy Industries",
    "name": "H3-22 | Michibiki 7 (QZS-7)",
    "net_first": "2026-08-06T19:30:00Z",
-   "net_last": "2026-08-09T19:00:00Z",
+   "net_last": "2026-08-10T19:00:00Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Yoshinobu Launch Complex LP-2",
    "pred": {
@@ -7342,7 +7480,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8043,7 +8181,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8304,7 +8442,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8634,7 +8772,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10090,7 +10228,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-08T04:29:38+00:00",
+    "updated_at": "2026-08-09T04:38:33+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
