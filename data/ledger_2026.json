@@ -1,5 +1,38 @@
 {
  "records": {
+  "2026-angara-1-2-kosmos-unknown-payload": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 62.927319,
+   "liftoff": null,
+   "location": "Plesetsk Cosmodrome, Russian Federation",
+   "lon": 40.574897,
+   "lsp": "Russian Space Forces",
+   "name": "Angara 1.2 | Kosmos (Unknown Payload)",
+   "net_first": "2026-08-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
+   "orbit": "Unknown",
+   "pad": "35/1",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": null,
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": null,
+    "updated_at": "2026-08-10T04:56:38+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Angara 1.2",
+   "status": "To Be Determined"
+  },
   "2026-ariane-62-mtg-i2": {
    "ans": null,
    "flags": [
@@ -30,7 +63,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -520,7 +553,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | LOXSAT 1",
    "net_first": "2026-07-17T00:00:00Z",
-   "net_last": "2026-07-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -537,7 +570,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-28T06:04:28+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -556,7 +589,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | StriX Launch 11",
    "net_first": "2026-07-31T00:00:00Z",
-   "net_last": "2026-07-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -573,7 +606,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-07-28T06:04:28+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -657,6 +690,42 @@
    },
    "rocket": "Electron",
    "status": "Launch Successful"
+  },
+  "2026-electron-the-lightning-god-defends-iqps-launch-8": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
+   "net_first": "2026-08-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-08-10T04:56:38+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "To Be Determined"
   },
   "2026-falcon-9-block-5-bluebird-11-13-block-2-6-8": {
    "ans": {
@@ -934,7 +1003,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1542,7 +1611,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2213,7 +2282,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 10-19",
    "net_first": "2026-08-10T11:00:00Z",
-   "net_last": "2026-08-10T14:49:00Z",
+   "net_last": "2026-08-10T15:07:28Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 40",
    "pred": {
@@ -2228,9 +2297,9 @@
     "incl": 52.0,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 75.6,
+    "raan_at_net": 80.23,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [
      "IV-755/26"
     ],
@@ -5898,7 +5967,7 @@
     "model": "v2",
     "raan_at_net": 43.88,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [
      "XII-529/26"
     ],
@@ -5985,7 +6054,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7187,6 +7256,44 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
+  "2026-falcon-heavy-nancy-grace-roman-space-telescope": {
+   "ans": null,
+   "flags": [
+    "non-leo"
+   ],
+   "frozen_at": null,
+   "lat": 28.60822681,
+   "liftoff": null,
+   "location": "Kennedy Space Center, FL, USA",
+   "lon": -80.60428186,
+   "lsp": "SpaceX",
+   "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
+   "net_first": "2026-08-30T11:25:00Z",
+   "net_last": "2026-08-30T11:25:00Z",
+   "orbit": "Sun-Earth L2",
+   "pad": "Launch Complex 39A",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-08-10T04:56:38+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon Heavy",
+   "status": "Go for Launch"
+  },
   "2026-gravity-1-9-satellites": {
    "ans": {
     "checked_at": "2026-07-23T06:11:20+00:00",
@@ -7463,7 +7570,7 @@
    "lsp": "Mitsubishi Heavy Industries",
    "name": "H3-22 | Michibiki 7 (QZS-7)",
    "net_first": "2026-08-06T19:30:00Z",
-   "net_last": "2026-08-10T19:00:00Z",
+   "net_last": "2026-08-10T19:23:31Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Yoshinobu Launch Complex LP-2",
    "pred": {
@@ -7480,7 +7587,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8181,13 +8288,49 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Long March 12",
    "status": "To Be Confirmed"
+  },
+  "2026-long-march-12a-flight-2": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 40.891596,
+   "liftoff": null,
+   "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lon": 100.217289,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 12A | Flight 2",
+   "net_first": "2026-08-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Long March 12 series Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     130,
+     160
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "酒泉衛星発射センター (CHN)",
+    "updated_at": "2026-08-10T04:56:38+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 12A",
+   "status": "To Be Determined"
   },
   "2026-long-march-3b-e-shijian-31": {
    "ans": {
@@ -8442,7 +8585,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8772,7 +8915,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9113,7 +9256,7 @@
    "lsp": "Agency for Defense Development",
    "name": "Mir | Demo Flight",
    "net_first": "2026-07-31T00:00:00Z",
-   "net_last": "2026-07-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "ADD Offshore launch platform",
    "pred": {
@@ -9127,7 +9270,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-07-29T06:08:43+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9166,6 +9309,42 @@
     "zones": []
    },
    "rocket": "Nebula-1",
+   "status": "To Be Determined"
+  },
+  "2026-pallas-1-demo-flight": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 40.775962,
+   "liftoff": null,
+   "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lon": 100.107214,
+   "lsp": "Galactic Energy",
+   "name": "Pallas-1 | Demo Flight",
+   "net_first": "2026-08-31T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
+   "orbit": "Unknown",
+   "pad": "Pallas-1 Launch Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     130,
+     160
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "酒泉衛星発射センター (CHN)",
+    "updated_at": "2026-08-10T04:56:38+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Pallas-1",
    "status": "To Be Determined"
   },
   "2026-pegasus-xl-swift-boost-mission": {
@@ -9516,7 +9695,7 @@
    "lsp": "Isar Aerospace",
    "name": "Spectrum | Onward and Upward",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-08-06T00:00:00Z",
+   "net_last": "2026-08-31T00:00:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Orbital Launch Pad",
    "pred": {
@@ -9533,7 +9712,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-08-02T06:13:27+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10228,7 +10407,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-09T04:38:33+00:00",
+    "updated_at": "2026-08-10T04:56:38+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
