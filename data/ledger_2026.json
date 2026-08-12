@@ -25,7 +25,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -63,7 +63,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -570,7 +570,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -606,7 +606,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -615,11 +615,15 @@
    "status": "To Be Determined"
   },
   "2026-electron-ten-owl-of-ten-strix-launch-10": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-12T05:05:36+00:00",
+    "identified": false
+   },
    "flags": [
     "no-navwarn",
     "ambiguous-cospar",
-    "backtest"
+    "backtest",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-06-27T03:15:00+00:00",
    "lat": -39.260881,
@@ -719,7 +723,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1003,7 +1007,7 @@
     "model": "v2",
     "raan_at_net": 236.71,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [
      "IV-755/26"
     ],
@@ -2292,16 +2296,18 @@
   },
   "2026-falcon-9-block-5-starlink-group-10-19": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-08-12T05:05:36+00:00",
    "lat": 28.56194122,
-   "liftoff": null,
+   "liftoff": "2026-08-11T15:58:26Z",
    "location": "Cape Canaveral SFS, FL, USA",
    "lon": -80.57735736,
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 10-19",
    "net_first": "2026-08-10T11:00:00Z",
-   "net_last": "2026-08-11T14:54:41Z",
+   "net_last": "2026-08-11T15:58:26Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 40",
    "pred": {
@@ -2318,13 +2324,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-10-35": {
    "ans": {
@@ -2635,7 +2641,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5967,7 +5973,7 @@
     "model": "v2",
     "raan_at_net": 85.49,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [
      "XII-533/26"
     ],
@@ -6054,7 +6060,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7286,7 +7292,7 @@
     "model": "v2",
     "raan_at_net": 6.32,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [
      "XII-539/26"
     ],
@@ -7417,7 +7423,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7689,9 +7695,36 @@
    "status": "To Be Determined"
   },
   "2026-h3-22-michibiki-7-qzs-7": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-12T05:05:36+00:00",
+    "cospar": "2026-182",
+    "d_incl": -7.63,
+    "d_raan": 6.791,
+    "identified": true,
+    "incl": 22.88,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "22.85",
+      "intldes": "2026-182B",
+      "name": "H-3 R/B",
+      "norad": "100271"
+     },
+     {
+      "incl": "22.88",
+      "intldes": "2026-182A",
+      "name": "QZS-7",
+      "norad": "100270"
+     }
+    ],
+    "raan": 292.411,
+    "raan_epoch": 292.31,
+    "raan_pred": 285.62
+   },
    "flags": [
-    "non-leo"
+    "non-leo",
+    "early-tle"
    ],
    "frozen_at": "2026-08-11T04:41:36+00:00",
    "lat": 30.400938,
@@ -8490,7 +8523,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8526,7 +8559,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8787,7 +8820,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "中国文昌航天発射場 (CHN)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9476,7 +9509,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9545,7 +9578,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9918,7 +9951,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10613,7 +10646,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-11T04:41:36+00:00",
+    "updated_at": "2026-08-12T05:05:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
