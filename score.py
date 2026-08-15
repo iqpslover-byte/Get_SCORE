@@ -944,6 +944,42 @@ def step_answer(ledger_by_year, now):
         n_ans += 1
     return n_ans
 
+def step_flag_debris_mismatch(ledger_by_year):
+    """答え合わせ済みのレコードを、落下域と実測の軌道面の整合で再検査する。
+
+    凍結済みの予測は書き換えられない（＝監査証跡を守る）ので、誤った落下域から
+    作られてしまった予測は、フラグを立てて通算成績から外すことで手当てする。
+    台帳の記録そのものは一切変えない。answered 済みも対象にするため step_answer
+    とは別ステップにしてある。add_flag が重複を防ぐので毎日流しても冪等。
+
+    対象は傾斜角が apex 法＝落下域そのものから作られた便に限る。bearing 法の便は
+    落下域が誤っていても傾斜角に効いていないため、統計を汚していない。
+    """
+    n = 0
+    for led in ledger_by_year.values():
+        for key, rec in led['records'].items():
+            a = rec.get('ans') or {}
+            p = rec.get('pred') or {}
+            if not a.get('identified') or a.get('raan') is None or a.get('incl') is None:
+                continue
+            if p.get('incl_method') != 'apex':
+                continue
+            if 'debris-mismatch' in rec['flags']:
+                continue
+            lo = parse_iso(rec.get('liftoff') or rec.get('net_last') or '')
+            if lo is None:
+                continue
+            desc = (p.get('dir') == 'south')
+            for z in (p.get('zones_debris') or []):
+                v, info = zone_fits_plane(rec['lat'], float(a['incl']), float(a['raan']), lo, z, desc)
+                if v == 'ng':
+                    add_flag(rec, 'debris-mismatch')
+                    print('  debris-mismatch: %s (%s) 長軸差 %s° 最接近 %s km'
+                          % (rec.get('name'), p.get('debris_warnings'), info['diff'], info['near']))
+                    n += 1
+                    break
+    return n
+
 def step_stats(ledger_by_year):
     """ロケット×射場ごとの通算成績 (答え合わせ済みのみ・フラグ除外)"""
     buckets = {}
@@ -954,8 +990,9 @@ def step_stats(ledger_by_year):
             if not a or not a.get('identified'):
                 continue
             if any(f in rec['flags'] for f in
-                   ('multi-orbit', 'ambiguous-cospar', 'non-leo', 'suborbital', 'incl-tiebreak')):
-                continue   # 誤同定/選別バイアス/非LEOは通算成績から除外(台帳には残る)
+                   ('multi-orbit', 'ambiguous-cospar', 'non-leo', 'suborbital', 'incl-tiebreak',
+                    'debris-mismatch')):
+                continue   # 誤同定/選別バイアス/非LEO/落下域の誤帰属は通算成績から除外(台帳には残る)
             bkey = '%s @ %s' % (rec.get('rocket') or '?', (rec.get('pred') or {}).get('site_ref') or rec.get('location') or '?')
             b = buckets.setdefault(bkey, {'n': 0, 'd_incl': [], 'd_raan': []})
             for tgt in (b, total):
@@ -1012,8 +1049,10 @@ def main():
     n_pred = step_predict(ledger_by_year, launches, warnings, now)
     n_frozen = step_freeze(ledger_by_year, launches, now)
     n_ans = step_answer(ledger_by_year, now)
+    n_dm = step_flag_debris_mismatch(ledger_by_year)
     stats = step_stats(ledger_by_year)
-    print('predictions updated: %d / frozen: %d / answered: %d' % (n_pred, n_frozen, n_ans))
+    print('predictions updated: %d / frozen: %d / answered: %d / debris-mismatch: %d'
+          % (n_pred, n_frozen, n_ans, n_dm))
 
     for y, led in ledger_by_year.items():
         if led['records']:
