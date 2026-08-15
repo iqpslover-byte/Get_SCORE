@@ -270,6 +270,136 @@ def raan_predict(site_lat, site_lon, az_deg, liftoff_dt):
     raan_frame = math.atan2(h[0], -h[1]) * R2D
     return (raan_frame + gstime_deg(liftoff_dt)) % 360
 
+# ════════════════════════ 落下域と軌道面の整合 (v3) ════════════════════════
+# 落下域はその便の地上軌跡に沿った帯として設定される。デブリ警報は時刻と日付だけでは
+# 分けられない —— 実例: SDA Tranche 1 の打上げ窓(162022Z)と Starship F13 の落下窓
+# (162334Z)は192分差で許容窓に収まり、日付集合(16,17〜22 JUL)も完全一致したため、
+# F13 の落下域が SDA に付き傾斜角が 26.88°(実測 81.48°)＝Δ54.6° の外れ値になった。
+# 識別材料は落下域の「位置」しかないので、打上げ警報だけから作った暫定の軌道面に
+# 沿うかどうかで篩う。
+# ★アプリ (OPs_LAB_Maps.html の _lsvZoneVerify) と同じ判定。片方を直したら両方直す。
+# ★「沿う」は確定ではない(同じ傾斜角の別便は分けられない)。確度が高いのは「沿わない」側
+#   なので、ng と出たものだけを候補から外し、判定保留は通す＝冤罪を出さない側に倒す。
+
+def _poly_axis(zone):
+    """区域の長軸方位(北から時計回り・180°周期)・長短比・長さkm・中心"""
+    if not zone or len(zone) < 3:
+        return None
+    lon0 = zone[0][1]
+    pts = [(la, lo - 360.0 * round((lo - lon0) / 360.0)) for la, lo in zone]
+    n = len(pts)
+    mla = sum(p[0] for p in pts) / n
+    mlo = sum(p[1] for p in pts) / n
+    cs = math.cos(mla * D2R)
+    sxx = syy = sxy = 0.0
+    for la, lo in pts:
+        x = (lo - mlo) * 111.32 * cs
+        y = (la - mla) * 110.57
+        sxx += x * x; syy += y * y; sxy += x * y
+    sxx /= n; syy /= n; sxy /= n
+    th = 0.5 * math.atan2(2 * sxy, sxx - syy)
+    r = math.sqrt(((sxx - syy) / 2) ** 2 + sxy ** 2)
+    l1, l2 = (sxx + syy) / 2 + r, (sxx + syy) / 2 - r
+    return {'az': (((90 - th * R2D) % 180) + 180) % 180,
+            'ratio': math.sqrt(l1 / max(l2, 1e-9)),
+            'len': 2 * math.sqrt(max(l1, 0.0))}
+
+def _point_in_poly(lat, lon, zone):
+    """経度は区域の先頭頂点基準で連続化してから判定 (日付変更線対策)"""
+    lon0 = zone[0][1]
+    wrap = lambda x: x - 360.0 * round((x - lon0) / 360.0)
+    x = wrap(lon)
+    inside = False
+    n = len(zone)
+    for k in range(n):
+        x1, y1 = wrap(zone[k][1]), zone[k][0]
+        x2, y2 = wrap(zone[(k + 1) % n][1]), zone[(k + 1) % n][0]
+        if (y1 > lat) != (y2 > lat):
+            xin = x1 + (lat - y1) * (x2 - x1) / (y2 - y1)
+            if x < xin:
+                inside = not inside
+    return inside
+
+def _u0_from_site(site_lat, incl, descending):
+    """打上げ時の緯度引数。射場の緯度から決まる"""
+    si = math.sin(incl * D2R)
+    if abs(si) < 1e-9:
+        return 0.0
+    s = max(-1.0, min(1.0, math.sin(site_lat * D2R) / si))
+    u = math.asin(s) * R2D
+    return (180.0 - u) if descending else u
+
+def _ground_track(incl, raan, t0, per_min, u0, minutes, step_s):
+    """リフトオフ起点の地上軌跡。緯度引数を時刻から決める以外は軌道面の式と同じ"""
+    ii = incl * D2R
+    out = []
+    sec = 0
+    while sec <= minutes * 60:
+        u = (u0 + 360.0 * (sec / 60.0) / per_min) * D2R
+        lat = math.asin(max(-1.0, min(1.0, math.sin(ii) * math.sin(u)))) * R2D
+        dlon = math.atan2(math.cos(ii) * math.sin(u), math.cos(u)) * R2D
+        lon = (raan + dlon - gstime_deg(t0 + datetime.timedelta(seconds=sec))) % 360.0
+        if lon > 180:
+            lon -= 360.0
+        out.append((lat, lon))
+        sec += step_s
+    return out
+
+def zone_fits_plane(site_lat, incl, raan, t0, zone, descending, hours=6.0):
+    """区域が軌道面に沿うか → ('ok'|'ng'|'unk', 内訳)。
+       周期は分からないので4通り走査し、最も通りやすい場合を採る"""
+    ax = _poly_axis(zone)
+    if ax is None or incl is None or raan is None:
+        return 'unk', None
+    lat_min = min(c[0] for c in zone)
+    lat_max = max(c[0] for c in zone)
+    u00 = _u0_from_site(site_lat, incl, descending)
+    best = None
+    for per in (90, 96, 103, 110):
+        tr = _ground_track(incl, raan, t0, per, u00, hours * 60, 15)
+        seg, segs, near, near_k = [], [], 1e9, -1
+        for k in range(len(tr) - 1):
+            la, lo = tr[k]
+            if la < lat_min - 12 or la > lat_max + 12:
+                if seg:
+                    segs.append(seg); seg = []
+                continue
+            dm = min(haversine_km(la, lo, c[0], c[1]) for c in zone)
+            if dm < near:
+                near, near_k = dm, k
+            if _point_in_poly(la, lo, zone):
+                seg.append(k)
+            elif seg:
+                segs.append(seg); seg = []
+        if seg:
+            segs.append(seg)
+        stay, az = 0.0, None
+        for sg in segs:
+            if len(sg) < 2:
+                continue
+            d = sum(haversine_km(tr[sg[j]][0], tr[sg[j]][1], tr[sg[j + 1]][0], tr[sg[j + 1]][1])
+                    for j in range(len(sg) - 1))
+            if d > stay:
+                stay = d
+                az = bearing_deg(tr[sg[0]][0], tr[sg[0]][1], tr[sg[-1]][0], tr[sg[-1]][1]) % 180
+        if az is None and near_k >= 0:
+            az = bearing_deg(tr[near_k][0], tr[near_k][1], tr[near_k + 1][0], tr[near_k + 1][1]) % 180
+        if best is None or stay > best[0] or (stay == best[0] and near < best[1]):
+            best = (stay, near, az)
+    stay, near, az = best
+    diff = None
+    if az is not None:
+        d = abs(az - ax['az']) % 180
+        diff = min(d, 180 - d)
+    frac = stay / ax['len'] if ax['len'] > 0 else 0.0
+    info = {'frac': round(frac, 3), 'diff': None if diff is None else round(diff, 1),
+            'near': round(near, 1), 'ratio': round(ax['ratio'], 1)}
+    if frac > 0.2 or (diff is not None and diff < 15 and near < 200):
+        return 'ok', info
+    if stay == 0 and (near > 1500 or (ax['ratio'] >= 2.5 and diff is not None and diff > 55)):
+        return 'ng', info
+    return 'unk', info
+
 # ════════════════════════ NAVWARN 電文解析 (extract.py/アプリと同一パターン) ════════════════════════
 
 RE_COORD = re.compile(r'(\d{1,2})-(\d{2}(?:\.\d+)?)\s*([NS])\s+(\d{1,3})-(\d{2}(?:\.\d+)?)\s*([EW])')
@@ -488,6 +618,28 @@ def step_predict(ledger_by_year, launches, warnings, now):
     #    デブリ落下域は射場から数千〜1万km超で距離帰属は不可能。代わりに
     #    「同じ日付集合 + 窓開始が打上げ警報の少し後(飛行時間ぶんシフト)」を同一ミッションの署名とする。
     #    (実証: Starship IFT=打上げ窓+49分にデブリ窓が開く=公表タイムラインentry 47:30と一致)
+    # v3: 落下域を軌道面で篩うため、打上げ警報だけから暫定の軌道面を作っておく。
+    #     デブリ区域を混ぜると apex 法が誤った区域から傾斜角を作り循環するので、
+    #     ここでは必ず打上げ警報の区域だけを使う。
+    prelim = {}
+    for c in cands:
+        lz = [z for w in launch_warnings if w['assigned'] == c['key'] for z in w['zones']]
+        if not lz:
+            continue
+        st = nearest_preset_site(c['lat'], c['lon'])
+        a0 = st['az0'] if st else None
+        a1 = st['az1'] if st else None
+        e = incl_from_zones(c['lat'], c['lon'], a0, a1, lz)
+        if not e:
+            continue
+        azu = auto_dir_az(e['inc'], c['lat'], a0, a1)
+        if azu is None:
+            azu = e['az']
+        r = raan_predict(c['lat'], c['lon'], azu, c['net'])
+        if r is None:
+            continue
+        prelim[c['key']] = (e['inc'], r, c['lat'], c['net'], 90 < azu < 270)
+
     for dw in debris_warnings:
         if not dw['dates'] or dw['win0'] is None:
             continue
@@ -502,6 +654,14 @@ def step_predict(ledger_by_year, launches, warnings, now):
             dt_min = (dw['win0'] - lw['win0']).total_seconds() / 60.0
             if not (-30 <= dt_min <= 360):   # 打上げ30分前〜6時間後の窓開始のみ
                 continue
+            # v3: 落下域がこの便の軌道面と明らかに合わないなら候補から外す。
+            #     時刻・日付が一致していても位置が食い違うものは別の便のもの。
+            pm = prelim.get(lw['assigned'])
+            if pm is not None:
+                inc0, raan0, slat, t0, desc = pm
+                if any(zone_fits_plane(slat, inc0, raan0, t0, z, desc)[0] == 'ng'
+                       for z in dw['zones']):
+                    continue
             if best is None or abs(dt_min) < best[0]:
                 best = (abs(dt_min), lw['assigned'])
         if best:
