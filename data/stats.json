@@ -15,19 +15,24 @@
     "sd": 0.0
    }
   },
+  "Electron @ Rocket Lab LC-1 (NZL)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Falcon 9 Block 5 @ Kennedy Space Center (USA)": {
    "incl": {
-    "mae": 0.956,
-    "mean": 0.187,
-    "n": 8,
-    "sd": 0.961
+    "mae": 2.094,
+    "mean": -1.078,
+    "n": 9,
+    "sd": 3.691
    },
-   "n": 9,
+   "n": 10,
    "raan": {
-    "mae": 1.695,
-    "mean": 0.606,
-    "n": 7,
-    "sd": 1.942
+    "mae": 1.572,
+    "mean": 0.442,
+    "n": 8,
+    "sd": 1.867
    }
   },
   "Falcon 9 Block 5 @ Vandenberg SFB (USA)": {
@@ -129,18 +134,18 @@
  "model": "v2",
  "total": {
   "incl": {
-   "mae": 4.973,
-   "mean": -3.327,
-   "n": 24,
-   "sd": 10.095
+   "mae": 5.222,
+   "mean": -3.642,
+   "n": 25,
+   "sd": 10.011
   },
-  "n": 43,
+  "n": 45,
   "raan": {
-   "mae": 6.787,
-   "mean": 6.385,
-   "n": 19,
-   "sd": 13.304
+   "mae": 6.483,
+   "mean": 6.031,
+   "n": 20,
+   "sd": 13.059
   }
  },
- "updated_at": "2026-08-21T04:03:24+00:00"
+ "updated_at": "2026-08-22T03:58:20+00:00"
 }
