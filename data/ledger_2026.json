@@ -25,7 +25,7 @@
     "model": "v2",
     "raan_at_net": 4.87,
     "site_ref": null,
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [
      "HYDROARC-178/26",
      "HYDROARC-175/26"
@@ -125,7 +125,7 @@
     "model": "v2",
     "raan_at_net": 168.71,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [
      "HYDROLANT-1644/26"
     ],
@@ -691,7 +691,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | Owl Around The World (StriX Launch 11)",
    "net_first": "2026-07-17T00:00:00Z",
-   "net_last": "2026-08-31T12:00:00Z",
+   "net_last": "2026-08-31T12:05:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -708,7 +708,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1180,7 +1180,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3804,11 +3804,40 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-10-49": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "ans": {
+    "checked_at": "2026-08-26T04:05:00+00:00",
+    "cospar": "2026-194",
+    "d_incl": 12.78,
+    "d_raan": -59.012,
+    "identified": true,
+    "incl": 64.77,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "64.86",
+      "intldes": "2026-194B",
+      "name": "FREGAT R/B",
+      "norad": "100461"
+     },
+     {
+      "incl": "64.77",
+      "intldes": "2026-194A",
+      "name": "COSMOS 2619",
+      "norad": "100460"
+     }
+    ],
+    "raan": 312.319,
+    "raan_epoch": 312.344,
+    "raan_pred": 11.331
+   },
+   "flags": [
+    "site-unmapped",
+    "early-tle"
+   ],
+   "frozen_at": "2026-08-26T04:05:00+00:00",
    "lat": 28.56194122,
-   "liftoff": null,
+   "liftoff": "2026-08-25T09:33:38Z",
    "location": "Cape Canaveral SFS, FL, USA",
    "lon": -80.57735736,
    "lsp": "SpaceX",
@@ -3831,7 +3860,7 @@
     "model": "v2",
     "raan_at_net": 11.32,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [
      "IV-806/26",
      "IV-803/26"
@@ -3945,7 +3974,7 @@
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-10-50": {
    "ans": {
@@ -4897,7 +4926,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-22",
    "net_first": "2026-08-25T16:44:00Z",
-   "net_last": "2026-08-26T09:27:00Z",
+   "net_last": "2026-08-26T09:35:11Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -4912,9 +4941,9 @@
     "incl": 69.94,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 190.4,
+    "raan_at_net": 192.45,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [
      "XII-563/26"
     ],
@@ -5043,7 +5072,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5079,7 +5108,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7388,7 +7417,141 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-17-50": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-26T04:05:00+00:00",
+    "cospar": "2026-190",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 97.28,
+    "incl_spread": 0.0,
+    "n_objects": 24,
+    "objects": [
+     {
+      "incl": "97.28",
+      "intldes": "2026-190Z",
+      "name": "STARLINK-38282",
+      "norad": "100394"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190Y",
+      "name": "STARLINK-38291",
+      "norad": "100393"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190X",
+      "name": "STARLINK-38269",
+      "norad": "100392"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190W",
+      "name": "STARLINK-38262",
+      "norad": "100391"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190V",
+      "name": "STARLINK-38276",
+      "norad": "100390"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190U",
+      "name": "STARLINK-36776",
+      "norad": "100389"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190T",
+      "name": "STARLINK-38314",
+      "norad": "100388"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190S",
+      "name": "STARLINK-38293",
+      "norad": "100387"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190R",
+      "name": "STARLINK-38308",
+      "norad": "100386"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190Q",
+      "name": "STARLINK-38083",
+      "norad": "100385"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190P",
+      "name": "STARLINK-38138",
+      "norad": "100384"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190N",
+      "name": "STARLINK-38209",
+      "norad": "100383"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190M",
+      "name": "STARLINK-38171",
+      "norad": "100382"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190L",
+      "name": "STARLINK-38309",
+      "norad": "100381"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190K",
+      "name": "STARLINK-38274",
+      "norad": "100380"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190J",
+      "name": "STARLINK-38284",
+      "norad": "100379"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190H",
+      "name": "STARLINK-38302",
+      "norad": "100378"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190G",
+      "name": "STARLINK-38307",
+      "norad": "100377"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190F",
+      "name": "STARLINK-38296",
+      "norad": "100376"
+     },
+     {
+      "incl": "97.28",
+      "intldes": "2026-190E",
+      "name": "STARLINK-38265",
+      "norad": "100375"
+     }
+    ],
+    "raan": 83.768,
+    "raan_epoch": 90.599,
+    "raan_pred": null
+   },
    "flags": [
     "no-navwarn",
     "ambiguous-cospar"
@@ -8783,7 +8946,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9996,7 +10159,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10268,13 +10431,43 @@
    "status": "Go for Launch"
   },
   "2026-long-march-5-chang-e-7": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-26T04:05:00+00:00",
+    "cospar": "2026-194",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 64.77,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "64.86",
+      "intldes": "2026-194B",
+      "name": "FREGAT R/B",
+      "norad": "100461"
+     },
+     {
+      "incl": "64.77",
+      "intldes": "2026-194A",
+      "name": "COSMOS 2619",
+      "norad": "100460"
+     }
+    ],
+    "raan": 312.332,
+    "raan_epoch": 312.344,
+    "raan_pred": null
+   },
    "flags": [
-    "non-leo"
+    "non-leo",
+    "vanished-before-status",
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-08-26T04:05:00+00:00",
    "lat": 19.614334,
-   "liftoff": null,
+   "liftoff": "2026-08-25T00:30:00Z",
    "location": "Wenchang Space Launch Site, People's Republic of China",
    "lon": 110.951011,
    "lsp": "China Aerospace Science and Technology Corporation",
@@ -10469,11 +10662,42 @@
    "status": "Launch Successful"
   },
   "2026-long-march-6c-unknown-payload": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "ans": {
+    "checked_at": "2026-08-26T04:05:00+00:00",
+    "cospar": "2026-194",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 64.77,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "64.86",
+      "intldes": "2026-194B",
+      "name": "FREGAT R/B",
+      "norad": "100461"
+     },
+     {
+      "incl": "64.77",
+      "intldes": "2026-194A",
+      "name": "COSMOS 2619",
+      "norad": "100460"
+     }
+    ],
+    "raan": 312.328,
+    "raan_epoch": 312.344,
+    "raan_pred": null
+   },
+   "flags": [
+    "vanished-before-status",
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
+   ],
+   "frozen_at": "2026-08-26T04:05:00+00:00",
    "lat": 38.8583,
-   "liftoff": null,
+   "liftoff": "2026-08-25T03:20:00Z",
    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
    "lon": 111.5802,
    "lsp": "China Aerospace Science and Technology Corporation",
@@ -11026,7 +11250,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11095,7 +11319,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11474,7 +11698,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11953,7 +12177,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-25T04:02:32+00:00",
+    "updated_at": "2026-08-26T04:05:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []

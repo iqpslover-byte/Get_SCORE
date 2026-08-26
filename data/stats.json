@@ -22,17 +22,17 @@
   },
   "Falcon 9 Block 5 @ Kennedy Space Center (USA)": {
    "incl": {
-    "mae": 2.094,
-    "mean": -1.078,
-    "n": 9,
-    "sd": 3.691
+    "mae": 3.163,
+    "mean": 0.307,
+    "n": 10,
+    "sd": 5.436
    },
-   "n": 10,
+   "n": 11,
    "raan": {
-    "mae": 1.572,
-    "mean": 0.442,
-    "n": 8,
-    "sd": 1.867
+    "mae": 7.954,
+    "mean": -6.164,
+    "n": 9,
+    "sd": 18.767
    }
   },
   "Falcon 9 Block 5 @ Vandenberg SFB (USA)": {
@@ -90,6 +90,11 @@
    "n": 1,
    "raan": null
   },
+  "Long March 6C @ 太原衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Long March 8A @ 海南商業宇宙発射場 (CHN)": {
    "incl": null,
    "n": 2,
@@ -134,18 +139,18 @@
  "model": "v2",
  "total": {
   "incl": {
-   "mae": 5.222,
-   "mean": -3.642,
-   "n": 25,
-   "sd": 10.011
+   "mae": 5.513,
+   "mean": -3.011,
+   "n": 26,
+   "sd": 10.312
   },
-  "n": 45,
+  "n": 47,
   "raan": {
-   "mae": 6.483,
-   "mean": 6.031,
-   "n": 20,
-   "sd": 13.059
+   "mae": 8.984,
+   "mean": 2.933,
+   "n": 21,
+   "sd": 18.822
   }
  },
- "updated_at": "2026-08-25T04:02:34+00:00"
+ "updated_at": "2026-08-26T04:05:01+00:00"
 }
