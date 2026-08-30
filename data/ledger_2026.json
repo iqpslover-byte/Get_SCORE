@@ -96,7 +96,33 @@
    "status": "To Be Determined"
   },
   "2026-ariane-62-mtg-i2": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-08-30T09:17:30+00:00",
+    "cospar": "2026-198",
+    "d_incl": -0.3,
+    "d_raan": -68.465,
+    "identified": true,
+    "incl": 5.95,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "6.43",
+      "intldes": "2026-198B",
+      "name": "ARIANE 6 R/B",
+      "norad": "100531"
+     },
+     {
+      "incl": "5.95",
+      "intldes": "2026-198A",
+      "name": "MTG-I2",
+      "norad": "100530"
+     }
+    ],
+    "raan": 100.536,
+    "raan_epoch": 99.896,
+    "raan_pred": 169.001
+   },
    "flags": [
     "non-leo"
    ],
@@ -708,7 +734,7 @@
     "model": "v2",
     "raan_at_net": 118.08,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [
      "HYDROPAC-2456/26",
      "HYDROPAC-2435/26"
@@ -5318,7 +5344,7 @@
     "model": "v2",
     "raan_at_net": 172.09,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [
      "XII-587/26",
      "XII-563/26"
@@ -5547,7 +5573,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9502,7 +9528,7 @@
    "lsp": "SpaceX",
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
    "net_first": "2026-08-30T11:25:00Z",
-   "net_last": "2026-08-30T11:26:00Z",
+   "net_last": "2026-08-30T11:25:49Z",
    "orbit": "Sun-Earth L2",
    "pad": "Launch Complex 39A",
    "pred": {
@@ -9517,9 +9543,9 @@
     "incl": 35.65,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 20.07,
+    "raan_at_net": 20.03,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [
      "IV-825/26",
      "IV-806/26"
@@ -9903,7 +9929,7 @@
    "lsp": "Indian Space Research Organization",
    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-09-03T21:00:00Z",
+   "net_last": "2026-09-03T21:25:00Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "pred": {
@@ -9920,13 +9946,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "GSLV Mk. II",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-h3-22-michibiki-7-qzs-7": {
    "ans": {
@@ -12030,7 +12056,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12409,7 +12435,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12447,7 +12473,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12888,7 +12914,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
+    "updated_at": "2026-08-30T09:17:30+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
