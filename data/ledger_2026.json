@@ -717,7 +717,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | Owl Around The World (StriX Launch 11)",
    "net_first": "2026-07-17T00:00:00Z",
-   "net_last": "2026-08-31T12:05:00Z",
+   "net_last": "2026-09-01T11:30:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -732,9 +732,9 @@
     "incl": 51.41,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 118.08,
+    "raan_at_net": 110.29,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [
      "HYDROPAC-2456/26",
      "HYDROPAC-2435/26"
@@ -788,10 +788,13 @@
   },
   "2026-electron-strix-launch-11": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "vanished-before-status",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-08-31T09:50:14+00:00",
    "lat": -39.260881,
-   "liftoff": null,
+   "liftoff": "2026-08-31T00:00:00Z",
    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lon": 177.865826,
    "lsp": "Rocket Lab",
@@ -5344,7 +5347,7 @@
     "model": "v2",
     "raan_at_net": 172.09,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [
      "XII-587/26",
      "XII-563/26"
@@ -5573,7 +5576,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9520,15 +9523,15 @@
    "flags": [
     "non-leo"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-08-31T09:50:14+00:00",
    "lat": 28.60822681,
-   "liftoff": null,
+   "liftoff": "2026-08-30T11:26:04Z",
    "location": "Kennedy Space Center, FL, USA",
    "lon": -80.60428186,
    "lsp": "SpaceX",
    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
    "net_first": "2026-08-30T11:25:00Z",
-   "net_last": "2026-08-30T11:25:49Z",
+   "net_last": "2026-08-30T11:26:04Z",
    "orbit": "Sun-Earth L2",
    "pad": "Launch Complex 39A",
    "pred": {
@@ -9543,9 +9546,9 @@
     "incl": 35.65,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 20.03,
+    "raan_at_net": 20.09,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [
      "IV-825/26",
      "IV-806/26"
@@ -9689,7 +9692,7 @@
     "zones_debris": []
    },
    "rocket": "Falcon Heavy",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-gravity-1-9-satellites": {
    "ans": {
@@ -9946,7 +9949,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11940,7 +11943,7 @@
    "lsp": "China Aerospace Science and Technology Corporation",
    "name": "Long March 8A | Unknown Payload",
    "net_first": "2026-07-02T12:00:00Z",
-   "net_last": "2026-08-04T08:50:00Z",
+   "net_last": "2026-09-11T16:00:00Z",
    "orbit": "Unknown",
    "pad": "Commercial LC-1",
    "pred": {
@@ -11960,7 +11963,7 @@
     "zones": []
    },
    "rocket": "Long March 8",
-   "status": "Go for Launch"
+   "status": "To Be Confirmed"
   },
   "2026-mir-demo-flight": {
    "ans": null,
@@ -12056,7 +12059,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12375,11 +12378,13 @@
   "2026-soyuz-2-1b-fregat-glonass-k1-no-19": {
    "ans": null,
    "flags": [
-    "non-leo"
+    "non-leo",
+    "vanished-before-status",
+    "no-navwarn"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-08-31T09:50:14+00:00",
    "lat": 62.925556,
-   "liftoff": null,
+   "liftoff": "2026-08-31T00:00:00Z",
    "location": "Plesetsk Cosmodrome, Russian Federation",
    "lon": 40.577778,
    "lsp": "Russian Space Forces",
@@ -12435,7 +12440,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12473,7 +12478,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12914,7 +12919,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-30T09:17:30+00:00",
+    "updated_at": "2026-08-31T09:50:14+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
