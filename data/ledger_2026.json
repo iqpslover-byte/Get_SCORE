@@ -717,47 +717,28 @@
    "lsp": "Rocket Lab",
    "name": "Electron | Owl Around The World (StriX Launch 11)",
    "net_first": "2026-07-17T00:00:00Z",
-   "net_last": "2026-09-01T11:30:00Z",
+   "net_last": "2026-09-02T11:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
-    "az_measured": 53.7,
-    "az_used": 126.3,
+    "az_measured": 83.8,
+    "az_used": 96.2,
     "corridor": [
      30,
      200
     ],
     "debris_warnings": [],
     "dir": "south",
-    "incl": 51.41,
+    "incl": 39.67,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 110.29,
+    "raan_at_net": 64.25,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [
-     "HYDROPAC-2456/26",
      "HYDROPAC-2435/26"
     ],
     "zones": [
-     [
-      [
-       -28.783333333333335,
-       -172.93333333333334
-      ],
-      [
-       -28.683333333333334,
-       -168.83333333333334
-      ],
-      [
-       -29.6,
-       -162.73333333333332
-      ],
-      [
-       -29.666666666666668,
-       -167.05
-      ]
-     ],
      [
       [
        -39.2,
@@ -5332,8 +5313,8 @@
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
-    "az_measured": 155.2,
-    "az_used": 155.2,
+    "az_measured": 154.9,
+    "az_used": 154.9,
     "corridor": [
      153,
      240
@@ -5342,15 +5323,15 @@
      "HYDROPAC-2451/26"
     ],
     "dir": "south",
-    "incl": 69.8,
+    "incl": 69.54,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 172.09,
+    "raan_at_net": 172.3,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [
-     "XII-587/26",
-     "XII-563/26"
+     "XII-593/26",
+     "XII-587/26"
     ],
     "zones": [
      [
@@ -5423,40 +5404,32 @@
      ],
      [
       [
+       29.8,
+       -117.65
+      ],
+      [
        34.46666666666667,
-       -120.35
+       -120.3
       ],
       [
        34.666666666666664,
-       -120.61666666666666
+       -120.6
       ],
       [
        34.65,
        -120.65
       ],
       [
-       34.56666666666667,
+       34.5,
        -120.65
       ],
       [
-       34.31666666666667,
-       -120.56666666666666
+       29.583333333333332,
+       -118.2
       ],
       [
-       33.06666666666667,
-       -119.85
-      ],
-      [
-       32.333333333333336,
-       -119.33333333333333
-      ],
-      [
-       32.35,
-       -119.3
-      ],
-      [
-       33.05,
-       -119.61666666666666
+       29.866666666666667,
+       -117.9
       ]
      ],
      [
@@ -5465,30 +5438,12 @@
        -117.65
       ],
       [
-       31.333333333333332,
-       -118.81666666666666
+       29.866666666666667,
+       -117.9
       ],
       [
-       31.316666666666666,
-       -118.83333333333333
-      ],
-      [
-       30.6,
-       -118.65
-      ],
-      [
-       29.9,
-       -118.36666666666666
-      ],
-      [
-       29.4,
-       -118.13333333333334
-      ]
-     ],
-     [
-      [
-       29.8,
-       -117.65
+       29.583333333333332,
+       -118.2
       ],
       [
        29.4,
@@ -5503,8 +5458,12 @@
        -117.98333333333333
       ],
       [
-       28.216666666666665,
-       -117.35
+       28.2,
+       -117.31666666666666
+      ],
+      [
+       28.833333333333332,
+       -117.31666666666666
       ],
       [
        29.6,
@@ -5576,7 +5535,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9949,7 +9908,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12033,17 +11992,19 @@
   },
   "2026-pallas-1-demo-flight": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-09-01T08:42:37+00:00",
    "lat": 40.775962,
-   "liftoff": null,
+   "liftoff": "2026-09-01T02:00:00Z",
    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lon": 100.107214,
    "lsp": "Galactic Energy",
    "name": "Pallas-1 | Demo Flight",
    "net_first": "2026-08-31T00:00:00Z",
    "net_last": "2026-09-01T02:00:00Z",
-   "orbit": "Unknown",
+   "orbit": "Sun-Synchronous Orbit",
    "pad": "Pallas-1 Launch Pad",
    "pred": {
     "az_measured": null,
@@ -12059,13 +12020,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Pallas-1",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-pegasus-xl-swift-boost-mission": {
    "ans": {
@@ -12440,7 +12401,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12478,7 +12439,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12919,7 +12880,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-08-31T09:50:14+00:00",
+    "updated_at": "2026-09-01T08:42:37+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
