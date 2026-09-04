@@ -50,7 +50,13 @@ PRESET_SITES = [
     {'name': '西昌衛星発射センター (CHN)',        'lat': 28.246,    'lon': 102.026,    'az0': 97,  'az1': 104},
     {'name': '中国文昌航天発射場 (CHN)',          'lat': 19.614,    'lon': 110.951,    'az0': 90,  'az1': 190},
     {'name': '海南商業宇宙発射場 (CHN)',          'lat': 19.60081,  'lon': 110.93575,  'az0': 90,  'az1': 190},
-    {'name': 'Andøya Spaceport (NOR)',           'lat': 69.294167, 'lon': 16.020833,  'az0': 300, 'az1': 5},
+    # ★incl_mode 'axis' = 軌道傾斜角を区域の長軸から求める（既定は射場→区域重心の弦方位）。
+    #   アンドーヤは射場緯度が69.3°Nと高く、危険区域が軌跡の折り返し（最高緯度）近くまで伸びるため
+    #   帯が大きく曲がる。弦方位はその曲がりの内側へ寄り、軌道傾斜角が過大に出る（実測で+1.6°）。
+    #   ★他の射場に付けないこと: 実区域46便で照合したところ、ヴァンデンバーグとケープカナベラルは
+    #   長軸にすると実測から離れる（例 実測70.00°: 弦69.63° / 長軸82.02°）。プレセツクは差0.05°で無意味。
+    {'name': 'Andøya Spaceport (NOR)',           'lat': 69.294167, 'lon': 16.020833,  'az0': 300, 'az1': 5,
+     'incl_mode': 'axis'},
 ]
 
 # ── satcat SITEコード → 座標 (同定の射場照合用・確度の高いもののみ) ──
@@ -156,16 +162,32 @@ def nearest_preset_site(lat, lon):
 
 # ════════════════════════ 傾斜角推定 (H方式 = アプリ orbInclFromZones と同一) ════════════════════════
 
-def incl_from_zones(site_lat, site_lon, az0, az1, zones):
-    """各ゾーン重心への方位(コリドー折返し)→傾斜角。最遠ゾーン距離の50%以上のみで平均"""
+def incl_from_zones(site_lat, site_lon, az0, az1, zones, incl_mode=None):
+    """各ゾーン重心への方位(コリドー折返し)→傾斜角。最遠ゾーン距離の50%以上のみで平均。
+       incl_mode='axis' の射場は、重心への弦方位ではなく区域の長軸から求める
+       (アプリ orbInclFromZones v3.56.340 と同一)。"""
     per = []
+    use_axis = (incl_mode == 'axis')
     for z in zones:
         if not z:
             continue
         cla, clo = zone_centroid(site_lon, z)
-        az = az_fold_to_corridor(bearing_deg(site_lat, site_lon, cla, clo), az0, az1)
+        az = None
+        incl_lat = site_lat          # 換算に使う緯度は方位を測った場所の緯度
+        if use_axis:
+            ax = _poly_axis(z)
+            if ax:
+                # 長軸は180度周期なので、射場から見た向きに近い側を採る
+                azc = bearing_deg(site_lat, site_lon, cla, clo)
+                a = ax['az']
+                if abs(((a - azc + 180) % 360) - 180) > 90:
+                    a = (a + 180) % 360
+                az = az_fold_to_corridor(a, az0, az1)
+                incl_lat = ax['clat']
+        if az is None:
+            az = az_fold_to_corridor(bearing_deg(site_lat, site_lon, cla, clo), az0, az1)
         dist = haversine_km(site_lat, site_lon, cla, clo)
-        per.append({'az': az, 'inc': incl_from_az(site_lat, az), 'dist': dist})
+        per.append({'az': az, 'inc': incl_from_az(incl_lat, az), 'dist': dist})
     if not per:
         return None
     dmax = max(p['dist'] for p in per)
@@ -302,7 +324,8 @@ def _poly_axis(zone):
     l1, l2 = (sxx + syy) / 2 + r, (sxx + syy) / 2 - r
     return {'az': (((90 - th * R2D) % 180) + 180) % 180,
             'ratio': math.sqrt(l1 / max(l2, 1e-9)),
-            'len': 2 * math.sqrt(max(l1, 0.0))}
+            'len': 2 * math.sqrt(max(l1, 0.0)),
+            'clat': mla, 'clon': mlo}
 
 def _point_in_poly(lat, lon, zone):
     """経度は区域の先頭頂点基準で連続化してから判定 (日付変更線対策)"""
@@ -629,7 +652,7 @@ def step_predict(ledger_by_year, launches, warnings, now):
         st = nearest_preset_site(c['lat'], c['lon'])
         a0 = st['az0'] if st else None
         a1 = st['az1'] if st else None
-        e = incl_from_zones(c['lat'], c['lon'], a0, a1, lz)
+        e = incl_from_zones(c['lat'], c['lon'], a0, a1, lz, st.get('incl_mode') if st else None)
         if not e:
             continue
         azu = auto_dir_az(e['inc'], c['lat'], a0, a1)
@@ -727,7 +750,8 @@ def step_predict(ledger_by_year, launches, warnings, now):
                 'incl': None, 'incl_method': None, 'az_measured': None, 'az_used': None, 'dir': None,
                 'raan_at_net': None}
         if matched:
-            est = incl_from_zones(lat, lon, az0, az1, pred['zones'])
+            est = incl_from_zones(lat, lon, az0, az1, pred['zones'],
+                                  site.get('incl_mode') if site else None)
             # ── v2: 頂点緯度法 (アプリ v3.34.5-6 と同一判定) ──
             #    折り返し検出 + 最遠区域>10000km(地球裏側寄り=重心方位が幾何的に無効)で昇格
             all_zones = pred['zones'] + pred['zones_debris']
