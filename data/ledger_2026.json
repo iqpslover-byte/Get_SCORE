@@ -704,10 +704,43 @@
    "status": "Launch Successful"
   },
   "2026-electron-owl-around-the-world-strix-launch-11": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-09-04T08:01:36+00:00",
+    "cospar": "2026-201",
+    "d_incl": -1.7,
+    "d_raan": -9.077,
+    "identified": true,
+    "incl": 38.05,
+    "incl_spread": 0.02,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "38.03",
+      "intldes": "2026-201C",
+      "name": "ELECTRON KICK STAGE",
+      "norad": "100563"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201B",
+      "name": "ELECTRON SECOND STAGE",
+      "norad": "100562"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201A",
+      "name": "STRIX-9",
+      "norad": "100561"
+     }
+    ],
+    "raan": 71.362,
+    "raan_epoch": 62.838,
+    "raan_pred": 80.439
+   },
    "flags": [
     "backtest",
-    "renamed"
+    "renamed",
+    "site-unmapped"
    ],
    "frozen_at": "2026-09-03T08:06:25+00:00",
    "lat": -39.260881,
@@ -5299,8 +5332,42 @@
    "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-starlink-group-15-23": {
-   "ans": null,
-   "flags": [],
+   "ans": {
+    "checked_at": "2026-09-04T08:01:36+00:00",
+    "cospar": "2026-201",
+    "d_incl": -31.49,
+    "d_raan": -114.151,
+    "identified": true,
+    "incl": 38.05,
+    "incl_spread": 0.02,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "38.03",
+      "intldes": "2026-201C",
+      "name": "ELECTRON KICK STAGE",
+      "norad": "100563"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201B",
+      "name": "ELECTRON SECOND STAGE",
+      "norad": "100562"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201A",
+      "name": "STRIX-9",
+      "norad": "100561"
+     }
+    ],
+    "raan": 72.211,
+    "raan_epoch": 62.838,
+    "raan_pred": 186.362
+   },
+   "flags": [
+    "site-unmapped"
+   ],
    "frozen_at": "2026-09-03T08:06:25+00:00",
    "lat": 34.632,
    "liftoff": "2026-09-02T08:42:12Z",
@@ -5466,7 +5533,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9171,7 +9238,7 @@
     "model": "v2",
     "raan_at_net": 298.26,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [
      "XII-593/26"
     ],
@@ -9918,14 +9985,48 @@
    "status": "Go for Launch"
   },
   "2026-gslv-mk-ii-gisat-1a-eos-05": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-09-04T08:01:36+00:00",
+    "cospar": "2026-201",
+    "d_incl": 16.69,
+    "d_raan": 179.621,
+    "identified": true,
+    "incl": 38.05,
+    "incl_spread": 0.02,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "38.03",
+      "intldes": "2026-201C",
+      "name": "ELECTRON KICK STAGE",
+      "norad": "100563"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201B",
+      "name": "ELECTRON SECOND STAGE",
+      "norad": "100562"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201A",
+      "name": "STRIX-9",
+      "norad": "100561"
+     }
+    ],
+    "raan": 62.809,
+    "raan_epoch": 62.838,
+    "raan_pred": 243.188
+   },
    "flags": [
     "non-leo",
-    "backtest"
+    "backtest",
+    "site-unmapped",
+    "early-tle"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-09-04T08:01:36+00:00",
    "lat": 13.7199,
-   "liftoff": null,
+   "liftoff": "2026-09-03T21:25:00Z",
    "location": "Satish Dhawan Space Centre, India",
    "lon": 80.2304,
    "lsp": "Indian Space Research Organization",
@@ -9948,7 +10049,7 @@
     "model": "v2",
     "raan_at_net": 243.14,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [
      "HYDROPAC-2498/26"
     ],
@@ -10017,7 +10118,7 @@
     "zones_debris": []
    },
    "rocket": "GSLV Mk. II",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-h3-22-michibiki-7-qzs-7": {
    "ans": {
@@ -11037,7 +11138,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12130,9 +12231,42 @@
    "status": "To Be Determined"
   },
   "2026-pallas-1-demo-flight": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-09-04T08:01:36+00:00",
+    "cospar": "2026-201",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 38.05,
+    "incl_spread": 0.02,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "38.03",
+      "intldes": "2026-201C",
+      "name": "ELECTRON KICK STAGE",
+      "norad": "100563"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201B",
+      "name": "ELECTRON SECOND STAGE",
+      "norad": "100562"
+     },
+     {
+      "incl": "38.05",
+      "intldes": "2026-201A",
+      "name": "STRIX-9",
+      "norad": "100561"
+     }
+    ],
+    "raan": 80.074,
+    "raan_epoch": 62.838,
+    "raan_pred": null
+   },
    "flags": [
-    "no-navwarn"
+    "no-navwarn",
+    "site-unmapped"
    ],
    "frozen_at": "2026-09-01T08:42:37+00:00",
    "lat": 40.775962,
@@ -12540,7 +12674,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12578,7 +12712,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13019,7 +13153,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-03T08:06:25+00:00",
+    "updated_at": "2026-09-04T08:01:36+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []

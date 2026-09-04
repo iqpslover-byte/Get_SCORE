@@ -16,9 +16,19 @@
    }
   },
   "Electron @ Rocket Lab LC-1 (NZL)": {
-   "incl": null,
-   "n": 1,
-   "raan": null
+   "incl": {
+    "mae": 1.7,
+    "mean": -1.7,
+    "n": 1,
+    "sd": 0.0
+   },
+   "n": 2,
+   "raan": {
+    "mae": 9.077,
+    "mean": -9.077,
+    "n": 1,
+    "sd": 0.0
+   }
   },
   "Falcon 9 Block 5 @ Kennedy Space Center (USA)": {
    "incl": {
@@ -37,17 +47,17 @@
   },
   "Falcon 9 Block 5 @ Vandenberg SFB (USA)": {
    "incl": {
-    "mae": 8.647,
-    "mean": -3.292,
-    "n": 16,
-    "sd": 14.343
+    "mae": 9.991,
+    "mean": -4.951,
+    "n": 17,
+    "sd": 15.416
    },
-   "n": 17,
+   "n": 18,
    "raan": {
-    "mae": 19.468,
-    "mean": 19.468,
-    "n": 12,
-    "sd": 34.051
+    "mae": 26.751,
+    "mean": 9.19,
+    "n": 13,
+    "sd": 48.353
    }
   },
   "Gravity-1 @ Haiyang Oriental Spaceport": {
@@ -100,6 +110,11 @@
    "n": 2,
    "raan": null
   },
+  "Pallas-1 @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Pegasus XL @ Air launch to orbit": {
    "incl": null,
    "n": 1,
@@ -139,18 +154,18 @@
  "model": "v2",
  "total": {
   "incl": {
-   "mae": 6.107,
-   "mean": -1.808,
-   "n": 28,
-   "sd": 11.45
+   "mae": 6.806,
+   "mean": -2.793,
+   "n": 30,
+   "sd": 12.278
   },
-  "n": 49,
+  "n": 52,
   "raan": {
-   "mae": 13.476,
-   "mean": 7.951,
-   "n": 23,
-   "sd": 29.877
+   "mae": 17.327,
+   "mean": 2.386,
+   "n": 25,
+   "sd": 37.393
   }
  },
- "updated_at": "2026-09-03T08:06:27+00:00"
+ "updated_at": "2026-09-04T08:01:38+00:00"
 }
