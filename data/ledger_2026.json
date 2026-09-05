@@ -1239,42 +1239,6 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
-  "2026-falcon-9-block-5-crew-13": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
-   "lat": 28.56194122,
-   "liftoff": null,
-   "location": "Cape Canaveral SFS, FL, USA",
-   "lon": -80.57735736,
-   "lsp": "SpaceX",
-   "name": "Falcon 9 Block 5 | Crew-13",
-   "net_first": "2026-09-12T22:34:00Z",
-   "net_last": "2026-09-12T22:34:00Z",
-   "orbit": "Low Earth Orbit",
-   "pad": "Space Launch Complex 40",
-   "pred": {
-    "az_measured": null,
-    "az_used": null,
-    "corridor": [
-     35,
-     120
-    ],
-    "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
-    "model": "v2",
-    "raan_at_net": null,
-    "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-08-29T10:09:13+00:00",
-    "warnings": [],
-    "zones": [],
-    "zones_debris": []
-   },
-   "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
-  },
   "2026-falcon-9-block-5-globalstar-2-r-mission-1-x-8": {
    "ans": {
     "checked_at": "2026-08-17T04:04:46+00:00",
@@ -1969,6 +1933,45 @@
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
+  },
+  "2026-falcon-9-block-5-o3b-mpower-11-13": {
+   "ans": null,
+   "flags": [
+    "renamed",
+    "non-leo"
+   ],
+   "frozen_at": null,
+   "lat": 28.56194122,
+   "liftoff": null,
+   "location": "Cape Canaveral SFS, FL, USA",
+   "lon": -80.57735736,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | O3b mPower 11-13",
+   "net_first": "2026-09-12T22:34:00Z",
+   "net_last": "2026-09-13T18:50:00Z",
+   "orbit": "Medium Earth Orbit",
+   "pad": "Space Launch Complex 40",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-09-05T07:42:49+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "To Be Confirmed"
   },
   "2026-falcon-9-block-5-project-starfall-demonstration-mission": {
    "ans": {
@@ -5533,7 +5536,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-04T08:01:36+00:00",
+    "updated_at": "2026-09-05T07:42:49+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9238,7 +9241,7 @@
     "model": "v2",
     "raan_at_net": 298.26,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-04T08:01:36+00:00",
+    "updated_at": "2026-09-05T07:42:49+00:00",
     "warnings": [
      "XII-593/26"
     ],
@@ -11138,7 +11141,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-04T08:01:36+00:00",
+    "updated_at": "2026-09-05T07:42:49+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12674,7 +12677,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-04T08:01:36+00:00",
+    "updated_at": "2026-09-05T07:42:49+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12695,7 +12698,7 @@
    "lsp": "Isar Aerospace",
    "name": "Spectrum | Onward and Upward",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-09-04T20:00:00Z",
+   "net_last": "2026-09-05T20:00:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Orbital Launch Pad",
    "pred": {
@@ -12712,7 +12715,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-09-04T08:01:36+00:00",
+    "updated_at": "2026-09-05T07:42:49+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13153,7 +13156,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-04T08:01:36+00:00",
+    "updated_at": "2026-09-05T07:42:49+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
