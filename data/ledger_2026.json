@@ -1965,7 +1965,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5519,7 +5519,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-24",
    "net_first": "2026-09-04T11:28:00Z",
-   "net_last": "2026-09-06T10:59:00Z",
+   "net_last": "2026-09-06T14:26:28Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -5536,7 +5536,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9241,7 +9241,7 @@
     "model": "v2",
     "raan_at_net": 298.26,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [
      "XII-593/26"
     ],
@@ -11141,7 +11141,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12677,7 +12677,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12688,17 +12688,18 @@
   "2026-spectrum-onward-and-upward": {
    "ans": null,
    "flags": [
-    "backtest"
+    "backtest",
+    "no-navwarn"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-09-06T07:56:58+00:00",
    "lat": 69.1084,
-   "liftoff": null,
+   "liftoff": "2026-09-05T20:12:00Z",
    "location": "Andøya Spaceport",
    "lon": 15.5895,
    "lsp": "Isar Aerospace",
    "name": "Spectrum | Onward and Upward",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-09-05T20:00:00Z",
+   "net_last": "2026-09-05T20:12:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Orbital Launch Pad",
    "pred": {
@@ -12715,13 +12716,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Spectrum",
-   "status": "To Be Confirmed"
+   "status": "Launch Successful"
   },
   "2026-starship-flight-13": {
    "ans": null,
@@ -13156,7 +13157,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-05T07:42:49+00:00",
+    "updated_at": "2026-09-06T07:56:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
