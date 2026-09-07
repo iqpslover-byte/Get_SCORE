@@ -52,7 +52,7 @@
     "n": 17,
     "sd": 15.416
    },
-   "n": 18,
+   "n": 19,
    "raan": {
     "mae": 26.751,
     "mean": 9.19,
@@ -125,6 +125,11 @@
    "n": 1,
    "raan": null
   },
+  "Spectrum @ Andøya Spaceport (NOR)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Vikram-I @ Satish Dhawan Space Centre (IND)": {
    "incl": {
     "mae": 0.08,
@@ -159,7 +164,7 @@
    "n": 30,
    "sd": 12.278
   },
-  "n": 52,
+  "n": 54,
   "raan": {
    "mae": 17.327,
    "mean": 2.386,
@@ -167,5 +172,5 @@
    "sd": 37.393
   }
  },
- "updated_at": "2026-09-06T07:57:00+00:00"
+ "updated_at": "2026-09-07T08:23:02+00:00"
 }

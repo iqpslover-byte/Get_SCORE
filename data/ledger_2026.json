@@ -1965,7 +1965,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-06T07:56:58+00:00",
+    "updated_at": "2026-09-07T08:22:59+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5509,17 +5509,71 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-15-24": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "ans": {
+    "checked_at": "2026-09-07T08:22:59+00:00",
+    "cospar": "2026-203",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 97.42,
+    "incl_spread": 0.0,
+    "n_objects": 6,
+    "objects": [
+     {
+      "incl": "97.42",
+      "intldes": "2026-203F",
+      "name": "SPECTRUM",
+      "norad": "100614"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203E",
+      "name": "OBJECT E",
+      "norad": "100613"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203D",
+      "name": "OBJECT D",
+      "norad": "100612"
+     },
+     {
+      "incl": "97.41",
+      "intldes": "2026-203C",
+      "name": "OBJECT C",
+      "norad": "100611"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203B",
+      "name": "OBJECT B",
+      "norad": "100610"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203A",
+      "name": "OBJECT A",
+      "norad": "100609"
+     }
+    ],
+    "raan": 324.893,
+    "raan_epoch": 324.471,
+    "raan_pred": null
+   },
+   "flags": [
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
+   ],
+   "frozen_at": "2026-09-07T08:22:59+00:00",
    "lat": 34.632,
-   "liftoff": null,
+   "liftoff": "2026-09-06T14:26:54Z",
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-24",
    "net_first": "2026-09-04T11:28:00Z",
-   "net_last": "2026-09-06T14:26:28Z",
+   "net_last": "2026-09-06T14:26:54Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -5536,13 +5590,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-06T07:56:58+00:00",
+    "updated_at": "2026-09-07T08:22:59+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-starlink-group-17-28": {
    "ans": {
@@ -9241,7 +9295,7 @@
     "model": "v2",
     "raan_at_net": 298.26,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-06T07:56:58+00:00",
+    "updated_at": "2026-09-07T08:22:59+00:00",
     "warnings": [
      "XII-593/26"
     ],
@@ -11141,7 +11195,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-06T07:56:58+00:00",
+    "updated_at": "2026-09-07T08:22:59+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12677,7 +12731,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-06T07:56:58+00:00",
+    "updated_at": "2026-09-07T08:22:59+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12686,10 +12740,62 @@
    "status": "Go for Launch"
   },
   "2026-spectrum-onward-and-upward": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-09-07T08:22:59+00:00",
+    "cospar": "2026-203",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 97.42,
+    "incl_spread": 0.0,
+    "n_objects": 6,
+    "objects": [
+     {
+      "incl": "97.42",
+      "intldes": "2026-203F",
+      "name": "SPECTRUM",
+      "norad": "100614"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203E",
+      "name": "OBJECT E",
+      "norad": "100613"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203D",
+      "name": "OBJECT D",
+      "norad": "100612"
+     },
+     {
+      "incl": "97.41",
+      "intldes": "2026-203C",
+      "name": "OBJECT C",
+      "norad": "100611"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203B",
+      "name": "OBJECT B",
+      "norad": "100610"
+     },
+     {
+      "incl": "97.42",
+      "intldes": "2026-203A",
+      "name": "OBJECT A",
+      "norad": "100609"
+     }
+    ],
+    "raan": 324.162,
+    "raan_epoch": 324.471,
+    "raan_pred": null
+   },
    "flags": [
     "backtest",
-    "no-navwarn"
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
    ],
    "frozen_at": "2026-09-06T07:56:58+00:00",
    "lat": 69.1084,
@@ -13157,7 +13263,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-06T07:56:58+00:00",
+    "updated_at": "2026-09-07T08:22:59+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
