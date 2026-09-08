@@ -1965,7 +1965,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-07T08:22:59+00:00",
+    "updated_at": "2026-09-08T08:08:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9295,7 +9295,7 @@
     "model": "v2",
     "raan_at_net": 298.26,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-07T08:22:59+00:00",
+    "updated_at": "2026-09-08T08:08:35+00:00",
     "warnings": [
      "XII-593/26"
     ],
@@ -11178,7 +11178,7 @@
    "lsp": "China Aerospace Science and Technology Corporation",
    "name": "Long March 2D/YZ-3 | Unknown Payload",
    "net_first": "2026-09-09T09:00:00Z",
-   "net_last": "2026-09-09T09:00:00Z",
+   "net_last": "2026-09-10T09:00:00Z",
    "orbit": "Unknown",
    "pad": "Launch Area 94 (SLS-2 / 603)",
    "pred": {
@@ -11195,7 +11195,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-07T08:22:59+00:00",
+    "updated_at": "2026-09-08T08:08:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12731,7 +12731,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-07T08:22:59+00:00",
+    "updated_at": "2026-09-08T08:08:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13263,7 +13263,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-07T08:22:59+00:00",
+    "updated_at": "2026-09-08T08:08:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
