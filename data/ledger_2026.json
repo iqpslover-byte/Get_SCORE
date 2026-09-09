@@ -703,6 +703,150 @@
    "rocket": "Atlas V 551",
    "status": "Launch Successful"
   },
+  "2026-electron-6x-hawkeye-360": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | 6x HawkEye 360",
+   "net_first": "2026-09-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "To Be Determined"
+  },
+  "2026-electron-blacksky-gen-3-5": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | BlackSky Gen-3 5",
+   "net_first": "2026-09-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "To Be Determined"
+  },
+  "2026-electron-blacksky-gen-3-6": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | BlackSky Gen-3 6",
+   "net_first": "2026-09-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "To Be Determined"
+  },
+  "2026-electron-loxsat-1": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | LOXSAT 1",
+   "net_first": "2026-09-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "To Be Determined"
+  },
   "2026-electron-owl-around-the-world-strix-launch-11": {
    "ans": {
     "checked_at": "2026-09-04T08:01:36+00:00",
@@ -1238,6 +1382,42 @@
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
+  },
+  "2026-falcon-9-block-5-crew-13": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 28.56194122,
+   "liftoff": null,
+   "location": "Cape Canaveral SFS, FL, USA",
+   "lon": -80.57735736,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Crew-13",
+   "net_first": "2026-09-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 40",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "To Be Determined"
   },
   "2026-falcon-9-block-5-globalstar-2-r-mission-1-x-8": {
    "ans": {
@@ -1952,22 +2132,77 @@
    "orbit": "Medium Earth Orbit",
    "pad": "Space Launch Complex 40",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 84.6,
+    "az_used": 84.6,
     "corridor": [
      35,
      120
     ],
     "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
+    "dir": "east",
+    "incl": 29.03,
+    "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": null,
+    "raan_at_net": 115.97,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-08T08:08:35+00:00",
-    "warnings": [],
-    "zones": [],
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [
+     "IV-861/26"
+    ],
+    "zones": [
+     [
+      [
+       29.266666666666666,
+       -75.18333333333334
+      ],
+      [
+       29.583333333333332,
+       -72.13333333333334
+      ],
+      [
+       29.35,
+       -71.25
+      ],
+      [
+       28.633333333333333,
+       -71.25
+      ],
+      [
+       28.316666666666666,
+       -72.2
+      ],
+      [
+       28.766666666666666,
+       -75.18333333333334
+      ]
+     ],
+     [
+      [
+       28.608666666666668,
+       -80.59383333333334
+      ],
+      [
+       28.65,
+       -80.48333333333333
+      ],
+      [
+       28.65,
+       -80.1
+      ],
+      [
+       28.55,
+       -80.1
+      ],
+      [
+       28.516666666666666,
+       -80.36666666666666
+      ],
+      [
+       28.516666666666666,
+       -80.55466666666666
+      ]
+     ]
+    ],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
@@ -2146,7 +2381,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-06-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -2156,14 +2391,17 @@
      153,
      240
     ],
+    "debris_warnings": [],
     "dir": null,
     "incl": null,
-    "model": "v1",
+    "incl_method": null,
+    "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-06-19T03:15:00+00:00",
+    "updated_at": "2026-09-09T08:11:56+00:00",
     "warnings": [],
-    "zones": []
+    "zones": [],
+    "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
    "status": "To Be Determined"
@@ -5597,6 +5835,42 @@
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
+  },
+  "2026-falcon-9-block-5-starlink-group-15-27": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Starlink Group 15-27",
+   "net_first": "2026-09-20T01:47:00Z",
+   "net_last": "2026-09-20T01:47:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-starlink-group-17-28": {
    "ans": {
@@ -9282,93 +9556,22 @@
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
-    "az_measured": 154.9,
-    "az_used": 154.9,
+    "az_measured": null,
+    "az_used": null,
     "corridor": [
      153,
      240
     ],
     "debris_warnings": [],
-    "dir": "south",
-    "incl": 69.54,
-    "incl_method": "bearing",
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
     "model": "v2",
-    "raan_at_net": 298.26,
+    "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-08T08:08:35+00:00",
-    "warnings": [
-     "XII-593/26"
-    ],
-    "zones": [
-     [
-      [
-       29.8,
-       -117.65
-      ],
-      [
-       34.46666666666667,
-       -120.3
-      ],
-      [
-       34.666666666666664,
-       -120.6
-      ],
-      [
-       34.65,
-       -120.65
-      ],
-      [
-       34.5,
-       -120.65
-      ],
-      [
-       29.583333333333332,
-       -118.2
-      ],
-      [
-       29.866666666666667,
-       -117.9
-      ]
-     ],
-     [
-      [
-       29.8,
-       -117.65
-      ],
-      [
-       29.866666666666667,
-       -117.9
-      ],
-      [
-       29.583333333333332,
-       -118.2
-      ],
-      [
-       29.4,
-       -118.13333333333334
-      ],
-      [
-       29.25,
-       -118.03333333333333
-      ],
-      [
-       29.033333333333335,
-       -117.98333333333333
-      ],
-      [
-       28.2,
-       -117.31666666666666
-      ],
-      [
-       28.833333333333332,
-       -117.31666666666666
-      ],
-      [
-       29.6,
-       -117.26666666666667
-      ]
-     ]
-    ],
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
@@ -11091,6 +11294,42 @@
    "rocket": "Long March 12",
    "status": "Launch Successful"
   },
+  "2026-long-march-12-unknown-payload": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 19.59755,
+   "liftoff": null,
+   "location": "Wenchang Space Launch Site, People's Republic of China",
+   "lon": 110.936481,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 12 | Unknown Payload",
+   "net_first": "2026-09-17T00:00:00Z",
+   "net_last": "2026-09-17T00:00:00Z",
+   "orbit": "Unknown",
+   "pad": "Commercial LC-2",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     190
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "海南商業宇宙発射場 (CHN)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 12",
+   "status": "To Be Confirmed"
+  },
   "2026-long-march-12a-flight-2": {
    "ans": null,
    "flags": [],
@@ -11102,7 +11341,7 @@
    "lsp": "China Aerospace Science and Technology Corporation",
    "name": "Long March 12A | Flight 2",
    "net_first": "2026-08-31T00:00:00Z",
-   "net_last": "2026-08-31T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Long March 12 series Pad",
    "pred": {
@@ -11119,7 +11358,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-08-26T04:05:00+00:00",
+    "updated_at": "2026-09-09T08:11:56+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11195,7 +11434,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-08T08:08:35+00:00",
+    "updated_at": "2026-09-09T08:11:56+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12714,7 +12953,7 @@
    "lsp": "Russian Federal Space Agency (ROSCOSMOS)",
    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
    "net_first": "2026-09-09T16:10:00Z",
-   "net_last": "2026-09-09T16:15:03Z",
+   "net_last": "2026-09-16T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "31/6",
    "pred": {
@@ -12731,13 +12970,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-08T08:08:35+00:00",
+    "updated_at": "2026-09-09T08:11:56+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Soyuz 2.1b",
-   "status": "Go for Launch"
+   "status": "To Be Determined"
   },
   "2026-spectrum-onward-and-upward": {
    "ans": {
@@ -13202,6 +13441,42 @@
    "rocket": "Starship V3",
    "status": "Go for Launch"
   },
+  "2026-starship-flight-14": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 25.99677,
+   "liftoff": null,
+   "location": "SpaceX Starbase, TX, USA",
+   "lon": -97.15799,
+   "lsp": "SpaceX",
+   "name": "Starship | Flight 14",
+   "net_first": "2026-09-15T00:00:00Z",
+   "net_last": "2026-09-15T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Orbital Launch Pad 2",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     130
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Starbase (USA)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Starship V3",
+   "status": "To Be Determined"
+  },
   "2026-themis-demonstrator-t1h-1": {
    "ans": null,
    "flags": [
@@ -13216,21 +13491,24 @@
    "lsp": "European Space Agency",
    "name": "Themis Demonstrator | T1H-1",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-06-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
    "orbit": "Suborbital",
    "pad": "Launch Complex 3B",
    "pred": {
     "az_measured": null,
     "az_used": null,
     "corridor": null,
+    "debris_warnings": [],
     "dir": null,
     "incl": null,
-    "model": "v1",
+    "incl_method": null,
+    "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-06-25T03:15:00+00:00",
+    "updated_at": "2026-09-09T08:11:56+00:00",
     "warnings": [],
-    "zones": []
+    "zones": [],
+    "zones_debris": []
    },
    "rocket": "Themis Demonstrator",
    "status": "To Be Determined"
@@ -13263,7 +13541,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-08T08:08:35+00:00",
+    "updated_at": "2026-09-09T08:11:56+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13413,6 +13691,42 @@
    },
    "rocket": "Vikram-I",
    "status": "Launch Successful"
+  },
+  "2026-vulcan-vc6l-amazon-leo-lv-01": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 28.58341025,
+   "liftoff": null,
+   "location": "Cape Canaveral SFS, FL, USA",
+   "lon": -80.58303644,
+   "lsp": "United Launch Alliance",
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "net_first": "2026-09-30T00:00:00Z",
+   "net_last": "2026-09-30T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 41",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-09-09T08:11:56+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Vulcan VC6L",
+   "status": "To Be Determined"
   },
   "2026-zhuque-2e-block-2-2-x-satnet-dtc-test-satellites": {
    "ans": {
