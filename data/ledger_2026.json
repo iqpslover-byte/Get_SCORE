@@ -442,6 +442,42 @@
    "rocket": "Ariane 64 Block 2",
    "status": "Launch Successful"
   },
+  "2026-ariane-64-block-2-amazon-leo-le-04": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 5.256319,
+   "liftoff": null,
+   "location": "Guiana Space Centre, French Guiana",
+   "lon": -52.786838,
+   "lsp": "Arianespace",
+   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "net_first": "2026-10-07T00:00:00Z",
+   "net_last": "2026-10-07T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Ariane Launch Area 4",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     349,
+     90
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Guiana Space Centre (FRA)",
+    "updated_at": "2026-09-16T08:39:00+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Ariane 64 Block 2",
+   "status": "To Be Determined"
+  },
   "2026-atlas-v-551-amazon-leo-la-08": {
    "ans": {
     "checked_at": "2026-07-10T06:56:19+00:00",
@@ -731,7 +767,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -803,7 +839,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -878,7 +914,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -982,6 +1018,42 @@
    },
    "rocket": "Electron",
    "status": "Launch Successful"
+  },
+  "2026-electron-owl-by-the-dozen-strix-launch-12": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | Owl By The Dozen (StriX Launch 12)",
+   "net_first": "2026-09-19T03:15:00Z",
+   "net_last": "2026-09-19T03:15:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-09-16T08:39:00+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "Go for Launch"
   },
   "2026-electron-strix-launch-11": {
    "ans": null,
@@ -1450,7 +1522,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2473,7 +2545,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -5939,7 +6011,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9665,7 +9737,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-259",
    "net_first": "2026-09-16T01:00:00Z",
-   "net_last": "2026-09-16T01:00:00Z",
+   "net_last": "2026-09-17T01:00:00Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -9680,9 +9752,9 @@
     "incl": 81.24,
     "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": 75.5,
+    "raan_at_net": 76.48,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [
      "XII-625/26"
     ],
@@ -10020,6 +10092,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch in Flight"
   },
+  "2026-falcon-9-block-5-ussf-xxx-r-3": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
+   "net_first": "2026-09-27T11:42:00Z",
+   "net_last": "2026-09-27T11:42:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-09-16T08:39:00+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "To Be Confirmed"
+  },
   "2026-falcon-heavy-nancy-grace-roman-space-telescope": {
    "ans": null,
    "flags": [
@@ -10300,6 +10408,41 @@
     "raan_at_net": null,
     "site_ref": null,
     "updated_at": "2026-07-22T06:06:00+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Gravity-1",
+   "status": "Launch Successful"
+  },
+  "2026-gravity-1-spacesail-polar-group-16": {
+   "ans": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-09-16T08:39:00+00:00",
+   "lat": 31.2,
+   "liftoff": "2026-09-15T22:00:00Z",
+   "location": "Haiyang Oriental Spaceport",
+   "lon": 123.7,
+   "lsp": "Orienspace Technology",
+   "name": "Gravity-1 | SpaceSail Polar Group #16",
+   "net_first": "2026-09-15T22:00:00Z",
+   "net_last": "2026-09-15T22:00:00Z",
+   "orbit": "Polar Orbit",
+   "pad": "Yellow Sea (launch location 5)",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": null,
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": null,
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11073,6 +11216,42 @@
    "rocket": "Kinetica 1",
    "status": "Launch Successful"
   },
+  "2026-kinetica-1-unknown-payload": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 40.8182,
+   "liftoff": null,
+   "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lon": 100.22514,
+   "lsp": "CAS Space",
+   "name": "Kinetica 1 | Unknown Payload",
+   "net_first": "2026-09-20T04:00:00Z",
+   "net_last": "2026-09-20T04:00:00Z",
+   "orbit": "Unknown",
+   "pad": "Launch Area 130",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     130,
+     160
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "酒泉衛星発射センター (CHN)",
+    "updated_at": "2026-09-16T08:39:00+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Kinetica 1",
+   "status": "Go for Launch"
+  },
   "2026-kuaizhou-11-unknown-payload": {
    "ans": {
     "checked_at": "2026-07-05T12:40:04+00:00",
@@ -11498,7 +11677,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11534,7 +11713,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11610,7 +11789,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12801,6 +12980,39 @@
    "rocket": "Nebula-1",
    "status": "To Be Determined"
   },
+  "2026-nuri-neonsat-2-to-6": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.431867,
+   "liftoff": null,
+   "location": "Naro Space Center, South Korea",
+   "lon": 127.535069,
+   "lsp": "Korea Aerospace Research Institute",
+   "name": "Nuri | NeonSat-2 to 6",
+   "net_first": "2026-10-07T03:23:00Z",
+   "net_last": "2026-10-07T03:23:00Z",
+   "orbit": "Sun-Synchronous Orbit",
+   "pad": "LC-2",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": null,
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": null,
+    "updated_at": "2026-09-16T08:39:00+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "KSLV-2 Nuri",
+   "status": "Go for Launch"
+  },
   "2026-pallas-1-demo-flight": {
    "ans": {
     "checked_at": "2026-09-04T08:01:36+00:00",
@@ -13249,7 +13461,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13748,13 +13960,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Starship V3",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-themis-demonstrator-t1h-1": {
    "ans": null,
@@ -13784,7 +13996,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14001,7 +14213,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-15T08:44:38+00:00",
+    "updated_at": "2026-09-16T08:39:00+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14122,10 +14334,13 @@
   },
   "2026-zhuque-2e-block-2-unknown-payload": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "vanished-before-status",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-09-16T08:39:00+00:00",
    "lat": 40.91491,
-   "liftoff": null,
+   "liftoff": "2026-09-15T06:25:00Z",
    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lon": 100.245488,
    "lsp": "LandSpace",
