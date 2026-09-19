@@ -77,7 +77,7 @@
   },
   "Kuaizhou 11 @ 酒泉衛星発射センター (CHN)": {
    "incl": null,
-   "n": 1,
+   "n": 2,
    "raan": null
   },
   "Long March 10B @ 海南商業宇宙発射場 (CHN)": {
@@ -87,7 +87,7 @@
   },
   "Long March 12 @ 海南商業宇宙発射場 (CHN)": {
    "incl": null,
-   "n": 2,
+   "n": 3,
    "raan": null
   },
   "Long March 2D/YZ-3 @ 酒泉衛星発射センター (CHN)": {
@@ -130,7 +130,17 @@
    "n": 1,
    "raan": null
   },
+  "Soyuz 2.1b @ Baikonur Cosmodrome (KAZ)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Spectrum @ Andøya Spaceport (NOR)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
+  "Vega-C @ Guiana Space Centre (FRA)": {
    "incl": null,
    "n": 1,
    "raan": null
@@ -152,7 +162,7 @@
   },
   "Zhuque-2E Block 2 @ 酒泉衛星発射センター (CHN)": {
    "incl": null,
-   "n": 1,
+   "n": 2,
    "raan": null
   },
   "Zhuque-3 @ 酒泉衛星発射センター (CHN)": {
@@ -169,7 +179,7 @@
    "n": 30,
    "sd": 12.278
   },
-  "n": 55,
+  "n": 60,
   "raan": {
    "mae": 17.327,
    "mean": 2.386,
@@ -177,5 +187,5 @@
    "sd": 37.393
   }
  },
- "updated_at": "2026-09-18T08:18:28+00:00"
+ "updated_at": "2026-09-19T08:06:25+00:00"
 }
