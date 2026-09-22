@@ -472,7 +472,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1131,7 +1131,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1220,11 +1220,15 @@
    "status": "Launch Successful"
   },
   "2026-electron-the-grain-goddess-provides-iqps-launch-7": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-09-22T08:36:26+00:00",
+    "identified": false
+   },
    "flags": [
     "backtest",
     "no-navwarn",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-08-07T05:04:02+00:00",
    "lat": -39.260881,
@@ -1606,7 +1610,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6043,7 +6047,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-09-30T16:00:00Z",
+   "net_last": "2026-10-10T16:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -6060,7 +6064,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9905,6 +9909,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
+  "2026-falcon-9-block-5-transporter-18-dedicated-sso-rideshare": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+   "net_first": "2026-10-01T18:08:00Z",
+   "net_last": "2026-10-01T18:08:00Z",
+   "orbit": "Sun-Synchronous Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-09-22T08:36:26+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "To Be Confirmed"
+  },
   "2026-falcon-9-block-5-ussf-153": {
    "ans": {
     "checked_at": "2026-09-21T09:01:36+00:00",
@@ -10477,7 +10517,7 @@
     "model": "v2",
     "raan_at_net": 258.63,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [
      "XII-629/26"
     ],
@@ -13030,7 +13070,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13693,7 +13733,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14340,7 +14380,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14750,7 +14790,7 @@
     "model": "v2",
     "raan_at_net": 325.16,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-09-21T09:01:36+00:00",
+    "updated_at": "2026-09-22T08:36:26+00:00",
     "warnings": [
      "IV-897/26"
     ],
