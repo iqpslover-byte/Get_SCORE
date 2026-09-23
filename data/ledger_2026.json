@@ -472,7 +472,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1131,7 +1131,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1610,13 +1610,13 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-globalstar-2-r-mission-1-x-8": {
    "ans": {
@@ -6064,7 +6064,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9937,7 +9937,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10517,7 +10517,7 @@
     "model": "v2",
     "raan_at_net": 258.63,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [
      "XII-629/26"
     ],
@@ -13070,7 +13070,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13733,7 +13733,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14380,7 +14380,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14790,7 +14790,7 @@
     "model": "v2",
     "raan_at_net": 325.16,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-09-22T08:36:26+00:00",
+    "updated_at": "2026-09-23T08:38:26+00:00",
     "warnings": [
      "IV-897/26"
     ],
