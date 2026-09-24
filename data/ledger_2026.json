@@ -472,7 +472,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1118,22 +1118,65 @@
    "orbit": "Low Earth Orbit",
    "pad": "Rocket Lab Launch Complex 1B",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 80.5,
+    "az_used": 99.5,
     "corridor": [
      30,
      200
     ],
     "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
+    "dir": "south",
+    "incl": 40.22,
+    "incl_method": "bearing",
     "model": "v2",
-    "raan_at_net": null,
+    "raan_at_net": 291.28,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
-    "warnings": [],
-    "zones": [],
+    "updated_at": "2026-09-24T08:31:12+00:00",
+    "warnings": [
+     "HYDROPAC-2730/26"
+    ],
+    "zones": [
+     [
+      [
+       -39.2,
+       177.7
+      ],
+      [
+       -39.18,
+       177.93
+      ],
+      [
+       -39.07,
+       178.3
+      ],
+      [
+       -39.38,
+       178.4
+      ],
+      [
+       -39.44,
+       177.8
+      ]
+     ],
+     [
+      [
+       -37.76,
+       -178.3
+      ],
+      [
+       -36.6,
+       -172.8
+      ],
+      [
+       -38.55,
+       -172.0
+      ],
+      [
+       -39.65,
+       -177.67
+      ]
+     ]
+    ],
     "zones_debris": []
    },
    "rocket": "Electron",
@@ -1610,7 +1653,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6064,7 +6107,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -9937,7 +9980,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10517,9 +10560,9 @@
     "model": "v2",
     "raan_at_net": 258.63,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [
-     "XII-629/26"
+     "XII-647/26"
     ],
     "zones": [
      [
@@ -11167,6 +11210,44 @@
    },
    "rocket": "GSLV Mk. II",
    "status": "Launch Successful"
+  },
+  "2026-gslv-mk-ii-irnss-1l-nvs-03": {
+   "ans": null,
+   "flags": [
+    "non-leo"
+   ],
+   "frozen_at": null,
+   "lat": 13.7199,
+   "liftoff": null,
+   "location": "Satish Dhawan Space Centre, India",
+   "lon": 80.2304,
+   "lsp": "Indian Space Research Organization",
+   "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+   "net_first": "2026-10-15T00:00:00Z",
+   "net_last": "2026-10-15T00:00:00Z",
+   "orbit": "Geostationary Transfer Orbit",
+   "pad": "Satish Dhawan Space Centre Second Launch Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "Satish Dhawan Space Centre (IND)",
+    "updated_at": "2026-09-24T08:31:12+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "GSLV Mk. II",
+   "status": "To Be Determined"
   },
   "2026-h3-22-michibiki-7-qzs-7": {
    "ans": {
@@ -13070,7 +13151,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13428,6 +13509,44 @@
    "rocket": "Long March 8A",
    "status": "Launch Successful"
   },
+  "2026-long-march-8a-satnet-leo-group-26": {
+   "ans": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-09-24T08:31:12+00:00",
+   "lat": 19.597275,
+   "liftoff": "2026-09-23T13:32:00Z",
+   "location": "Wenchang Space Launch Site, People's Republic of China",
+   "lon": 110.930753,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 8A | SatNet LEO Group 26",
+   "net_first": "2026-09-23T13:32:00Z",
+   "net_last": "2026-09-23T13:32:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Commercial LC-1",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     190
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v2",
+    "raan_at_net": null,
+    "site_ref": "海南商業宇宙発射場 (CHN)",
+    "updated_at": "2026-09-24T08:31:12+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 8A",
+   "status": "Launch Successful"
+  },
   "2026-long-march-8a-spacesail-polar-group-14": {
    "ans": {
     "checked_at": "2026-07-15T05:42:41+00:00",
@@ -13733,7 +13852,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14380,7 +14499,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14790,9 +14909,9 @@
     "model": "v2",
     "raan_at_net": 325.16,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-09-23T08:38:26+00:00",
+    "updated_at": "2026-09-24T08:31:12+00:00",
     "warnings": [
-     "IV-897/26"
+     "IV-922/26"
     ],
     "zones": [
      [
