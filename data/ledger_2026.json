@@ -1706,7 +1706,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2727,7 +2727,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6196,7 +6196,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10204,7 +10204,7 @@
     "model": "v2",
     "raan_at_net": 359.32,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [
      "XII-662/26"
     ],
@@ -10826,13 +10826,47 @@
    "status": "Launch in Flight"
   },
   "2026-falcon-9-block-5-ussf-385": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-09-27T09:19:32+00:00",
+    "cospar": "2026-223",
+    "d_incl": -31.665,
+    "d_raan": -9.405,
+    "identified": true,
+    "incl": 37.875,
+    "incl_spread": 0.01,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "37.87",
+      "intldes": "2026-223C",
+      "name": "ELEKTRON KICK STAGE R/B",
+      "norad": "100831"
+     },
+     {
+      "incl": "37.88",
+      "intldes": "2026-223B",
+      "name": "ELEKTRON / RB",
+      "norad": "100830"
+     },
+     {
+      "incl": "37.87",
+      "intldes": "2026-223A",
+      "name": "STRIX-12",
+      "norad": "100829"
+     }
+    ],
+    "raan": 280.506,
+    "raan_epoch": 278.595,
+    "raan_pred": 289.911
+   },
    "flags": [
-    "renamed"
+    "renamed",
+    "site-unmapped",
+    "early-tle"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-09-27T09:19:32+00:00",
    "lat": 34.632,
-   "liftoff": null,
+   "liftoff": "2026-09-26T14:00:54Z",
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
@@ -10855,7 +10889,7 @@
     "model": "v2",
     "raan_at_net": 289.94,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [
      "XII-647/26"
     ],
@@ -10932,7 +10966,7 @@
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-falcon-heavy-nancy-grace-roman-space-telescope": {
    "ans": null,
@@ -11138,7 +11172,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11572,7 +11606,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14267,7 +14301,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14914,7 +14948,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15324,7 +15358,7 @@
     "model": "v2",
     "raan_at_net": 325.16,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-09-26T08:39:25+00:00",
+    "updated_at": "2026-09-27T09:19:32+00:00",
     "warnings": [
      "IV-922/26"
     ],
@@ -15537,7 +15571,7 @@
     "zones_debris": []
    },
    "rocket": "Starship V3",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-themis-demonstrator-t1h-1": {
    "ans": null,
