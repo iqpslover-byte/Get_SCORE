@@ -1706,7 +1706,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2727,7 +2727,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6196,7 +6196,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10204,11 +10204,80 @@
     "model": "v2",
     "raan_at_net": 359.32,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [
-     "XII-662/26"
+     "XII-662/26",
+     "XII-647/26"
     ],
     "zones": [
+     [
+      [
+       29.8,
+       -117.65
+      ],
+      [
+       34.46666666666667,
+       -120.3
+      ],
+      [
+       34.666666666666664,
+       -120.6
+      ],
+      [
+       34.65,
+       -120.65
+      ],
+      [
+       34.5,
+       -120.65
+      ],
+      [
+       29.583333333333332,
+       -118.2
+      ],
+      [
+       29.866666666666667,
+       -117.9
+      ]
+     ],
+     [
+      [
+       29.8,
+       -117.65
+      ],
+      [
+       29.866666666666667,
+       -117.9
+      ],
+      [
+       29.583333333333332,
+       -118.2
+      ],
+      [
+       29.4,
+       -118.13333333333334
+      ],
+      [
+       29.25,
+       -118.03333333333333
+      ],
+      [
+       29.033333333333335,
+       -117.98333333333333
+      ],
+      [
+       28.2,
+       -117.31666666666666
+      ],
+      [
+       28.833333333333332,
+       -117.31666666666666
+      ],
+      [
+       29.6,
+       -117.26666666666667
+      ]
+     ],
      [
       [
        29.8,
@@ -11172,7 +11241,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11606,7 +11675,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14301,7 +14370,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14948,7 +15017,7 @@
     "model": "v2",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15358,7 +15427,7 @@
     "model": "v2",
     "raan_at_net": 325.16,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-09-27T09:19:32+00:00",
+    "updated_at": "2026-09-28T09:52:22+00:00",
     "warnings": [
      "IV-922/26"
     ],
