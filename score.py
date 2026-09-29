@@ -26,9 +26,12 @@ URL_LAUNCHES = 'https://raw.githubusercontent.com/iqpslover-byte/Get_LAUNCHES/ma
 URL_SATCAT   = 'https://raw.githubusercontent.com/iqpslover-byte/Get_TLE/main/data/satcat.json'
 URL_TLE      = 'https://raw.githubusercontent.com/iqpslover-byte/Get_TLE/main/data/tle_recent.json'
 URL_NAVWARN  = 'https://iqpslover-byte.github.io/Get_NAVWARN/data/DailyMem%s.txt'
+# 警報と打上げの結びつけ(space-notices.com 経由・Get_NOTAM が中継)。アプリと同じ出どころ
+URL_NOTICES  = 'https://raw.githubusercontent.com/iqpslover-byte/Get_NOTAM/main/data/notices.json'
 NAVWARN_AREAS = ['IV', 'XII', 'LAN', 'PAC', 'ARC']
 
-MODEL_VERSION = 'v2'   # v2(2026-07-16): fold誤反転修正・重心アンラップ修正・頂点緯度法(デブリ警報ペアリング)
+MODEL_VERSION = 'v3'   # v2(2026-07-16): fold誤反転修正・重心アンラップ修正・頂点緯度法(デブリ警報ペアリング)
+                       # v3(2026-09-29): 警報の結びつけを space-notices だけに(推定をやめた・計算式は v2 と同じ)
 D2R = math.pi / 180
 R2D = 180 / math.pi
 
@@ -430,8 +433,6 @@ RE_HDR = re.compile(r'(NAVAREA\s+(?:IV|XII|ARC)|HYDROLANT|HYDROPAC|HYDROARC)\s+(
 RE_LAUNCH = re.compile(r'ROCKET\s+LAUNCH|SPACE\s+LAUNCH|SPACE\s+VEHICLE|LAUNCH(?:ING)?\s+OPERATION', re.I)
 RE_DEBRIS = re.compile(r'SPACE\s+DEBRIS|ROCKET\s+DEBRIS|DEBRIS\s+SPLASH', re.I)
 RE_ZONE = re.compile(r'\n\s*([A-F])\.\s')
-# 最初のハザード窓 "162245Z TO 170056Z JUL" → 開始日時(デブリ警報ペアリング用)
-RE_WIN0 = re.compile(r'\b(\d{2})(\d{2})(\d{2})Z\s+TO\s+\d{6}Z\s+(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)', re.I)
 MON = {m: i+1 for i, m in enumerate(['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'])}
 
 def _dec(d, m, hemi):
@@ -454,40 +455,11 @@ def split_zones(text):
             zones.append(c)
     return zones
 
-def planned_dates(text, years):
-    """本文中の 日+月 をすべて拾い打上げ予定日候補にする (複数日ウィンドウ・年跨ぎ対応)"""
-    out = set()
-    for m in re.finditer(r'\b(\d{2})(?:\d{4}Z)?\s*(?:TO\s+(\d{2})(?:\d{4}Z)?\s*)?(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)\b', text):
-        d1, d2, mon = m.group(1), m.group(2), MON[m.group(3)]
-        for ds in (d1, d2):
-            if ds is None:
-                continue
-            day = int(ds)
-            if 1 <= day <= 31:
-                for year in years:
-                    try:
-                        out.add(datetime.date(year, mon, day))
-                    except ValueError:
-                        pass
-    return out
-
-def _first_window_start(block, years):
-    """最初のハザード窓の開始UTC datetime (無ければ None)。年は years から日付が成立する最初のもの"""
-    m = RE_WIN0.search(block)
-    if not m:
-        return None
-    day, hh, mm = int(m.group(1)), int(m.group(2)), int(m.group(3))
-    mon = MON[m.group(4).upper()]
-    for y in sorted(years):
-        try:
-            return datetime.datetime(y, mon, day, hh, mm, tzinfo=datetime.timezone.utc)
-        except ValueError:
-            continue
-    return None
-
 def parse_warnings(text, years):
-    """電文ファイル → 打上げ関連警報のリスト [{id, kind, zones, dates, win0}]
-       kind: 'launch'=打上げ警報 / 'debris'=デブリ落下警報(v2: 頂点緯度法の材料としてペアリング)"""
+    """電文ファイル → 区域のある警報のリスト [{id, kind, zones}]
+       kind: 'launch'=打上げ警報 / 'debris'=デブリ落下警報 / 'other'=どちらの言葉も無い電文。
+       v3: どの便のものかは space-notices で決めるので、本文の言葉では選ばない。
+       'other' は方位の計算に混ぜず、頂点緯度法の材料だけにする(デブリと同じ扱い)"""
     out = []
     ms = list(RE_HDR.finditer(text))
     for i, mt in enumerate(ms):
@@ -499,15 +471,13 @@ def parse_warnings(text, years):
         elif RE_DEBRIS.search(block):
             kind = 'debris'
         else:
-            continue
+            kind = 'other'
         zones = [z for z in split_zones(block) if z]
         if not zones:
             continue
         head = mt.group(1).split()[-1] if 'NAVAREA' in mt.group(1).upper() else mt.group(1)
         wid = ('%s-%s/%s' % (head, mt.group(2), mt.group(3))).upper()
-        out.append({'id': wid, 'kind': kind, 'zones': zones,
-                    'dates': sorted(d.isoformat() for d in planned_dates(block, years)),
-                    'win0': _first_window_start(block, years)})
+        out.append({'id': wid, 'kind': kind, 'zones': zones})
     return out
 
 # ════════════════════════ TLE 解析・J2巻き戻し ════════════════════════
@@ -588,7 +558,90 @@ def launch_key(l):
 
 LEO_ORBITS = {'Low Earth Orbit', 'Sun-Synchronous Orbit', 'Polar Orbit'}
 
-def step_predict(ledger_by_year, launches, warnings, now):
+# ════════════════════════ space-notices の結びつけ ════════════════════════
+
+def notice_launch_key(s):
+    """打上げ名の照合キー(アプリ _lwNoticeLaunchKey と同じ): 小文字・括弧の中を捨てる・英数字だけ"""
+    s = re.sub(r'\([^)]*\)', '', str(s or '').lower())
+    return re.sub(r'[^a-z0-9]', '', s)
+
+def notice_warn_id(name):
+    """space-notices の電文名 'NAVAREA XII 672/26' → 台帳の番号 'XII-672/26'(無関係な名前は None)"""
+    m = RE_HDR.match(str(name or '').strip())
+    if not m:
+        return None
+    head = m.group(1).split()[-1] if 'NAVAREA' in m.group(1).upper() else m.group(1)
+    return ('%s-%s/%s' % (head, m.group(2), m.group(3))).upper()
+
+def area_sig(pts):
+    """区域の頂点を (緯度, 経度0〜360) の重複なしの並びに。3点未満は None"""
+    out = []
+    for la, lo in pts:
+        try:
+            la, lo = float(la), float(lo) % 360
+        except (TypeError, ValueError):
+            continue
+        if not any(abs(p[0]-la) < 1e-4 and abs(p[1]-lo) < 1e-4 for p in out):
+            out.append((la, lo))
+    return out if len(out) >= 3 else None
+
+def area_same(a, b):
+    """同じ区域か＝頂点の数が同じで、どの頂点にも0.02°以内に相手の頂点がある(順番は問わない)。
+       ★電文は分の小数まで書くが space-notices は分に丸めている＝文字列の一致では拾えない"""
+    if not a or not b or len(a) != len(b):
+        return False
+    T = 0.02
+    near = lambda p, q: abs(p[0]-q[0]) <= T and abs(((p[1]-q[1]+540) % 360) - 180) <= T
+    return all(any(near(p, q) for q in b) for p in a) and all(any(near(p, q) for p in a) for q in b)
+
+def notice_maps(notices):
+    """→ (電文番号→打上げ名, [(区域の頂点, 打上げ名)])。
+       同じ番号に別の打上げが当たっていたら空にして使わない。区域は取り消された通報を除く"""
+    rev, areas = {}, []
+    for n in notices:
+        ls = n.get('launches') or []
+        t = (ls[0].get('title') if ls and isinstance(ls[0], dict) else '') or ''
+        if not t:
+            continue
+        if not n.get('cancelled'):
+            for a in n.get('areas') or []:
+                # space-notices の区域は [緯度, 経度] の並び(アプリも q[0] を緯度として読む)
+                sg = area_sig([(p[0], p[1]) for p in a if isinstance(p, (list, tuple)) and len(p) >= 2])
+                if sg:
+                    areas.append((sg, t))
+        if n.get('kind') != 'NAVWARNING':
+            continue
+        wid = notice_warn_id(n.get('name'))
+        if not wid:
+            continue
+        if wid not in rev:
+            rev[wid] = t
+        elif rev[wid] and rev[wid] != t:
+            rev[wid] = ''
+    return rev, areas
+
+def notice_title_for(w, rev, areas):
+    """警報 w に space-notices が結びつけている打上げ名('' なら無し)"""
+    t = rev.get(w['id']) or ''
+    if t:
+        return t
+    for z in w['zones']:
+        sg = area_sig(z)
+        if not sg:
+            continue
+        hit = None
+        for s2, t2 in areas:
+            if area_same(sg, s2):
+                if hit is None:
+                    hit = t2
+                elif hit != t2:
+                    hit = ''
+                    break
+        if hit:
+            return hit
+    return ''
+
+def step_predict(ledger_by_year, launches, warnings, now, notices=None):
     """予定打上げの予測を作成/更新 (凍結済みは触らない)"""
     # ── 対象打上げ(座標+net あり・過去3日〜未来21日) ──
     cands = []
@@ -601,94 +654,26 @@ def step_predict(ledger_by_year, launches, warnings, now):
         cands.append({'l': l, 'key': launch_key(l), 'net': net,
                       'lat': float(l['lat']), 'lon': float(l['lon'])})
 
-    # ── 警報→anchor射場(全打上げのパッドで最寄り) ──
-    pads = [(float(l['lat']), float(l['lon'])) for l in launches
-            if _is_num(l.get('lat')) and _is_num(l.get('lon'))]
-    launch_warnings = [w for w in warnings if w.get('kind', 'launch') == 'launch']
-    debris_warnings = [w for w in warnings if w.get('kind') == 'debris']
-    for w in warnings:
-        w['assigned'] = None
-    for w in launch_warnings:
-        allp = [p for z in w['zones'] for p in z]
-        best, bd = None, 1e9
-        for (la, lo) in pads:
-            for (pla, plo) in allp:
-                d = haversine_km(la, lo, pla, plo)
-                if d < bd:
-                    best, bd = (la, lo), d
-        w['anchor'] = best
-        w['anchor_km'] = bd
-
-    # ── 警報の独占帰属: 各警報は最良の1打上げだけに付く ──
-    #    (同一射場から数日おきに連続する打上げへの重複帰属が誤推定の主因＝バックテストで確認)
-    for w in launch_warnings:
-        if w['anchor'] is None or w['anchor_km'] > 2500 or not w['dates']:
-            continue
-        best = None
-        for c in cands:
-            if haversine_km(c['lat'], c['lon'], w['anchor'][0], w['anchor'][1]) > 200:
-                continue   # 別射場圏
-            dd = min(abs((datetime.date.fromisoformat(d) - c['net'].date()).days) for d in w['dates'])
-            if dd > 3:
-                continue
-            rank = (dd, haversine_km(c['lat'], c['lon'], w['anchor'][0], w['anchor'][1]))
-            if best is None or rank < best[0]:
-                best = (rank, c['key'])
-        if best:
-            w['assigned'] = best[1]
-
-    # ── v2: デブリ警報のペアリング ──
-    #    デブリ落下域は射場から数千〜1万km超で距離帰属は不可能。代わりに
-    #    「同じ日付集合 + 窓開始が打上げ警報の少し後(飛行時間ぶんシフト)」を同一ミッションの署名とする。
-    #    (実証: Starship IFT=打上げ窓+49分にデブリ窓が開く=公表タイムラインentry 47:30と一致)
-    # v3: 落下域を軌道面で篩うため、打上げ警報だけから暫定の軌道面を作っておく。
-    #     デブリ区域を混ぜると apex 法が誤った区域から傾斜角を作り循環するので、
-    #     ここでは必ず打上げ警報の区域だけを使う。
-    prelim = {}
+    # ── 警報の結びつけ(v3): アプリ v3.59.24 と同じ順番 ──
+    #    ① space-notices がその電文番号を打上げに結びつけていれば、それ
+    #    ② 無ければ、同じ区域(頂点の数が同じで各頂点0.02°以内)の通報(BNM・LNM など)が結びつく打上げ
+    #    どちらも無ければ結びつけない(推定はしない)。
+    #    ★前の推定(射場から2,500km・日付3日以内・デブリ窓のペアリング)は、アプリで結びつけた
+    #      11件のうち正しいのが1件だけだった(2026-09-29)ので削除した
+    by_key = {}
     for c in cands:
-        lz = [z for w in launch_warnings if w['assigned'] == c['key'] for z in w['zones']]
-        if not lz:
-            continue
-        st = nearest_preset_site(c['lat'], c['lon'])
-        a0 = st['az0'] if st else None
-        a1 = st['az1'] if st else None
-        e = incl_from_zones(c['lat'], c['lon'], a0, a1, lz, st.get('incl_mode') if st else None)
-        if not e:
-            continue
-        azu = auto_dir_az(e['inc'], c['lat'], a0, a1)
-        if azu is None:
-            azu = e['az']
-        r = raan_predict(c['lat'], c['lon'], azu, c['net'])
-        if r is None:
-            continue
-        prelim[c['key']] = (e['inc'], r, c['lat'], c['net'], 90 < azu < 270)
-
-    for dw in debris_warnings:
-        if not dw['dates'] or dw['win0'] is None:
-            continue
-        dset = set(dw['dates'])
-        best = None
-        for lw in launch_warnings:
-            if not lw['assigned'] or lw['win0'] is None or not lw['dates']:
-                continue
-            inter = dset & set(lw['dates'])
-            if len(inter) < max(1, min(len(dset), len(lw['dates'])) // 2):
-                continue
-            dt_min = (dw['win0'] - lw['win0']).total_seconds() / 60.0
-            if not (-30 <= dt_min <= 360):   # 打上げ30分前〜6時間後の窓開始のみ
-                continue
-            # v3: 落下域がこの便の軌道面と明らかに合わないなら候補から外す。
-            #     時刻・日付が一致していても位置が食い違うものは別の便のもの。
-            pm = prelim.get(lw['assigned'])
-            if pm is not None:
-                inc0, raan0, slat, t0, desc = pm
-                if any(zone_fits_plane(slat, inc0, raan0, t0, z, desc)[0] == 'ng'
-                       for z in dw['zones']):
-                    continue
-            if best is None or abs(dt_min) < best[0]:
-                best = (abs(dt_min), lw['assigned'])
-        if best:
-            dw['assigned'] = best[1]
+        by_key.setdefault(notice_launch_key(c['l'].get('mission') or ''), c['key'])
+        by_key.setdefault(notice_launch_key(c['l'].get('name') or ''), c['key'])
+        nm = c['l'].get('name') or ''
+        if '|' in nm:
+            by_key.setdefault(notice_launch_key(nm.split('|')[-1]), c['key'])
+    by_key.pop('', None)
+    rev, areas = notice_maps(notices or [])
+    launch_warnings = [w for w in warnings if w.get('kind') == 'launch']
+    debris_warnings = [w for w in warnings if w.get('kind') != 'launch']
+    for w in warnings:
+        t = notice_title_for(w, rev, areas)
+        w['assigned'] = by_key.get(notice_launch_key(t)) if t else None
 
     n_upd = 0
     for c in cands:
@@ -1065,12 +1050,19 @@ def main():
             warnings += parse_warnings(txt, (now.year - 1, now.year, now.year + 1))
         except Exception as e:
             print('WARN: NAVWARN %s fetch failed: %s' % (area, e))
-    print('launch-type warnings:', len(warnings))
+    print('warnings with areas:', len(warnings))
+    try:
+        notices = json.loads(fetch(URL_NOTICES)).get('notices') or []
+    except Exception as e:
+        # 取れない日は結びつけ0件になる＝凍結前の予測を空で上書きしないよう、予測を飛ばす
+        print('WARN: notices fetch failed: %s' % e)
+        notices = None
+    print('notices:', len(notices) if notices is not None else 'n/a')
 
     years = {now.year - 1, now.year, now.year + 1}
     ledger_by_year = {y: load_ledger(y) for y in years}
 
-    n_pred = step_predict(ledger_by_year, launches, warnings, now)
+    n_pred = step_predict(ledger_by_year, launches, warnings, now, notices) if notices is not None else 0
     n_frozen = step_freeze(ledger_by_year, launches, now)
     n_ans = step_answer(ledger_by_year, now)
     n_dm = step_flag_debris_mismatch(ledger_by_year)

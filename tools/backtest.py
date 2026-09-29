@@ -4,7 +4,9 @@
 score.py の全パイプライン(予測→凍結→答え合わせ→成績)を実データで検証する。
 
 使い方:
-  python tools/backtest.py <NAVWARNクローン> <LAUNCHESクローン> <satcat.json> <tle_recent.json>
+  python tools/backtest.py <NAVWARNクローン> <LAUNCHESクローン> <satcat.json> <tle_recent.json> <NOTAMクローン>
+★v3: 警報の結びつけは Get_NOTAM の data/notices.json(space-notices)だけで決まる。
+  notices.json の履歴は 2026-09-23 からなので、それより前の日は結びつけ0件になる
 出力: tools/backtest_ledger.json / backtest_report.txt (リポジトリにはコミットしない)
 """
 import sys, os, json, subprocess, datetime, bisect, io
@@ -12,7 +14,7 @@ import sys, os, json, subprocess, datetime, bisect, io
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import score as S
 
-NAVWARN_REPO, LAUNCHES_REPO, SATCAT_PATH, TLE_PATH = sys.argv[1:5]
+NAVWARN_REPO, LAUNCHES_REPO, SATCAT_PATH, TLE_PATH, NOTAM_REPO = sys.argv[1:6]
 OUTDIR = os.path.dirname(os.path.abspath(__file__))
 FILES = ['DailyMemIV.txt', 'DailyMemXII.txt', 'DailyMemLAN.txt', 'DailyMemPAC.txt', 'DailyMemARC.txt']
 
@@ -41,6 +43,7 @@ def show_at(repo, commits, when, path):
 def main():
     nav_commits = commit_list(NAVWARN_REPO)
     lau_commits = commit_list(LAUNCHES_REPO)
+    ntm_commits = commit_list(NOTAM_REPO)
     start = max(nav_commits[0][0], lau_commits[0][0]).date() + datetime.timedelta(days=1)
     today = datetime.datetime.now(datetime.timezone.utc)
 
@@ -64,7 +67,12 @@ def main():
                     txt = show_at(NAVWARN_REPO, nav_commits, now, 'data/' + f)
                     if txt:
                         warnings += S.parse_warnings(txt, (now.year - 1, now.year, now.year + 1))
-                S.step_predict(ledger_by_year, launches, warnings, now)
+                nj = show_at(NOTAM_REPO, ntm_commits, now, 'data/notices.json')
+                try:
+                    notices = (json.loads(nj).get('notices') or []) if nj else []
+                except Exception:
+                    notices = []
+                S.step_predict(ledger_by_year, launches, warnings, now, notices)
                 S.step_freeze(ledger_by_year, launches, now)
                 n_days += 1
         day += datetime.timedelta(days=1)
