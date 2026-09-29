@@ -1699,14 +1699,16 @@
      35,
      120
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "HYDROPAC-2791/26"
+    ],
     "dir": "east",
     "incl": 53.82,
     "incl_method": "bearing",
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": 133.85,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [
      "IV-931/26"
     ],
@@ -1764,7 +1766,34 @@
       ]
      ]
     ],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       -27.1,
+       -149.58333333333334
+      ],
+      [
+       -28.9,
+       -148.0
+      ],
+      [
+       -37.13333333333333,
+       -157.98333333333332
+      ],
+      [
+       -44.333333333333336,
+       -170.23333333333332
+      ],
+      [
+       -42.68333333333333,
+       -171.51666666666668
+      ],
+      [
+       -35.4,
+       -159.5
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Go for Launch"
@@ -2779,10 +2808,10 @@
     "dir": "south",
     "incl": 81.79,
     "incl_method": "bearing",
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": 200.63,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [
      "XII-671/26"
     ],
@@ -6323,10 +6352,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10327,14 +10356,16 @@
      153,
      240
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "HYDROPAC-2790/26"
+    ],
     "dir": "south",
     "incl": 97.34,
     "incl_method": "bearing",
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": 339.28,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [
      "XII-672/26"
     ],
@@ -10428,7 +10459,34 @@
       ]
      ]
     ],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       -25.266666666666666,
+       -157.3
+      ],
+      [
+       -25.683333333333334,
+       -154.91666666666666
+      ],
+      [
+       -43.0,
+       -158.6
+      ],
+      [
+       -60.0,
+       -165.0
+      ],
+      [
+       -59.483333333333334,
+       -170.18333333333334
+      ],
+      [
+       -42.483333333333334,
+       -162.16666666666666
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Go for Launch"
@@ -11319,10 +11377,10 @@
     "dir": "east",
     "incl": 55.73,
     "incl_method": "bearing",
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": 326.72,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [
      "IV-936/26"
     ],
@@ -11822,10 +11880,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -11996,10 +12054,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14555,10 +14613,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15202,10 +15260,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-29T11:31:38+00:00",
+    "updated_at": "2026-09-29T11:31:58+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
