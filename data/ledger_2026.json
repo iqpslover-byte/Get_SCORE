@@ -1711,7 +1711,7 @@
     "model": "v3",
     "raan_at_net": 133.85,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [
      "IV-931/26"
     ],
@@ -2797,7 +2797,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
    "net_first": "2026-10-05T08:06:00Z",
-   "net_last": "2026-10-05T08:06:00Z",
+   "net_last": "2026-10-05T08:16:00Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -2807,14 +2807,17 @@
      153,
      240
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "HYDROLANT-1935/26",
+     "HYDROPAC-2828/26"
+    ],
     "dir": "south",
     "incl": 81.79,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 200.63,
+    "raan_at_net": 203.14,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [
      "XII-671/26"
     ],
@@ -2892,10 +2895,63 @@
       ]
      ]
     ],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       -38.3,
+       18.0
+      ],
+      [
+       -38.0,
+       27.0
+      ],
+      [
+       -49.03333333333333,
+       25.25
+      ],
+      [
+       -60.0,
+       22.5
+      ],
+      [
+       -59.0,
+       10.0
+      ],
+      [
+       -48.733333333333334,
+       14.833333333333334
+      ]
+     ],
+     [
+      [
+       -38.3,
+       18.0
+      ],
+      [
+       -38.0,
+       27.0
+      ],
+      [
+       -49.03333333333333,
+       25.25
+      ],
+      [
+       -60.0,
+       22.5
+      ],
+      [
+       -59.0,
+       10.0
+      ],
+      [
+       -48.733333333333334,
+       14.833333333333334
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-sda-tranche-1-transport-layer-d": {
    "ans": null,
@@ -6341,7 +6397,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
    "net_first": "2026-06-30T00:00:00Z",
-   "net_last": "2026-10-10T16:00:00Z",
+   "net_last": "2026-10-10T23:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -6358,7 +6414,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10368,7 +10424,7 @@
     "model": "v3",
     "raan_at_net": 339.28,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [
      "XII-672/26"
     ],
@@ -11376,14 +11432,16 @@
      35,
      120
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "XII-677/26"
+    ],
     "dir": "east",
     "incl": 55.73,
     "incl_method": "bearing",
     "model": "v3",
     "raan_at_net": 326.72,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [
      "IV-936/26"
     ],
@@ -11455,7 +11513,26 @@
       ]
      ]
     ],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       37.93333333333333,
+       -129.43333333333334
+      ],
+      [
+       36.55,
+       -127.25
+      ],
+      [
+       31.016666666666666,
+       -132.56666666666666
+      ],
+      [
+       32.4,
+       -134.61666666666667
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon Heavy",
    "status": "Go for Launch"
@@ -11886,7 +11963,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12060,7 +12137,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13165,7 +13242,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14655,7 +14732,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15305,7 +15382,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-09-30T09:46:17+00:00",
+    "updated_at": "2026-10-01T10:13:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
