@@ -140,6 +140,11 @@
    "n": 1,
    "raan": null
   },
+  "Starship V3 @ Starbase (USA)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Vega-C @ Guiana Space Centre (FRA)": {
    "incl": null,
    "n": 1,
@@ -179,7 +184,7 @@
    "n": 32,
    "sd": 15.516
   },
-  "n": 64,
+  "n": 65,
   "raan": {
    "mae": 21.335,
    "mean": 6.804,
@@ -187,5 +192,5 @@
    "sd": 43.779
   }
  },
- "updated_at": "2026-10-01T10:13:50+00:00"
+ "updated_at": "2026-10-02T09:50:38+00:00"
 }
