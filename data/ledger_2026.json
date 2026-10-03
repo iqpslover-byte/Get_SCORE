@@ -1683,7 +1683,9 @@
   },
   "2026-falcon-9-block-5-crew-13": {
    "ans": null,
-   "flags": [],
+   "flags": [
+    "ambiguous-cospar"
+   ],
    "frozen_at": "2026-10-02T09:50:35+00:00",
    "lat": 28.56194122,
    "liftoff": "2026-10-01T15:10:06Z",
@@ -1812,7 +1814,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
    "net_first": "2026-10-13T10:33:00Z",
-   "net_last": "2026-10-13T10:33:00Z",
+   "net_last": "2026-10-13T10:33:44Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 40",
    "pred": {
@@ -1829,13 +1831,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-02T09:50:35+00:00",
+    "updated_at": "2026-10-03T09:13:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-globalstar-2-r-mission-1-x-8": {
    "ans": {
@@ -2854,7 +2856,7 @@
     "model": "v3",
     "raan_at_net": 203.39,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-02T09:50:35+00:00",
+    "updated_at": "2026-10-03T09:13:27+00:00",
     "warnings": [
      "XII-671/26"
     ],
@@ -6751,7 +6753,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-02T09:50:35+00:00",
+    "updated_at": "2026-10-03T09:13:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -10733,7 +10735,9 @@
   },
   "2026-falcon-9-block-5-transporter-18-dedicated-sso-rideshare": {
    "ans": null,
-   "flags": [],
+   "flags": [
+    "ambiguous-cospar"
+   ],
    "frozen_at": "2026-10-02T09:50:35+00:00",
    "lat": 34.632,
    "liftoff": "2026-10-01T18:32:00Z",
@@ -11062,7 +11066,123 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-ussf-259": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-03T09:13:27+00:00",
+    "cospar": "2026-214",
+    "d_incl": -1.23,
+    "d_raan": null,
+    "identified": true,
+    "incl": 80.01,
+    "incl_spread": 0.05,
+    "n_objects": 17,
+    "objects": [
+     {
+      "incl": "80.00",
+      "intldes": "2026-214S",
+      "name": "USA 684",
+      "norad": "100740"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214R",
+      "name": "USA 683",
+      "norad": "100739"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214Q",
+      "name": "USA 682",
+      "norad": "100738"
+     },
+     {
+      "incl": "79.98",
+      "intldes": "2026-214P",
+      "name": "USA 681",
+      "norad": "100737"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214N",
+      "name": "USA 680",
+      "norad": "100736"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214M",
+      "name": "USA 679",
+      "norad": "100735"
+     },
+     {
+      "incl": "79.98",
+      "intldes": "2026-214L",
+      "name": "USA 678",
+      "norad": "100734"
+     },
+     {
+      "incl": "80.02",
+      "intldes": "2026-214K",
+      "name": "USA 677",
+      "norad": "100733"
+     },
+     {
+      "incl": "80.02",
+      "intldes": "2026-214J",
+      "name": "USA 676",
+      "norad": "100732"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214H",
+      "name": "USA 675",
+      "norad": "100731"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214G",
+      "name": "USA 674",
+      "norad": "100730"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214F",
+      "name": "USA 673",
+      "norad": "100729"
+     },
+     {
+      "incl": "80.00",
+      "intldes": "2026-214E",
+      "name": "USA 672",
+      "norad": "100728"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214D",
+      "name": "USA 671",
+      "norad": "100727"
+     },
+     {
+      "incl": "80.03",
+      "intldes": "2026-214C",
+      "name": "USA 670",
+      "norad": "100726"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214B",
+      "name": "USA 669",
+      "norad": "100725"
+     },
+     {
+      "incl": "80.01",
+      "intldes": "2026-214A",
+      "name": "USA 668",
+      "norad": "100724"
+     }
+    ],
+    "raan": null,
+    "raan_epoch": null,
+    "raan_pred": null
+   },
    "flags": [
     "ambiguous-cospar"
    ],
@@ -11750,7 +11870,9 @@
   },
   "2026-falcon-heavy-nrol-97": {
    "ans": null,
-   "flags": [],
+   "flags": [
+    "ambiguous-cospar"
+   ],
    "frozen_at": "2026-10-02T09:50:35+00:00",
    "lat": 28.60822681,
    "liftoff": "2026-10-02T03:54:00Z",
@@ -12474,7 +12596,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-10-02T09:50:35+00:00",
+    "updated_at": "2026-10-03T09:13:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13579,7 +13701,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-10-02T09:50:35+00:00",
+    "updated_at": "2026-10-03T09:13:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15063,19 +15185,58 @@
    "orbit": "Sun-Synchronous Orbit",
    "pad": "LC-2",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 172.7,
+    "az_used": 7.3,
     "corridor": null,
     "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
+    "dir": "east",
+    "incl": 84.01,
+    "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": null,
+    "raan_at_net": 189.95,
     "site_ref": null,
-    "updated_at": "2026-10-02T09:50:35+00:00",
-    "warnings": [],
-    "zones": [],
+    "updated_at": "2026-10-03T09:13:27+00:00",
+    "warnings": [
+     "HYDROPAC-2862/26"
+    ],
+    "zones": [
+     [
+      [
+       21.493833333333335,
+       128.68966666666665
+      ],
+      [
+       21.633166666666668,
+       129.89716666666666
+      ],
+      [
+       18.495333333333335,
+       130.29333333333332
+      ],
+      [
+       18.356166666666667,
+       129.10933333333332
+      ]
+     ],
+     [
+      [
+       12.750666666666667,
+       129.43383333333333
+      ],
+      [
+       12.921333333333333,
+       131.08316666666667
+      ],
+      [
+       8.246833333333333,
+       131.57033333333334
+      ],
+      [
+       8.075833333333334,
+       129.94616666666667
+      ]
+     ]
+    ],
     "zones_debris": []
    },
    "rocket": "KSLV-2 Nuri",
