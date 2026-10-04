@@ -1831,7 +1831,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-03T09:13:27+00:00",
+    "updated_at": "2026-10-04T09:52:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2856,7 +2856,7 @@
     "model": "v3",
     "raan_at_net": 203.39,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-03T09:13:27+00:00",
+    "updated_at": "2026-10-04T09:52:10+00:00",
     "warnings": [
      "XII-671/26"
     ],
@@ -6753,7 +6753,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-03T09:13:27+00:00",
+    "updated_at": "2026-10-04T09:52:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12596,7 +12596,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-10-03T09:13:27+00:00",
+    "updated_at": "2026-10-04T09:52:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13701,7 +13701,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-10-03T09:13:27+00:00",
+    "updated_at": "2026-10-04T09:52:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15195,7 +15195,7 @@
     "model": "v3",
     "raan_at_net": 189.95,
     "site_ref": null,
-    "updated_at": "2026-10-03T09:13:27+00:00",
+    "updated_at": "2026-10-04T09:52:10+00:00",
     "warnings": [
      "HYDROPAC-2862/26"
     ],
