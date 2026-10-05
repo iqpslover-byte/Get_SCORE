@@ -1831,7 +1831,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-04T09:52:10+00:00",
+    "updated_at": "2026-10-05T10:32:41+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2835,7 +2835,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
    "net_first": "2026-10-05T08:06:00Z",
-   "net_last": "2026-10-05T08:17:00Z",
+   "net_last": "2026-10-05T08:18:17Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -2854,9 +2854,9 @@
     "incl": 81.79,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 203.39,
+    "raan_at_net": 203.71,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-04T09:52:10+00:00",
+    "updated_at": "2026-10-05T10:32:41+00:00",
     "warnings": [
      "XII-671/26"
     ],
@@ -6753,7 +6753,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-04T09:52:10+00:00",
+    "updated_at": "2026-10-05T10:32:41+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12596,7 +12596,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-10-04T09:52:10+00:00",
+    "updated_at": "2026-10-05T10:32:41+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13701,7 +13701,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-10-04T09:52:10+00:00",
+    "updated_at": "2026-10-05T10:32:41+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15195,7 +15195,7 @@
     "model": "v3",
     "raan_at_net": 189.95,
     "site_ref": null,
-    "updated_at": "2026-10-04T09:52:10+00:00",
+    "updated_at": "2026-10-05T10:32:41+00:00",
     "warnings": [
      "HYDROPAC-2862/26"
     ],
@@ -15860,11 +15860,13 @@
   "2026-sr75-flight-2": {
    "ans": null,
    "flags": [
-    "suborbital"
+    "suborbital",
+    "vanished-before-status",
+    "no-navwarn"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-10-05T10:32:41+00:00",
    "lat": 60.8184,
-   "liftoff": null,
+   "liftoff": "2026-10-05T00:00:00Z",
    "location": "SaxaVord Spaceport",
    "lon": -0.7692,
    "lsp": "HyImpulse",
