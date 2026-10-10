@@ -455,7 +455,7 @@
    "lsp": "Arianespace",
    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
    "net_first": "2026-10-07T00:00:00Z",
-   "net_last": "2026-10-07T00:00:00Z",
+   "net_last": "2026-10-31T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Ariane Launch Area 4",
    "pred": {
@@ -469,10 +469,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-09-25T08:53:01+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1434,6 +1434,42 @@
    "rocket": "Electron",
    "status": "Launch Successful"
   },
+  "2026-falcon-9-block-5-bandwagon-5-dedicated-mid-inclination-rideshare": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 28.56194122,
+   "liftoff": null,
+   "location": "Cape Canaveral SFS, FL, USA",
+   "lon": -80.57735736,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "net_first": "2026-10-31T00:00:00Z",
+   "net_last": "2026-10-31T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 40",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-10-10T09:55:21+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "To Be Determined"
+  },
   "2026-falcon-9-block-5-bluebird-11-13-block-2-6-8": {
    "ans": {
     "checked_at": "2026-08-06T06:06:15+00:00",
@@ -1834,7 +1870,7 @@
     "model": "v3",
     "raan_at_net": 76.49,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [
      "IV-970/26"
     ],
@@ -2928,7 +2964,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
    "net_first": "2026-10-05T08:06:00Z",
-   "net_last": "2026-10-10T07:29:00Z",
+   "net_last": "2026-10-10T07:39:44Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -2946,9 +2982,9 @@
     "incl": 81.79,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 196.28,
+    "raan_at_net": 198.97,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [
      "XII-710/26"
     ],
@@ -3086,7 +3122,7 @@
     ]
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "Go for Launch"
+   "status": "Launch in Flight"
   },
   "2026-falcon-9-block-5-sda-tranche-1-transport-layer-d": {
    "ans": null,
@@ -6551,7 +6587,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -11685,7 +11721,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12406,7 +12442,7 @@
    "lsp": "Indian Space Research Organization",
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
    "net_first": "2026-10-15T00:00:00Z",
-   "net_last": "2026-10-13T17:00:00Z",
+   "net_last": "2026-10-31T00:00:00Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "pred": {
@@ -12423,13 +12459,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-10-01T10:13:04+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "GSLV Mk. II",
-   "status": "To Be Confirmed"
+   "status": "To Be Determined"
   },
   "2026-h3-22-michibiki-7-qzs-7": {
    "ans": {
@@ -12567,10 +12603,11 @@
    "rocket": "H3-22",
    "status": "Launch Successful"
   },
-  "2026-h3-24-martian-moon-explorer-mmx": {
+  "2026-h3-24-martian-moons-exploration-mmx": {
    "ans": null,
    "flags": [
-    "non-leo"
+    "non-leo",
+    "renamed"
    ],
    "frozen_at": null,
    "lat": 30.400938,
@@ -12578,7 +12615,7 @@
    "location": "Tanegashima Space Center, Japan",
    "lon": 130.97564,
    "lsp": "Mitsubishi Heavy Industries",
-   "name": "H3-24 | Martian Moon eXplorer (MMX)",
+   "name": "H3-24 | Martian Moons eXploration (MMX)",
    "net_first": "2026-10-19T19:41:03Z",
    "net_last": "2026-10-19T19:41:03Z",
    "orbit": "Mars Orbit",
@@ -12597,7 +12634,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13674,19 +13711,22 @@
    "rocket": "Long March 12",
    "status": "Launch Successful"
   },
-  "2026-long-march-12-unknown-payload": {
+  "2026-long-march-12-satnet-leo-group-27": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "renamed",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-10-10T09:55:21+00:00",
    "lat": 19.59755,
-   "liftoff": null,
+   "liftoff": "2026-10-09T19:27:00Z",
    "location": "Wenchang Space Launch Site, People's Republic of China",
    "lon": 110.936481,
    "lsp": "China Aerospace Science and Technology Corporation",
-   "name": "Long March 12 | Unknown Payload",
+   "name": "Long March 12 | SatNet LEO Group 27",
    "net_first": "2026-10-09T19:25:00Z",
-   "net_last": "2026-10-09T19:25:00Z",
-   "orbit": "Unknown",
+   "net_last": "2026-10-09T19:27:00Z",
+   "orbit": "Low Earth Orbit",
    "pad": "Commercial LC-2",
    "pred": {
     "az_measured": null,
@@ -13702,13 +13742,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Long March 12",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-long-march-12a-flight-2": {
    "ans": null,
@@ -13721,7 +13761,7 @@
    "lsp": "China Aerospace Science and Technology Corporation",
    "name": "Long March 12A | Flight 2",
    "net_first": "2026-08-31T00:00:00Z",
-   "net_last": "2026-09-30T00:00:00Z",
+   "net_last": "2026-10-31T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Long March 12 series Pad",
    "pred": {
@@ -13735,10 +13775,10 @@
     "dir": null,
     "incl": null,
     "incl_method": null,
-    "model": "v2",
+    "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-09-19T08:06:22+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15172,7 +15212,111 @@
    "status": "To Be Determined"
   },
   "2026-nuri-neonsat-2-to-6": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-10T09:55:21+00:00",
+    "cospar": "2026-229",
+    "d_incl": 13.69,
+    "d_raan": -174.143,
+    "identified": true,
+    "incl": 97.7,
+    "incl_spread": 0.01,
+    "n_objects": 15,
+    "objects": [
+     {
+      "incl": "97.69",
+      "intldes": "2026-229Q",
+      "name": "KSLV-II R/B",
+      "norad": "100969"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229P",
+      "name": "OBJECT P",
+      "norad": "100968"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229N",
+      "name": "OBJECT N",
+      "norad": "100967"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229M",
+      "name": "OBJECT M",
+      "norad": "100966"
+     },
+     {
+      "incl": "97.69",
+      "intldes": "2026-229L",
+      "name": "OBJECT L",
+      "norad": "100965"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229K",
+      "name": "OBJECT K",
+      "norad": "100964"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229J",
+      "name": "OBJECT J",
+      "norad": "100963"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229H",
+      "name": "OBJECT H",
+      "norad": "100962"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229G",
+      "name": "OBJECT G",
+      "norad": "100961"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229F",
+      "name": "OBJECT F",
+      "norad": "100960"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229E",
+      "name": "OBJECT E",
+      "norad": "100959"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229D",
+      "name": "OBJECT D",
+      "norad": "100958"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229C",
+      "name": "OBJECT C",
+      "norad": "100957"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229B",
+      "name": "OBJECT B",
+      "norad": "100956"
+     },
+     {
+      "incl": "97.70",
+      "intldes": "2026-229A",
+      "name": "OBJECT A",
+      "norad": "100955"
+     }
+    ],
+    "raan": 16.296,
+    "raan_epoch": 19.06,
+    "raan_pred": 190.439
+   },
    "flags": [],
    "frozen_at": "2026-10-07T10:20:16+00:00",
    "lat": 34.431867,
@@ -15894,6 +16038,42 @@
     "zones_debris": []
    },
    "rocket": "SR75",
+   "status": "To Be Determined"
+  },
+  "2026-sslv-aayulsat-1a-others": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 13.733,
+   "liftoff": null,
+   "location": "Satish Dhawan Space Centre, India",
+   "lon": 80.235,
+   "lsp": "Indian Space Research Organization",
+   "name": "SSLV | AayulSAT-1A & others",
+   "net_first": "2026-10-31T00:00:00Z",
+   "net_last": "2026-10-31T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Satish Dhawan Space Centre First Launch Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Satish Dhawan Space Centre (IND)",
+    "updated_at": "2026-10-10T09:55:21+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "SSLV",
    "status": "To Be Determined"
   },
   "2026-starship-flight-13": {
@@ -16719,7 +16899,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-09T10:39:13+00:00",
+    "updated_at": "2026-10-10T09:55:21+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
