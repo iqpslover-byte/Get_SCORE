@@ -472,7 +472,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1462,7 +1462,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1870,7 +1870,7 @@
     "model": "v3",
     "raan_at_net": 76.49,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [
      "IV-970/26"
     ],
@@ -2955,10 +2955,12 @@
   },
   "2026-falcon-9-block-5-sda-tranche-1-transport-layer-a": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "vanished-before-status"
+   ],
+   "frozen_at": "2026-10-11T10:04:45+00:00",
    "lat": 34.632,
-   "liftoff": null,
+   "liftoff": "2026-10-10T07:39:44Z",
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
@@ -6587,7 +6589,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -11721,7 +11723,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12459,7 +12461,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12634,7 +12636,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "種子島宇宙センター (JPN)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13712,10 +13714,85 @@
    "status": "Launch Successful"
   },
   "2026-long-march-12-satnet-leo-group-27": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-11T10:04:45+00:00",
+    "cospar": "2026-230",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 50.0,
+    "incl_spread": 0.01,
+    "n_objects": 10,
+    "objects": [
+     {
+      "incl": "49.99",
+      "intldes": "2026-230K",
+      "name": "CZ-12 R/B",
+      "norad": "100982"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230J",
+      "name": "OBJECT J",
+      "norad": "100981"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230H",
+      "name": "OBJECT H",
+      "norad": "100980"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230G",
+      "name": "OBJECT G",
+      "norad": "100979"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230F",
+      "name": "OBJECT F",
+      "norad": "100978"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230E",
+      "name": "OBJECT E",
+      "norad": "100977"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230D",
+      "name": "OBJECT D",
+      "norad": "100976"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230C",
+      "name": "OBJECT C",
+      "norad": "100975"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230B",
+      "name": "OBJECT B",
+      "norad": "100974"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-230A",
+      "name": "OBJECT A",
+      "norad": "100973"
+     }
+    ],
+    "raan": 259.588,
+    "raan_epoch": 256.77,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
-    "no-navwarn"
+    "no-navwarn",
+    "early-tle"
    ],
    "frozen_at": "2026-10-10T09:55:21+00:00",
    "lat": 19.59755,
@@ -13778,7 +13855,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16068,7 +16145,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16899,7 +16976,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-10T09:55:21+00:00",
+    "updated_at": "2026-10-11T10:04:45+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
