@@ -15,6 +15,11 @@
     "sd": 0.0
    }
   },
+  "Ceres-1S @ Haiyang Oriental Spaceport": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Electron @ Rocket Lab LC-1 (NZL)": {
    "incl": {
     "mae": 23.74,
@@ -204,7 +209,7 @@
    "n": 34,
    "sd": 15.291
   },
-  "n": 71,
+  "n": 72,
   "raan": {
    "mae": 25.926,
    "mean": 0.387,
@@ -212,5 +217,5 @@
    "sd": 53.602
   }
  },
- "updated_at": "2026-10-21T08:38:42+00:00"
+ "updated_at": "2026-10-22T08:40:51+00:00"
 }
