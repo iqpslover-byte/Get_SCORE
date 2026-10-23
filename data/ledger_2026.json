@@ -1532,7 +1532,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1568,7 +1568,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1587,7 +1587,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
    "net_first": "2026-10-21T00:00:00Z",
-   "net_last": "2026-10-23T07:00:00Z",
+   "net_last": "2026-10-23T07:11:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -1604,9 +1604,9 @@
     "incl": 99.98,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 142.85,
+    "raan_at_net": 145.6,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [
      "HYDROPAC-3006/26"
     ],
@@ -1678,7 +1678,7 @@
     ]
    },
    "rocket": "Electron",
-   "status": "To Be Confirmed"
+   "status": "Launch in Flight"
   },
   "2026-falcon-9-block-5-bandwagon-5-dedicated-mid-inclination-rideshare": {
    "ans": null,
@@ -2868,7 +2868,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6307,7 +6307,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
    "net_first": "2026-10-20T22:14:00Z",
-   "net_last": "2026-10-22T22:40:24Z",
+   "net_last": "2026-10-23T21:30:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -6324,9 +6324,9 @@
     "incl": 69.54,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 85.8,
+    "raan_at_net": 69.13,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [
      "XII-726/26"
     ],
@@ -6466,7 +6466,7 @@
     "model": "v3",
     "raan_at_net": 183.91,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [
      "XII-737/26"
     ],
@@ -6604,7 +6604,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6886,7 +6886,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
    "net_first": "2026-11-01T05:11:00Z",
-   "net_last": "2026-11-10T00:00:00Z",
+   "net_last": "2026-11-05T05:14:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -6903,13 +6903,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "To Be Determined"
+   "status": "Go for Launch"
   },
   "2026-falcon-9-block-5-starlink-group-15-22": {
    "ans": {
@@ -13454,7 +13454,7 @@
    "lsp": "Indian Space Research Organization",
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
    "net_first": "2026-10-15T00:00:00Z",
-   "net_last": "2026-10-31T00:00:00Z",
+   "net_last": "2026-10-30T00:00:00Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "pred": {
@@ -13471,7 +13471,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14962,7 +14962,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15242,7 +15242,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15671,7 +15671,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18159,7 +18159,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-10-22T08:40:49+00:00",
+    "updated_at": "2026-10-23T08:36:42+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
