@@ -1532,7 +1532,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1568,7 +1568,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1579,7 +1579,8 @@
   "2026-electron-we-re-not-hawking-around-3x-hawkeye-360": {
    "ans": null,
    "flags": [
-    "vanished-before-status"
+    "vanished-before-status",
+    "ambiguous-cospar"
    ],
    "frozen_at": "2026-10-24T08:11:35+00:00",
    "lat": -39.260881,
@@ -3004,7 +3005,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3383,13 +3384,19 @@
    "status": "To Be Determined"
   },
   "2026-falcon-9-block-5-sda-tranche-1-tracking-layer-e": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-25T08:29:29+00:00",
+    "identified": false
+   },
    "flags": [
-    "backtest"
+    "backtest",
+    "vanished-before-status",
+    "no-navwarn",
+    "no-tle-timeout"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-10-25T08:29:29+00:00",
    "lat": 34.632,
-   "liftoff": null,
+   "liftoff": "2026-06-30T00:00:00Z",
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
@@ -6434,7 +6441,9 @@
   },
   "2026-falcon-9-block-5-starlink-group-15-15": {
    "ans": null,
-   "flags": [],
+   "flags": [
+    "ambiguous-cospar"
+   ],
    "frozen_at": "2026-10-24T08:11:35+00:00",
    "lat": 34.632,
    "liftoff": "2026-10-23T22:48:44Z",
@@ -6602,7 +6611,7 @@
     "model": "v3",
     "raan_at_net": 181.14,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [
      "XII-737/26"
     ],
@@ -6742,7 +6751,7 @@
     "model": "v3",
     "raan_at_net": 173.32,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [
      "XII-747/26"
     ],
@@ -7143,7 +7152,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13711,7 +13720,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15202,7 +15211,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-10-24T08:11:35+00:00",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15550,10 +15559,67 @@
    "status": "Launch Successful"
   },
   "2026-long-march-4b-yaogan-53-07-to-09-56-19-to-21": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-25T08:29:29+00:00",
+    "cospar": "2026-241",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 45.0,
+    "incl_spread": 0.1,
+    "n_objects": 7,
+    "objects": [
+     {
+      "incl": "44.99",
+      "intldes": "2026-241G",
+      "name": "OBJECT G",
+      "norad": "101157"
+     },
+     {
+      "incl": "45.09",
+      "intldes": "2026-241F",
+      "name": "CZ-4B R/B",
+      "norad": "101156"
+     },
+     {
+      "incl": "45.00",
+      "intldes": "2026-241E",
+      "name": "OBJECT E",
+      "norad": "101155"
+     },
+     {
+      "incl": "45.00",
+      "intldes": "2026-241D",
+      "name": "OBJECT D",
+      "norad": "101154"
+     },
+     {
+      "incl": "45.00",
+      "intldes": "2026-241C",
+      "name": "OBJECT C",
+      "norad": "101153"
+     },
+     {
+      "incl": "45.00",
+      "intldes": "2026-241B",
+      "name": "OBJECT B",
+      "norad": "101152"
+     },
+     {
+      "incl": "45.00",
+      "intldes": "2026-241A",
+      "name": "OBJECT A",
+      "norad": "101151"
+     }
+    ],
+    "raan": 307.385,
+    "raan_epoch": 304.645,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
-    "no-navwarn"
+    "no-navwarn",
+    "early-tle"
    ],
    "frozen_at": "2026-10-24T08:11:35+00:00",
    "lat": 40.960482,
@@ -15930,7 +15996,8 @@
    "ans": null,
    "flags": [
     "renamed",
-    "no-navwarn"
+    "no-navwarn",
+    "ambiguous-cospar"
    ],
    "frozen_at": "2026-10-24T08:11:35+00:00",
    "lat": 38.8583,
@@ -16426,6 +16493,44 @@
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
     "updated_at": "2026-09-24T08:31:12+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 8A",
+   "status": "Launch Successful"
+  },
+  "2026-long-march-8a-satnet-leo-group-28": {
+   "ans": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-10-25T08:29:29+00:00",
+   "lat": 19.597275,
+   "liftoff": "2026-10-25T02:03:00Z",
+   "location": "Wenchang Space Launch Site, People's Republic of China",
+   "lon": 110.930753,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 8A | SatNet LEO Group 28",
+   "net_first": "2026-10-25T02:03:00Z",
+   "net_last": "2026-10-25T02:03:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Commercial LC-1",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     190
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "海南商業宇宙発射場 (CHN)",
+    "updated_at": "2026-10-25T08:29:29+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
