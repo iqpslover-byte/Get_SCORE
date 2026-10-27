@@ -920,10 +920,14 @@
    "status": "To Be Determined"
   },
   "2026-electron-happily-ever-faster-blacksky-gen-3-5": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-27T09:04:51+00:00",
+    "identified": false
+   },
    "flags": [
     "no-navwarn",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-09-11T08:06:53+00:00",
    "lat": -39.262833,
@@ -1532,7 +1536,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-26T09:01:29+00:00",
+    "updated_at": "2026-10-27T09:04:51+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1568,7 +1572,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-10-26T09:01:29+00:00",
+    "updated_at": "2026-10-27T09:04:51+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -6592,7 +6596,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
    "net_first": "2026-10-24T05:29:00Z",
-   "net_last": "2026-10-27T04:45:00Z",
+   "net_last": "2026-10-27T07:25:51Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -6609,9 +6613,9 @@
     "incl": 69.54,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 181.14,
+    "raan_at_net": 221.46,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-26T09:01:29+00:00",
+    "updated_at": "2026-10-27T09:04:51+00:00",
     "warnings": [
      "XII-737/26"
     ],
@@ -6751,7 +6755,7 @@
     "model": "v3",
     "raan_at_net": 173.32,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-26T09:01:29+00:00",
+    "updated_at": "2026-10-27T09:04:51+00:00",
     "warnings": [
      "XII-747/26"
     ],
@@ -7152,7 +7156,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-10-26T09:01:29+00:00",
+    "updated_at": "2026-10-27T09:04:51+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12891,6 +12895,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
+  "2026-falcon-9-block-5-ussf-432": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | USSF-432",
+   "net_first": "2026-11-02T01:56:00Z",
+   "net_last": "2026-11-02T01:56:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-10-27T09:04:51+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
   "2026-falcon-9-block-5-ussf-481": {
    "ans": null,
    "flags": [
@@ -13703,7 +13743,7 @@
    "lsp": "Indian Space Research Organization",
    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
    "net_first": "2026-10-15T00:00:00Z",
-   "net_last": "2026-10-30T17:00:00Z",
+   "net_last": "2026-10-30T18:21:00Z",
    "orbit": "Geostationary Transfer Orbit",
    "pad": "Satish Dhawan Space Centre Second Launch Pad",
    "pred": {
@@ -13720,13 +13760,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-10-26T09:01:29+00:00",
+    "updated_at": "2026-10-27T09:04:51+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "GSLV Mk. II",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-h3-22-michibiki-7-qzs-7": {
    "ans": {
@@ -15183,6 +15223,42 @@
    "rocket": "Long March 12",
    "status": "Launch Successful"
   },
+  "2026-long-march-12-satnet-leo-group-tbd": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 19.59755,
+   "liftoff": null,
+   "location": "Wenchang Space Launch Site, People's Republic of China",
+   "lon": 110.936481,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 12 | SatNet LEO Group TBD?",
+   "net_first": "2026-11-05T20:00:00Z",
+   "net_last": "2026-11-05T20:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Commercial LC-2",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     190
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "海南商業宇宙発射場 (CHN)",
+    "updated_at": "2026-10-27T09:04:51+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 12",
+   "status": "To Be Confirmed"
+  },
   "2026-long-march-12a-flight-2": {
    "ans": null,
    "flags": [],
@@ -16501,7 +16577,81 @@
    "status": "Launch Successful"
   },
   "2026-long-march-8a-satnet-leo-group-28": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-10-27T09:04:51+00:00",
+    "cospar": "2026-243",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 50.01,
+    "incl_spread": 0.01,
+    "n_objects": 10,
+    "objects": [
+     {
+      "incl": "49.98",
+      "intldes": "2026-243K",
+      "name": "CZ-8A R/B",
+      "norad": "101194"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243J",
+      "name": "HULIANWANG DIGUI 231",
+      "norad": "101193"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243H",
+      "name": "HULIANWANG DIGUI 230",
+      "norad": "101192"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-243G",
+      "name": "HULIANWANG DIGUI 229",
+      "norad": "101191"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243F",
+      "name": "HULIANWANG DIGUI 228",
+      "norad": "101190"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243E",
+      "name": "HULIANWANG DIGUI 227",
+      "norad": "101189"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-243D",
+      "name": "HULIANWANG DIGUI 226",
+      "norad": "101188"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243C",
+      "name": "HULIANWANG DIGUI 225",
+      "norad": "101187"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243B",
+      "name": "HULIANWANG DIGUI 224",
+      "norad": "101186"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-243A",
+      "name": "HULIANWANG DIGUI 223",
+      "norad": "101185"
+     }
+    ],
+    "raan": 13.956,
+    "raan_epoch": 6.724,
+    "raan_pred": null
+   },
    "flags": [
     "no-navwarn"
    ],
