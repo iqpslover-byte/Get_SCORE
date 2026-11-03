@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -831,7 +831,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1555,7 +1555,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
    "net_first": "2026-11-10T00:00:00Z",
-   "net_last": "2026-11-10T00:00:00Z",
+   "net_last": "2026-11-14T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -1572,7 +1572,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1583,9 +1583,9 @@
   "2026-electron-the-sea-god-surveys-iqps-launch-9": {
    "ans": null,
    "flags": [],
-   "frozen_at": null,
+   "frozen_at": "2026-11-03T10:57:17+00:00",
    "lat": -39.260881,
-   "liftoff": null,
+   "liftoff": "2026-11-02T16:41:00Z",
    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lon": 177.865826,
    "lsp": "Rocket Lab",
@@ -1605,12 +1605,12 @@
      "HYDROPAC-3129/26"
     ],
     "dir": "south",
-    "incl": 42.7,
+    "incl": 42.69,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 227.73,
+    "raan_at_net": 227.7,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [
      "HYDROPAC-3128/26"
     ],
@@ -1696,7 +1696,7 @@
     ]
    },
    "rocket": "Electron",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-electron-we-re-not-hawking-around-3x-hawkeye-360": {
    "ans": null,
@@ -13323,7 +13323,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-432",
    "net_first": "2026-11-02T01:56:00Z",
-   "net_last": "2026-11-04T01:28:00Z",
+   "net_last": "2026-11-07T00:46:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13342,7 +13342,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -13603,7 +13603,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
    "net_first": "2026-11-10T03:03:00Z",
-   "net_last": "2026-11-10T03:03:00Z",
+   "net_last": "2026-11-09T03:17:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13620,7 +13620,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15232,18 +15232,21 @@
    "rocket": "Kinetica 1",
    "status": "Launch Successful"
   },
-  "2026-kinetica-2-spacesail-polar-group-tbd": {
+  "2026-kinetica-2-spacesail-polar-group-17": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "renamed",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-11-03T10:57:17+00:00",
    "lat": 40.81748,
-   "liftoff": null,
+   "liftoff": "2026-11-03T00:15:00Z",
    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
    "lon": 100.21939,
    "lsp": "CAS Space",
-   "name": "Kinetica 2 | SpaceSail Polar Group TBD?",
+   "name": "Kinetica 2 | SpaceSail Polar Group #17",
    "net_first": "2026-11-03T00:10:00Z",
-   "net_last": "2026-11-03T00:10:00Z",
+   "net_last": "2026-11-03T00:15:00Z",
    "orbit": "Polar Orbit",
    "pad": "Launch Area 140",
    "pred": {
@@ -15260,13 +15263,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Kinetica 2",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-kuaizhou-11-spacety-51-52": {
    "ans": {
@@ -15967,7 +15970,7 @@
    "lsp": "China Aerospace Science and Technology Corporation",
    "name": "Long March 12 | SatNet LEO Group TBD?",
    "net_first": "2026-11-05T20:00:00Z",
-   "net_last": "2026-11-05T21:15:00Z",
+   "net_last": "2026-11-24T07:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Commercial LC-2",
    "pred": {
@@ -15984,13 +15987,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Long March 12",
-   "status": "Go for Launch"
+   "status": "To Be Confirmed"
   },
   "2026-long-march-12a-flight-2": {
    "ans": null,
@@ -17449,7 +17452,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17696,7 +17699,7 @@
     "model": "v3",
     "raan_at_net": 222.41,
     "site_ref": null,
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -18480,6 +18483,42 @@
    },
    "rocket": "Soyuz 2.1b",
    "status": "Launch Successful"
+  },
+  "2026-soyuz-2-1b-progress-ms-36-97p": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 45.996034,
+   "liftoff": null,
+   "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+   "lon": 63.564003,
+   "lsp": "Russian Federal Space Agency (ROSCOSMOS)",
+   "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+   "net_first": "2026-11-24T05:03:00Z",
+   "net_last": "2026-11-24T05:03:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "31/6",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     347,
+     65
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Baikonur Cosmodrome (KAZ)",
+    "updated_at": "2026-11-03T10:57:17+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Soyuz 2.1b",
+   "status": "To Be Confirmed"
   },
   "2026-spectrum-onward-and-upward": {
    "ans": {
@@ -19468,7 +19507,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-02T11:17:09+00:00",
+    "updated_at": "2026-11-03T10:57:17+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
