@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -831,7 +831,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1132,10 +1132,14 @@
    "status": "Launch Successful"
   },
   "2026-electron-owl-by-the-dozen-strix-launch-12": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-04T11:01:09+00:00",
+    "identified": false
+   },
    "flags": [
     "vanished-before-status",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-09-20T08:38:47+00:00",
    "lat": -39.260881,
@@ -1572,7 +1576,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1581,8 +1585,42 @@
    "status": "To Be Determined"
   },
   "2026-electron-the-sea-god-surveys-iqps-launch-9": {
-   "ans": null,
-   "flags": [],
+   "ans": {
+    "checked_at": "2026-11-04T11:01:09+00:00",
+    "cospar": "2026-247",
+    "d_incl": -0.68,
+    "d_raan": -0.891,
+    "identified": true,
+    "incl": 42.01,
+    "incl_spread": 0.0,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "42.01",
+      "intldes": "2026-247C",
+      "name": "ELECTRON KICK STAGE R/B",
+      "norad": "101259"
+     },
+     {
+      "incl": "42.03",
+      "intldes": "2026-247B",
+      "name": "ELECTRON R/B",
+      "norad": "101258"
+     },
+     {
+      "incl": "42.01",
+      "intldes": "2026-247A",
+      "name": "QPS-SAR-20",
+      "norad": "101257"
+     }
+    ],
+    "raan": 226.784,
+    "raan_epoch": 219.388,
+    "raan_pred": 227.675
+   },
+   "flags": [
+    "site-unmapped"
+   ],
    "frozen_at": "2026-11-03T10:57:17+00:00",
    "lat": -39.260881,
    "liftoff": "2026-11-02T16:41:00Z",
@@ -12902,6 +12940,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch in Flight"
   },
+  "2026-falcon-9-block-5-ussf-317": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | USSF-317",
+   "net_first": "2026-11-13T04:23:00Z",
+   "net_last": "2026-11-13T04:23:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-11-04T11:01:09+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
   "2026-falcon-9-block-5-ussf-366": {
    "ans": {
     "checked_at": "2026-08-29T10:09:13+00:00",
@@ -13342,7 +13416,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -13592,18 +13666,20 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
-  "2026-falcon-9-block-5-ussf-xxx-r-5": {
+  "2026-falcon-9-block-5-ussf-627": {
    "ans": null,
-   "flags": [],
+   "flags": [
+    "renamed"
+   ],
    "frozen_at": null,
    "lat": 34.632,
    "liftoff": null,
    "location": "Vandenberg SFB, CA, USA",
    "lon": -120.611,
    "lsp": "SpaceX",
-   "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
+   "name": "Falcon 9 Block 5 | USSF-627",
    "net_first": "2026-11-10T03:03:00Z",
-   "net_last": "2026-11-09T03:17:00Z",
+   "net_last": "2026-11-10T03:03:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13620,13 +13696,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Falcon 9 Block 5",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-falcon-heavy-nancy-grace-roman-space-telescope": {
    "ans": {
@@ -15233,10 +15309,44 @@
    "status": "Launch Successful"
   },
   "2026-kinetica-2-spacesail-polar-group-17": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-04T11:01:09+00:00",
+    "cospar": "2026-247",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 42.01,
+    "incl_spread": 0.0,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "42.01",
+      "intldes": "2026-247C",
+      "name": "ELECTRON KICK STAGE R/B",
+      "norad": "101259"
+     },
+     {
+      "incl": "42.03",
+      "intldes": "2026-247B",
+      "name": "ELECTRON R/B",
+      "norad": "101258"
+     },
+     {
+      "incl": "42.01",
+      "intldes": "2026-247A",
+      "name": "QPS-SAR-20",
+      "norad": "101257"
+     }
+    ],
+    "raan": 224.918,
+    "raan_epoch": 219.388,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
-    "no-navwarn"
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
    ],
    "frozen_at": "2026-11-03T10:57:17+00:00",
    "lat": 40.81748,
@@ -15987,7 +16097,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16076,11 +16186,15 @@
    "status": "Go for Launch"
   },
   "2026-long-march-2d-piesat-2-13-16": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-04T11:01:09+00:00",
+    "identified": false
+   },
    "flags": [
     "renamed",
     "no-navwarn",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-09-20T08:38:47+00:00",
    "lat": 38.863128,
@@ -16114,6 +16228,42 @@
    },
    "rocket": "Long March 2D",
    "status": "Launch Successful"
+  },
+  "2026-long-march-2f-g-shenzhou-24": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 40.957893,
+   "liftoff": null,
+   "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lon": 100.290944,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 2F/G | Shenzhou 24",
+   "net_first": "2026-11-25T00:00:00Z",
+   "net_last": "2026-11-25T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Launch Area 91 (SLS-1 / 921)",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     130,
+     160
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "酒泉衛星発射センター (CHN)",
+    "updated_at": "2026-11-04T11:01:09+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 2F/G",
+   "status": "To Be Determined"
   },
   "2026-long-march-3b-e-shijian-31": {
    "ans": {
@@ -17452,7 +17602,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18512,7 +18662,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19490,7 +19640,7 @@
    "lsp": "United Launch Alliance",
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
    "net_first": "2026-09-30T00:00:00Z",
-   "net_last": "2026-11-13T00:00:00Z",
+   "net_last": "2026-11-13T17:54:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 41",
    "pred": {
@@ -19507,13 +19657,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-04T11:01:09+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Vulcan VC6L",
-   "status": "To Be Determined"
+   "status": "Go for Launch"
   },
   "2026-zhuque-2e-block-2-10-satellites": {
    "ans": {

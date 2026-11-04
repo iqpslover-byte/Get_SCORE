@@ -22,17 +22,17 @@
   },
   "Electron @ Rocket Lab LC-1 (NZL)": {
    "incl": {
-    "mae": 23.74,
-    "mean": 22.04,
-    "n": 2,
-    "sd": 23.74
+    "mae": 16.053,
+    "mean": 14.467,
+    "n": 3,
+    "sd": 22.146
    },
-   "n": 3,
+   "n": 4,
    "raan": {
-    "mae": 71.269,
-    "mean": 62.192,
-    "n": 2,
-    "sd": 71.269
+    "mae": 47.81,
+    "mean": 41.165,
+    "n": 3,
+    "sd": 65.35
    }
   },
   "Falcon 9 Block 5 @ Kennedy Space Center (USA)": {
@@ -93,6 +93,11 @@
   "Kinetica 1 @ 酒泉衛星発射センター (CHN)": {
    "incl": null,
    "n": 3,
+   "raan": null
+  },
+  "Kinetica 2 @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
    "raan": null
   },
   "Kuaizhou 11 @ 酒泉衛星発射センター (CHN)": {
@@ -209,18 +214,18 @@
  "model": "v3",
  "total": {
   "incl": {
-   "mae": 9.581,
-   "mean": -2.908,
-   "n": 36,
-   "sd": 16.77
+   "mae": 9.34,
+   "mean": -2.847,
+   "n": 37,
+   "sd": 16.546
   },
-  "n": 77,
+  "n": 79,
   "raan": {
-   "mae": 26.89,
-   "mean": 2.999,
-   "n": 31,
-   "sd": 53.744
+   "mae": 26.077,
+   "mean": 2.877,
+   "n": 32,
+   "sd": 52.902
   }
  },
- "updated_at": "2026-11-03T10:57:19+00:00"
+ "updated_at": "2026-11-04T11:01:11+00:00"
 }
