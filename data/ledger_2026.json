@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -831,7 +831,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1576,7 +1576,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -12968,7 +12968,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13416,7 +13416,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -13696,7 +13696,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16097,7 +16097,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16257,7 +16257,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17602,7 +17602,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17835,7 +17835,7 @@
    "lsp": "Agency for Defense Development",
    "name": "Mir | Demo Flight",
    "net_first": "2026-07-31T00:00:00Z",
-   "net_last": "2026-11-04T05:00:00Z",
+   "net_last": "2026-11-10T06:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "ADD Offshore launch platform",
    "pred": {
@@ -17847,9 +17847,9 @@
     "incl": 59.78,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 222.41,
+    "raan_at_net": 243.36,
     "site_ref": null,
-    "updated_at": "2026-11-03T10:57:17+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -17894,7 +17894,7 @@
     "zones_debris": []
    },
    "rocket": "Mir",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-nebula-1-demo-flight": {
    "ans": null,
@@ -18662,7 +18662,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19657,7 +19657,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-04T11:01:09+00:00",
+    "updated_at": "2026-11-05T11:01:04+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
