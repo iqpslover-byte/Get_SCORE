@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -831,7 +831,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1559,7 +1559,7 @@
    "lsp": "Rocket Lab",
    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
    "net_first": "2026-11-10T00:00:00Z",
-   "net_last": "2026-11-14T00:00:00Z",
+   "net_last": "2026-11-14T05:30:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -1576,13 +1576,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Electron",
-   "status": "To Be Determined"
+   "status": "Go for Launch"
   },
   "2026-electron-the-sea-god-surveys-iqps-launch-9": {
    "ans": {
@@ -12968,7 +12968,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13416,7 +13416,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -13696,7 +13696,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16097,7 +16097,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16185,6 +16185,44 @@
    "rocket": "Long March 2C",
    "status": "Go for Launch"
   },
+  "2026-long-march-2c-yaogan-51-07-to-09": {
+   "ans": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-11-06T10:59:10+00:00",
+   "lat": 28.247059,
+   "liftoff": "2026-11-05T15:58:00Z",
+   "location": "Xichang Satellite Launch Center, People's Republic of China",
+   "lon": 102.029008,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 2C | Yaogan 51-07 to 09",
+   "net_first": "2026-11-05T15:58:00Z",
+   "net_last": "2026-11-05T15:58:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Launch Complex 3 (LC-3/LA-1)",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     97,
+     104
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "西昌衛星発射センター (CHN)",
+    "updated_at": "2026-11-06T10:59:10+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 2C",
+   "status": "Launch Successful"
+  },
   "2026-long-march-2d-piesat-2-13-16": {
    "ans": {
     "checked_at": "2026-11-04T11:01:09+00:00",
@@ -16229,6 +16267,42 @@
    "rocket": "Long March 2D",
    "status": "Launch Successful"
   },
+  "2026-long-march-2d-unknown-payload": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 40.960482,
+   "liftoff": null,
+   "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "lon": 100.298059,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 2D | Unknown Payload",
+   "net_first": "2026-11-11T11:40:00Z",
+   "net_last": "2026-11-11T11:40:00Z",
+   "orbit": "Unknown",
+   "pad": "Launch Area 94 (SLS-2 / 603)",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     130,
+     160
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "酒泉衛星発射センター (CHN)",
+    "updated_at": "2026-11-06T10:59:10+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 2D",
+   "status": "Go for Launch"
+  },
   "2026-long-march-2f-g-shenzhou-24": {
    "ans": null,
    "flags": [],
@@ -16257,7 +16331,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17602,7 +17676,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17849,7 +17923,7 @@
     "model": "v3",
     "raan_at_net": 243.36,
     "site_ref": null,
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -18662,12 +18736,48 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Soyuz 2.1b",
+   "status": "To Be Confirmed"
+  },
+  "2026-spectrum-at-astra-and-others-spectrum-flight-3": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 69.1084,
+   "liftoff": null,
+   "location": "Andøya Spaceport",
+   "lon": 15.5895,
+   "lsp": "Isar Aerospace",
+   "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+   "net_first": "2026-11-26T20:00:00Z",
+   "net_last": "2026-11-26T20:00:00Z",
+   "orbit": "Sun-Synchronous Orbit",
+   "pad": "Orbital Launch Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     300,
+     5
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Andøya Spaceport (NOR)",
+    "updated_at": "2026-11-06T10:59:10+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Spectrum",
    "status": "To Be Confirmed"
   },
   "2026-spectrum-onward-and-upward": {
@@ -19206,6 +19316,42 @@
    "rocket": "Starship V3",
    "status": "Go for Launch"
   },
+  "2026-starship-flight-15": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 25.99677,
+   "liftoff": null,
+   "location": "SpaceX Starbase, TX, USA",
+   "lon": -97.15799,
+   "lsp": "SpaceX",
+   "name": "Starship | Flight 15",
+   "net_first": "2026-11-13T00:00:00Z",
+   "net_last": "2026-11-13T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Orbital Launch Pad 2",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     130
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Starbase (USA)",
+    "updated_at": "2026-11-06T10:59:10+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Starship V3",
+   "status": "To Be Determined"
+  },
   "2026-starship-starlink-group-31-1-starship-flight-14": {
    "ans": {
     "checked_at": "2026-10-02T09:50:35+00:00",
@@ -19657,7 +19803,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-05T11:01:04+00:00",
+    "updated_at": "2026-11-06T10:59:10+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
