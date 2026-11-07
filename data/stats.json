@@ -20,6 +20,11 @@
    "n": 1,
    "raan": null
   },
+  "Ceres-2 @ 酒泉衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Electron @ Rocket Lab LC-1 (NZL)": {
    "incl": {
     "mae": 16.053,
@@ -113,6 +118,11 @@
   "Long March 12 @ 海南商業宇宙発射場 (CHN)": {
    "incl": null,
    "n": 4,
+   "raan": null
+  },
+  "Long March 2C @ 西昌衛星発射センター (CHN)": {
+   "incl": null,
+   "n": 1,
    "raan": null
   },
   "Long March 2D/YZ-3 @ 酒泉衛星発射センター (CHN)": {
@@ -219,7 +229,7 @@
    "n": 37,
    "sd": 16.546
   },
-  "n": 79,
+  "n": 81,
   "raan": {
    "mae": 26.077,
    "mean": 2.877,
@@ -227,5 +237,5 @@
    "sd": 52.902
   }
  },
- "updated_at": "2026-11-06T10:59:12+00:00"
+ "updated_at": "2026-11-07T10:19:08+00:00"
 }
