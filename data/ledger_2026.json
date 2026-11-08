@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1619,7 +1619,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13011,7 +13011,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13741,7 +13741,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16142,7 +16142,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16379,7 +16379,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16415,7 +16415,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17760,7 +17760,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18007,7 +18007,7 @@
     "model": "v3",
     "raan_at_net": 229.31,
     "site_ref": null,
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -18650,6 +18650,42 @@
    "rocket": "Soyuz 2.1b",
    "status": "To Be Determined"
   },
+  "2026-soyuz-2-1b-fregat-glonass-k1-kosmos-2621": {
+   "ans": null,
+   "flags": [
+    "non-leo",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-11-08T10:28:13+00:00",
+   "lat": 62.9273,
+   "liftoff": "2026-11-07T13:30:00Z",
+   "location": "Plesetsk Cosmodrome, Russian Federation",
+   "lon": 40.45,
+   "lsp": "Russian Space Forces",
+   "name": "Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?)",
+   "net_first": "2026-11-07T13:30:00Z",
+   "net_last": "2026-11-07T13:30:00Z",
+   "orbit": "Medium Earth Orbit",
+   "pad": "43/3 (43L)",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": null,
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": null,
+    "updated_at": "2026-11-08T10:28:13+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Soyuz 2.1b Fregat-M",
+   "status": "Launch Successful"
+  },
   "2026-soyuz-2-1b-fregat-glonass-k1-no-19": {
    "ans": {
     "checked_at": "2026-10-16T08:15:01+00:00",
@@ -18820,7 +18856,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18856,7 +18892,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19400,42 +19436,6 @@
    "rocket": "Starship V3",
    "status": "Go for Launch"
   },
-  "2026-starship-flight-15": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
-   "lat": 25.99677,
-   "liftoff": null,
-   "location": "SpaceX Starbase, TX, USA",
-   "lon": -97.15799,
-   "lsp": "SpaceX",
-   "name": "Starship | Flight 15",
-   "net_first": "2026-11-13T00:00:00Z",
-   "net_last": "2026-11-13T00:00:00Z",
-   "orbit": "Low Earth Orbit",
-   "pad": "Orbital Launch Pad 2",
-   "pred": {
-    "az_measured": null,
-    "az_used": null,
-    "corridor": [
-     90,
-     130
-    ],
-    "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
-    "model": "v3",
-    "raan_at_net": null,
-    "site_ref": "Starbase (USA)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
-    "warnings": [],
-    "zones": [],
-    "zones_debris": []
-   },
-   "rocket": "Starship V3",
-   "status": "To Be Determined"
-  },
   "2026-starship-starlink-group-31-1-starship-flight-14": {
    "ans": {
     "checked_at": "2026-10-02T09:50:35+00:00",
@@ -19609,6 +19609,44 @@
    },
    "rocket": "Starship V3",
    "status": "Launch Successful"
+  },
+  "2026-starship-starlink-group-31-2-starship-flight-15": {
+   "ans": null,
+   "flags": [
+    "renamed"
+   ],
+   "frozen_at": null,
+   "lat": 25.99677,
+   "liftoff": null,
+   "location": "SpaceX Starbase, TX, USA",
+   "lon": -97.15799,
+   "lsp": "SpaceX",
+   "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
+   "net_first": "2026-11-13T00:00:00Z",
+   "net_last": "2026-11-13T22:45:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Orbital Launch Pad 2",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     90,
+     130
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Starbase (USA)",
+    "updated_at": "2026-11-08T10:28:13+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Starship V3",
+   "status": "To Be Confirmed"
   },
   "2026-themis-demonstrator-t1h-1": {
    "ans": null,
@@ -19887,7 +19925,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-07T10:19:06+00:00",
+    "updated_at": "2026-11-08T10:28:13+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
