@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1619,7 +1619,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2540,7 +2540,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3013,6 +3013,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch in Flight"
   },
+  "2026-falcon-9-block-5-nrol-136": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 34.632,
+   "liftoff": null,
+   "location": "Vandenberg SFB, CA, USA",
+   "lon": -120.611,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | NROL-136",
+   "net_first": "2026-11-21T12:30:00Z",
+   "net_last": "2026-11-21T12:30:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 4E",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     153,
+     240
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Vandenberg SFB (USA)",
+    "updated_at": "2026-11-13T11:05:44+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
   "2026-falcon-9-block-5-nrol-179": {
    "ans": {
     "checked_at": "2026-07-05T12:40:04+00:00",
@@ -3244,7 +3280,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3525,7 +3561,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7726,7 +7762,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13083,7 +13119,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13102,7 +13138,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-317",
    "net_first": "2026-11-13T04:23:00Z",
-   "net_last": "2026-11-15T03:55:00Z",
+   "net_last": "2026-11-18T03:14:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13119,7 +13155,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -15688,7 +15724,7 @@
    "lsp": "ExPace",
    "name": "Kuaizhou 11 | Unknown Payload",
    "net_first": "2026-06-17T03:40:00Z",
-   "net_last": "2026-11-12T19:50:00Z",
+   "net_last": "2026-11-30T00:00:00Z",
    "orbit": "Unknown",
    "pad": "Launch Area 95A",
    "pred": {
@@ -15708,7 +15744,7 @@
     "zones": []
    },
    "rocket": "Kuaizhou 11",
-   "status": "Go for Launch"
+   "status": "To Be Determined"
   },
   "2026-long-march-10b-demo-flight": {
    "ans": {
@@ -16318,7 +16354,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16484,7 +16520,27 @@
    "status": "Launch Successful"
   },
   "2026-long-march-2d-cas-pathfinder-1": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-13T11:05:44+00:00",
+    "cospar": "2026-254",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 97.79,
+    "incl_spread": 0.0,
+    "n_objects": 1,
+    "objects": [
+     {
+      "incl": "97.79",
+      "intldes": "2026-254A",
+      "name": "OBJECT A",
+      "norad": "101330"
+     }
+    ],
+    "raan": 140.763,
+    "raan_epoch": 142.003,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
     "no-navwarn"
@@ -16566,6 +16622,42 @@
    "rocket": "Long March 2D",
    "status": "Launch Successful"
   },
+  "2026-long-march-2d-unknown-payload": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 38.863128,
+   "liftoff": null,
+   "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lon": 111.589567,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 2D | Unknown Payload",
+   "net_first": "2026-11-18T22:50:00Z",
+   "net_last": "2026-11-18T22:50:00Z",
+   "orbit": "Unknown",
+   "pad": "Launch Complex 9",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     160,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "太原衛星発射センター (CHN)",
+    "updated_at": "2026-11-13T11:05:44+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 2D",
+   "status": "Go for Launch"
+  },
   "2026-long-march-2f-g-shenzhou-24": {
    "ans": null,
    "flags": [],
@@ -16594,7 +16686,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17943,7 +18035,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18193,7 +18285,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18212,7 +18304,7 @@
    "lsp": "Agency for Defense Development",
    "name": "Mir | Demo Flight",
    "net_first": "2026-07-31T00:00:00Z",
-   "net_last": "2026-11-13T05:00:00Z",
+   "net_last": "2026-11-30T00:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "ADD Offshore launch platform",
    "pred": {
@@ -18224,9 +18316,9 @@
     "incl": 59.78,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 231.28,
+    "raan_at_net": 172.83,
     "site_ref": null,
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -18271,7 +18363,7 @@
     "zones_debris": []
    },
    "rocket": "Mir",
-   "status": "Go for Launch"
+   "status": "To Be Determined"
   },
   "2026-nebula-1-demo-flight": {
    "ans": null,
@@ -18645,7 +18737,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19028,6 +19120,39 @@
    "rocket": "Soyuz 2.1b Fregat-M",
    "status": "To Be Determined"
   },
+  "2026-soyuz-2-1b-fregat-m-mka-kinosputnik-koen-and-others": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 51.884395,
+   "liftoff": null,
+   "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
+   "lon": 128.333932,
+   "lsp": "Russian Federal Space Agency (ROSCOSMOS)",
+   "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
+   "net_first": "2026-11-14T00:50:00Z",
+   "net_last": "2026-11-14T00:50:00Z",
+   "orbit": "Sun-Synchronous Orbit",
+   "pad": "Cosmodrome Site 1S",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": null,
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": null,
+    "updated_at": "2026-11-13T11:05:44+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Soyuz 2.1b Fregat-M",
+   "status": "Go for Launch"
+  },
   "2026-soyuz-2-1b-progress-ms-35-96p": {
    "ans": {
     "checked_at": "2026-09-19T08:06:22+00:00",
@@ -19120,7 +19245,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19156,7 +19281,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19904,7 +20029,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -20189,7 +20314,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-12T11:23:14+00:00",
+    "updated_at": "2026-11-13T11:05:44+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
