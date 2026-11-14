@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1619,7 +1619,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2523,7 +2523,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
    "net_first": "2026-11-29T15:49:00Z",
-   "net_last": "2026-11-29T15:49:00Z",
+   "net_last": "2026-11-29T15:47:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 40",
    "pred": {
@@ -2540,7 +2540,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3041,7 +3041,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3280,7 +3280,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3561,7 +3561,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7762,7 +7762,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13102,7 +13102,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-266",
    "net_first": "2026-11-17T16:58:00Z",
-   "net_last": "2026-11-18T16:49:00Z",
+   "net_last": "2026-11-23T16:04:00Z",
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13119,7 +13119,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13155,7 +13155,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16354,7 +16354,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16650,7 +16650,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16686,7 +16686,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18035,7 +18035,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18285,7 +18285,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18318,7 +18318,7 @@
     "model": "v3",
     "raan_at_net": 172.83,
     "site_ref": null,
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -18737,7 +18737,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19122,16 +19122,18 @@
   },
   "2026-soyuz-2-1b-fregat-m-mka-kinosputnik-koen-and-others": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-11-14T10:32:54+00:00",
    "lat": 51.884395,
-   "liftoff": null,
+   "liftoff": "2026-11-14T01:16:00Z",
    "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
    "lon": 128.333932,
    "lsp": "Russian Federal Space Agency (ROSCOSMOS)",
    "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
    "net_first": "2026-11-14T00:50:00Z",
-   "net_last": "2026-11-14T00:50:00Z",
+   "net_last": "2026-11-14T01:16:00Z",
    "orbit": "Sun-Synchronous Orbit",
    "pad": "Cosmodrome Site 1S",
    "pred": {
@@ -19145,13 +19147,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Soyuz 2.1b Fregat-M",
-   "status": "Go for Launch"
+   "status": "Launch in Flight"
   },
   "2026-soyuz-2-1b-progress-ms-35-96p": {
    "ans": {
@@ -19245,7 +19247,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19281,7 +19283,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -20002,17 +20004,18 @@
   "2026-starship-starlink-group-31-2-starship-flight-15": {
    "ans": null,
    "flags": [
-    "renamed"
+    "renamed",
+    "no-navwarn"
    ],
-   "frozen_at": null,
+   "frozen_at": "2026-11-14T10:32:54+00:00",
    "lat": 25.99677,
-   "liftoff": null,
+   "liftoff": "2026-11-13T22:47:36Z",
    "location": "SpaceX Starbase, TX, USA",
    "lon": -97.15799,
    "lsp": "SpaceX",
    "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
    "net_first": "2026-11-13T00:00:00Z",
-   "net_last": "2026-11-13T22:45:00Z",
+   "net_last": "2026-11-13T22:47:36Z",
    "orbit": "Low Earth Orbit",
    "pad": "Orbital Launch Pad 2",
    "pred": {
@@ -20029,13 +20032,13 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Starbase (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
    },
    "rocket": "Starship V3",
-   "status": "To Be Confirmed"
+   "status": "Launch in Flight"
   },
   "2026-themis-demonstrator-t1h-1": {
    "ans": null,
@@ -20297,7 +20300,7 @@
    "lsp": "United Launch Alliance",
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
    "net_first": "2026-09-30T00:00:00Z",
-   "net_last": "2026-11-13T17:54:00Z",
+   "net_last": "2026-11-14T17:32:30Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 41",
    "pred": {
@@ -20314,7 +20317,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-13T11:05:44+00:00",
+    "updated_at": "2026-11-14T10:32:54+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
