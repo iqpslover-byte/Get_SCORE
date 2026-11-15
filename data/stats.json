@@ -32,7 +32,7 @@
     "n": 3,
     "sd": 22.146
    },
-   "n": 4,
+   "n": 5,
    "raan": {
     "mae": 47.81,
     "mean": 41.165,
@@ -180,6 +180,11 @@
    "n": 1,
    "raan": null
   },
+  "Soyuz 2.1b Fregat-M @ Vostochny Cosmodrome, Siberia, Russian Federation": {
+   "incl": null,
+   "n": 1,
+   "raan": null
+  },
   "Spectrum @ Andøya Spaceport (NOR)": {
    "incl": null,
    "n": 1,
@@ -187,7 +192,7 @@
   },
   "Starship V3 @ Starbase (USA)": {
    "incl": null,
-   "n": 1,
+   "n": 2,
    "raan": null
   },
   "Vega-C @ Guiana Space Centre (FRA)": {
@@ -234,7 +239,7 @@
    "n": 37,
    "sd": 16.546
   },
-  "n": 83,
+  "n": 86,
   "raan": {
    "mae": 26.077,
    "mean": 2.877,
@@ -242,5 +247,5 @@
    "sd": 52.902
   }
  },
- "updated_at": "2026-11-14T10:32:56+00:00"
+ "updated_at": "2026-11-15T11:02:28+00:00"
 }

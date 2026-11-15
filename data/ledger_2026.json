@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -883,11 +883,15 @@
    "status": "Launch Successful"
   },
   "2026-electron-6x-hawkeye-360": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-15T11:02:27+00:00",
+    "identified": false
+   },
    "flags": [
     "vanished-before-status",
     "no-navwarn",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-10-13T10:41:27+00:00",
    "lat": -39.260881,
@@ -923,11 +927,15 @@
    "status": "To Be Determined"
   },
   "2026-electron-blacksky-gen-3-5": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-15T11:02:27+00:00",
+    "identified": false
+   },
    "flags": [
     "vanished-before-status",
     "no-navwarn",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-09-30T09:46:17+00:00",
    "lat": -39.260881,
@@ -1435,6 +1443,42 @@
    "rocket": "Electron",
    "status": "To Be Determined"
   },
+  "2026-electron-strix-launch-14": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | StriX Launch 14",
+   "net_first": "2026-11-30T00:00:00Z",
+   "net_last": "2026-11-30T00:00:00Z",
+   "orbit": "Sun-Synchronous Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-11-15T11:02:27+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "To Be Determined"
+  },
   "2026-electron-ten-owl-of-ten-strix-launch-10": {
    "ans": {
     "checked_at": "2026-08-12T05:05:36+00:00",
@@ -1592,11 +1636,48 @@
    "status": "Launch Successful"
   },
   "2026-electron-the-mountain-god-rises-iqps-launch-10": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "ans": {
+    "checked_at": "2026-11-15T11:02:27+00:00",
+    "cospar": "2026-258",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 42.01,
+    "incl_spread": 0.01,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "42.01",
+      "intldes": "2026-258C",
+      "name": "ELECTRON KICK STAGE R/B",
+      "norad": "101387"
+     },
+     {
+      "incl": "42.01",
+      "intldes": "2026-258B",
+      "name": "ELECTRON R/B",
+      "norad": "101386"
+     },
+     {
+      "incl": "42.00",
+      "intldes": "2026-258A",
+      "name": "QPS-SAR-19",
+      "norad": "101385"
+     }
+    ],
+    "raan": 73.575,
+    "raan_epoch": 70.381,
+    "raan_pred": null
+   },
+   "flags": [
+    "vanished-before-status",
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
+   ],
+   "frozen_at": "2026-11-15T11:02:27+00:00",
    "lat": -39.260881,
-   "liftoff": null,
+   "liftoff": "2026-11-14T05:30:00Z",
    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lon": 177.865826,
    "lsp": "Rocket Lab",
@@ -2540,7 +2621,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3041,7 +3122,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3280,7 +3361,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3561,7 +3642,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7762,7 +7843,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13119,7 +13200,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13155,7 +13236,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16354,7 +16435,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16650,7 +16731,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16686,7 +16767,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18035,7 +18116,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18285,7 +18366,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18318,7 +18399,7 @@
     "model": "v3",
     "raan_at_net": 172.83,
     "site_ref": null,
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [
      "HYDROPAC-3133/26"
     ],
@@ -18737,7 +18818,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19084,11 +19165,15 @@
    "status": "To Be Determined"
   },
   "2026-soyuz-2-1b-fregat-kosmos-unknown-payload": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-15T11:02:27+00:00",
+    "identified": false
+   },
    "flags": [
     "vanished-before-status",
     "no-navwarn",
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-09-30T09:46:17+00:00",
    "lat": 62.925556,
@@ -19121,9 +19206,43 @@
    "status": "To Be Determined"
   },
   "2026-soyuz-2-1b-fregat-m-mka-kinosputnik-koen-and-others": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-15T11:02:27+00:00",
+    "cospar": "2026-258",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 42.01,
+    "incl_spread": 0.01,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "42.01",
+      "intldes": "2026-258C",
+      "name": "ELECTRON KICK STAGE R/B",
+      "norad": "101387"
+     },
+     {
+      "incl": "42.01",
+      "intldes": "2026-258B",
+      "name": "ELECTRON R/B",
+      "norad": "101386"
+     },
+     {
+      "incl": "42.00",
+      "intldes": "2026-258A",
+      "name": "QPS-SAR-19",
+      "norad": "101385"
+     }
+    ],
+    "raan": 74.619,
+    "raan_epoch": 70.381,
+    "raan_pred": null
+   },
    "flags": [
-    "no-navwarn"
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
    ],
    "frozen_at": "2026-11-14T10:32:54+00:00",
    "lat": 51.884395,
@@ -19247,7 +19366,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19283,7 +19402,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -20002,10 +20121,43 @@
    "status": "Launch Successful"
   },
   "2026-starship-starlink-group-31-2-starship-flight-15": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-15T11:02:27+00:00",
+    "cospar": "2026-258",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 42.01,
+    "incl_spread": 0.01,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "42.01",
+      "intldes": "2026-258C",
+      "name": "ELECTRON KICK STAGE R/B",
+      "norad": "101387"
+     },
+     {
+      "incl": "42.01",
+      "intldes": "2026-258B",
+      "name": "ELECTRON R/B",
+      "norad": "101386"
+     },
+     {
+      "incl": "42.00",
+      "intldes": "2026-258A",
+      "name": "QPS-SAR-19",
+      "norad": "101385"
+     }
+    ],
+    "raan": 74.986,
+    "raan_epoch": 69.312,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
-    "no-navwarn"
+    "no-navwarn",
+    "site-unmapped"
    ],
    "frozen_at": "2026-11-14T10:32:54+00:00",
    "lat": 25.99677,
@@ -20300,7 +20452,7 @@
    "lsp": "United Launch Alliance",
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
    "net_first": "2026-09-30T00:00:00Z",
-   "net_last": "2026-11-14T17:32:30Z",
+   "net_last": "2026-11-15T17:11:30Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 41",
    "pred": {
@@ -20317,7 +20469,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-14T10:32:54+00:00",
+    "updated_at": "2026-11-15T11:02:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
