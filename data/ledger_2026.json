@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1471,7 +1471,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2621,7 +2621,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3122,7 +3122,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3361,7 +3361,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3642,7 +3642,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7843,7 +7843,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13187,23 +13187,159 @@
    "orbit": "Polar Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 169.3,
+    "az_used": 169.3,
     "corridor": [
      153,
      240
     ],
-    "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
+    "debris_warnings": [
+     "HYDROPAC-3290/26"
+    ],
+    "dir": "south",
+    "incl": 81.25,
+    "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": null,
+    "raan_at_net": 9.14,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
-    "warnings": [],
-    "zones": [],
-    "zones_debris": []
+    "updated_at": "2026-11-16T11:31:24+00:00",
+    "warnings": [
+     "XII-794/26"
+    ],
+    "zones": [
+     [
+      [
+       34.46666666666667,
+       -120.35
+      ],
+      [
+       34.666666666666664,
+       -120.61666666666666
+      ],
+      [
+       34.63333333333333,
+       -120.65
+      ],
+      [
+       34.516666666666666,
+       -120.65
+      ],
+      [
+       34.333333333333336,
+       -120.63333333333334
+      ],
+      [
+       33.28333333333333,
+       -120.35
+      ],
+      [
+       33.21666666666667,
+       -120.26666666666667
+      ],
+      [
+       32.61666666666667,
+       -120.15
+      ],
+      [
+       32.016666666666666,
+       -120.03333333333333
+      ],
+      [
+       32.0,
+       -120.0
+      ],
+      [
+       32.1,
+       -120.0
+      ],
+      [
+       33.233333333333334,
+       -120.21666666666667
+      ],
+      [
+       33.96666666666667,
+       -120.23333333333333
+      ]
+     ],
+     [
+      [
+       30.616666666666667,
+       -119.75
+      ],
+      [
+       29.1,
+       -119.78333333333333
+      ],
+      [
+       28.95,
+       -119.91666666666667
+      ],
+      [
+       28.683333333333334,
+       -119.88333333333334
+      ],
+      [
+       28.3,
+       -119.38333333333334
+      ],
+      [
+       27.716666666666665,
+       -119.3
+      ],
+      [
+       27.7,
+       -119.25
+      ],
+      [
+       28.3,
+       -119.06666666666666
+      ],
+      [
+       28.65,
+       -118.71666666666667
+      ],
+      [
+       28.916666666666668,
+       -118.76666666666667
+      ],
+      [
+       29.15,
+       -119.06666666666666
+      ],
+      [
+       30.55,
+       -119.66666666666667
+      ]
+     ]
+    ],
+    "zones_debris": [
+     [
+      [
+       -27.8,
+       -136.21666666666667
+      ],
+      [
+       -27.316666666666666,
+       -133.16666666666666
+      ],
+      [
+       -43.4,
+       -129.23333333333332
+      ],
+      [
+       -59.21666666666667,
+       -122.4
+      ],
+      [
+       -59.7,
+       -127.71666666666667
+      ],
+      [
+       -43.85,
+       -133.11666666666667
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Go for Launch"
@@ -13219,7 +13355,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-317",
    "net_first": "2026-11-13T04:23:00Z",
-   "net_last": "2026-11-18T03:14:00Z",
+   "net_last": "2026-11-19T03:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13229,17 +13365,54 @@
      153,
      240
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "HYDROPAC-3308/26"
+    ],
     "dir": null,
     "incl": null,
     "incl_method": null,
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       -27.983333333333334,
+       -122.73333333333333
+      ],
+      [
+       -27.15,
+       -120.71666666666667
+      ],
+      [
+       -38.35,
+       -115.06666666666666
+      ],
+      [
+       -49.15,
+       -107.36666666666666
+      ],
+      [
+       -59.15,
+       -95.56666666666666
+      ],
+      [
+       -59.96666666666667,
+       -99.08333333333333
+      ],
+      [
+       -44.56666666666667,
+       -114.21666666666667
+      ],
+      [
+       -27.983333333333334,
+       -122.73333333333333
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Go for Launch"
@@ -16435,7 +16608,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16731,7 +16904,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16767,7 +16940,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18116,7 +18289,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18366,7 +18539,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18389,58 +18562,19 @@
    "orbit": "Low Earth Orbit",
    "pad": "ADD Offshore launch platform",
    "pred": {
-    "az_measured": 143.0,
-    "az_used": 37.0,
+    "az_measured": null,
+    "az_used": null,
     "corridor": null,
     "debris_warnings": [],
-    "dir": "east",
-    "incl": 59.78,
-    "incl_method": "bearing",
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
     "model": "v3",
-    "raan_at_net": 172.83,
+    "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-15T11:02:27+00:00",
-    "warnings": [
-     "HYDROPAC-3133/26"
-    ],
-    "zones": [
-     [
-      [
-       24.4715,
-       132.76733333333334
-      ],
-      [
-       25.038333333333334,
-       133.77383333333333
-      ],
-      [
-       22.188833333333335,
-       135.6585
-      ],
-      [
-       21.625333333333334,
-       134.66916666666665
-      ]
-     ],
-     [
-      [
-       15.7005,
-       138.9175
-      ],
-      [
-       16.137666666666668,
-       139.73366666666666
-      ],
-      [
-       13.924333333333333,
-       140.9915
-      ],
-      [
-       13.488166666666666,
-       140.18616666666668
-      ]
-     ]
-    ],
+    "updated_at": "2026-11-16T11:31:24+00:00",
+    "warnings": [],
+    "zones": [],
     "zones_debris": []
    },
    "rocket": "Mir",
@@ -18818,7 +18952,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19366,7 +19500,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19402,7 +19536,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
+    "updated_at": "2026-11-16T11:31:24+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -20443,39 +20577,157 @@
   },
   "2026-vulcan-vc6l-amazon-leo-lv-01": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "launch-failure"
+   ],
+   "frozen_at": "2026-11-16T11:31:24+00:00",
    "lat": 28.58341025,
-   "liftoff": null,
+   "liftoff": "2026-11-15T17:40:30Z",
    "location": "Cape Canaveral SFS, FL, USA",
    "lon": -80.58303644,
    "lsp": "United Launch Alliance",
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
    "net_first": "2026-09-30T00:00:00Z",
-   "net_last": "2026-11-15T17:11:30Z",
+   "net_last": "2026-11-15T17:40:30Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 41",
    "pred": {
-    "az_measured": null,
-    "az_used": null,
+    "az_measured": 1.7,
+    "az_used": 1.7,
     "corridor": [
      35,
      120
     ],
     "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
+    "dir": "east",
+    "incl": 88.5,
+    "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": null,
+    "raan_at_net": 238.55,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-15T11:02:27+00:00",
-    "warnings": [],
-    "zones": [],
+    "updated_at": "2026-11-16T11:31:24+00:00",
+    "warnings": [
+     "IV-1078/26",
+     "HYDROPAC-3246/26"
+    ],
+    "zones": [
+     [
+      [
+       28.653833333333335,
+       -80.63083333333333
+      ],
+      [
+       29.8,
+       -79.88333333333334
+      ],
+      [
+       31.383333333333333,
+       -77.96666666666667
+      ],
+      [
+       34.18333333333333,
+       -74.2
+      ],
+      [
+       36.46666666666667,
+       -71.05
+      ],
+      [
+       36.25,
+       -70.9
+      ],
+      [
+       34.21666666666667,
+       -73.63333333333334
+      ],
+      [
+       32.31666666666667,
+       -75.9
+      ],
+      [
+       29.45,
+       -78.63333333333334
+      ],
+      [
+       28.683333333333334,
+       -79.6
+      ],
+      [
+       28.55,
+       -80.06666666666666
+      ],
+      [
+       28.4905,
+       -80.54216666666667
+      ]
+     ],
+     [
+      [
+       29.233333333333334,
+       -80.03333333333333
+      ],
+      [
+       29.816666666666666,
+       -79.43333333333334
+      ],
+      [
+       29.633333333333333,
+       -79.21666666666667
+      ],
+      [
+       29.066666666666666,
+       -79.83333333333333
+      ]
+     ],
+     [
+      [
+       43.63333333333333,
+       -59.4
+      ],
+      [
+       44.28333333333333,
+       -57.766666666666666
+      ],
+      [
+       44.88333333333333,
+       -55.68333333333333
+      ],
+      [
+       44.516666666666666,
+       -55.333333333333336
+      ],
+      [
+       42.983333333333334,
+       -57.38333333333333
+      ],
+      [
+       42.583333333333336,
+       -59.03333333333333
+      ]
+     ],
+     [
+      [
+       -37.8,
+       83.6
+      ],
+      [
+       -48.083333333333336,
+       117.03333333333333
+      ],
+      [
+       -54.71666666666667,
+       115.65
+      ],
+      [
+       -43.18333333333333,
+       78.45
+      ]
+     ]
+    ],
     "zones_debris": []
    },
    "rocket": "Vulcan VC6L",
-   "status": "Go for Launch"
+   "status": "Launch Failure"
   },
   "2026-zhuque-2e-block-2-10-satellites": {
    "ans": {
