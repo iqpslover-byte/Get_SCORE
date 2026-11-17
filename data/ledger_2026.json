@@ -476,7 +476,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1471,7 +1471,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2472,9 +2472,13 @@
    "status": "Launch Successful"
   },
   "2026-falcon-9-block-5-crew-13": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-17T11:57:47+00:00",
+    "identified": false
+   },
    "flags": [
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-10-02T09:50:35+00:00",
    "lat": 28.56194122,
@@ -2621,7 +2625,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3115,17 +3119,50 @@
      153,
      240
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "HYDROPAC-3356/26"
+    ],
     "dir": null,
     "incl": null,
     "incl_method": null,
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       -27.983333333333334,
+       -122.73333333333333
+      ],
+      [
+       -27.15,
+       -120.71666666666667
+      ],
+      [
+       -38.35,
+       -115.06666666666666
+      ],
+      [
+       -49.15,
+       -107.36666666666666
+      ],
+      [
+       -59.15,
+       -95.56666666666666
+      ],
+      [
+       -59.96666666666667,
+       -99.08333333333333
+      ],
+      [
+       -44.56666666666667,
+       -114.21666666666667
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
    "status": "Go for Launch"
@@ -3361,7 +3398,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3642,7 +3679,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -7843,7 +7880,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13194,6 +13231,7 @@
      240
     ],
     "debris_warnings": [
+     "HYDROPAC-3327/26",
      "HYDROPAC-3290/26"
     ],
     "dir": "south",
@@ -13202,11 +13240,116 @@
     "model": "v3",
     "raan_at_net": 9.14,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [
+     "XII-804/26",
      "XII-794/26"
     ],
     "zones": [
+     [
+      [
+       34.46666666666667,
+       -120.35
+      ],
+      [
+       34.666666666666664,
+       -120.61666666666666
+      ],
+      [
+       34.63333333333333,
+       -120.65
+      ],
+      [
+       34.516666666666666,
+       -120.65
+      ],
+      [
+       34.333333333333336,
+       -120.63333333333334
+      ],
+      [
+       33.28333333333333,
+       -120.35
+      ],
+      [
+       33.21666666666667,
+       -120.26666666666667
+      ],
+      [
+       32.61666666666667,
+       -120.15
+      ],
+      [
+       32.016666666666666,
+       -120.03333333333333
+      ],
+      [
+       32.0,
+       -120.0
+      ],
+      [
+       32.1,
+       -120.0
+      ],
+      [
+       33.233333333333334,
+       -120.21666666666667
+      ],
+      [
+       33.96666666666667,
+       -120.23333333333333
+      ]
+     ],
+     [
+      [
+       28.95,
+       -119.91666666666667
+      ],
+      [
+       29.1,
+       -119.78333333333333
+      ],
+      [
+       30.616666666666667,
+       -119.75
+      ],
+      [
+       30.55,
+       -119.66666666666667
+      ],
+      [
+       29.15,
+       -119.06666666666666
+      ],
+      [
+       28.916666666666668,
+       -118.76666666666667
+      ],
+      [
+       28.65,
+       -118.71666666666667
+      ],
+      [
+       28.3,
+       -119.06666666666666
+      ],
+      [
+       27.7,
+       -119.25
+      ],
+      [
+       27.716666666666665,
+       -119.3
+      ],
+      [
+       28.3,
+       -119.38333333333334
+      ],
+      [
+       28.683333333333334,
+       -119.88333333333334
+      ]
+     ],
      [
       [
        34.46666666666667,
@@ -13338,6 +13481,32 @@
        -43.85,
        -133.11666666666667
       ]
+     ],
+     [
+      [
+       -27.8,
+       -136.21666666666667
+      ],
+      [
+       -27.316666666666666,
+       -133.16666666666666
+      ],
+      [
+       -43.4,
+       -129.23333333333332
+      ],
+      [
+       -59.21666666666667,
+       -122.4
+      ],
+      [
+       -59.7,
+       -127.71666666666667
+      ],
+      [
+       -43.85,
+       -133.11666666666667
+      ]
      ]
     ]
    },
@@ -13374,7 +13543,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -14330,9 +14499,13 @@
    "status": "Launch Successful"
   },
   "2026-falcon-heavy-nrol-97": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-17T11:57:47+00:00",
+    "identified": false
+   },
    "flags": [
-    "ambiguous-cospar"
+    "ambiguous-cospar",
+    "no-tle-timeout"
    ],
    "frozen_at": "2026-10-02T09:50:35+00:00",
    "lat": 28.60822681,
@@ -16608,7 +16781,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16904,7 +17077,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16940,7 +17113,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18289,7 +18462,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18539,7 +18712,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18572,7 +18745,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18952,7 +19125,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Satish Dhawan Space Centre (IND)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19500,7 +19673,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19536,7 +19709,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-16T11:31:24+00:00",
+    "updated_at": "2026-11-17T11:57:47+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
