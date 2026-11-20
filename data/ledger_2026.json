@@ -470,10 +470,10 @@
      90
     ],
     "debris_warnings": [
-     "IV-1116/26",
-     "XII-818/26",
-     "HYDROLANT-2317/26",
-     "HYDROPAC-3381/26"
+     "IV-1118/26",
+     "XII-824/26",
+     "HYDROLANT-2324/26",
+     "HYDROPAC-3395/26"
     ],
     "dir": "east",
     "incl": 71.27,
@@ -481,7 +481,7 @@
     "model": "v3",
     "raan_at_net": 175.12,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [
      "IV-1115/26"
     ],
@@ -1201,6 +1201,42 @@
    },
    "rocket": "Electron",
    "status": "To Be Determined"
+  },
+  "2026-electron-night-owls-never-sleep-strix-launch-14": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": -39.260881,
+   "liftoff": null,
+   "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "lon": 177.865826,
+   "lsp": "Rocket Lab",
+   "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+   "net_first": "2026-11-27T00:00:00Z",
+   "net_last": "2026-11-27T00:00:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Unknown Pad",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     30,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Rocket Lab LC-1 (NZL)",
+    "updated_at": "2026-11-20T11:47:12+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Electron",
+   "status": "Go for Launch"
   },
   "2026-electron-owl-around-the-world-strix-launch-11": {
    "ans": {
@@ -2742,7 +2778,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3245,7 +3281,7 @@
     "model": "v3",
     "raan_at_net": 322.24,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [
      "XII-811/26"
     ],
@@ -3608,7 +3644,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3889,7 +3925,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -8090,7 +8126,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13450,7 +13486,7 @@
     "model": "v3",
     "raan_at_net": 9.14,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [
      "XII-819/26",
      "XII-794/26"
@@ -13734,7 +13770,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-317",
    "net_first": "2026-11-13T04:23:00Z",
-   "net_last": "2026-11-20T04:28:55Z",
+   "net_last": "2026-11-21T02:32:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -13753,7 +13789,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -14091,7 +14127,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16173,6 +16209,39 @@
    "rocket": "Kinetica 1",
    "status": "Launch Successful"
   },
+  "2026-kinetica-1-unknown-payload": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 21.366667,
+   "liftoff": null,
+   "location": "Haiyang Oriental Spaceport",
+   "lon": 112.116667,
+   "lsp": "CAS Space",
+   "name": "Kinetica 1 | Unknown Payload",
+   "net_first": "2026-11-29T01:00:00Z",
+   "net_last": "2026-11-29T01:00:00Z",
+   "orbit": "Unknown",
+   "pad": "South China Sea (launch location 3)",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": null,
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": null,
+    "updated_at": "2026-11-20T11:47:12+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Kinetica 1",
+   "status": "To Be Confirmed"
+  },
   "2026-kinetica-2-spacesail-polar-group-17": {
    "ans": {
     "checked_at": "2026-11-04T11:01:09+00:00",
@@ -17011,7 +17080,7 @@
    "lsp": "China Aerospace Science and Technology Corporation",
    "name": "Long March 12 | SatNet LEO Group TBD?",
    "net_first": "2026-11-05T20:00:00Z",
-   "net_last": "2026-11-24T07:00:00Z",
+   "net_last": "2026-12-10T07:00:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Commercial LC-2",
    "pred": {
@@ -17028,7 +17097,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17297,10 +17366,31 @@
    "status": "Launch Successful"
   },
   "2026-long-march-2d-shijian-24": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-20T11:47:12+00:00",
+    "cospar": "2026-259",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 97.77,
+    "incl_spread": 0.0,
+    "n_objects": 1,
+    "objects": [
+     {
+      "incl": "97.77",
+      "intldes": "2026-259A",
+      "name": "OBJECT A",
+      "norad": "101415"
+     }
+    ],
+    "raan": 328.009,
+    "raan_epoch": 329.292,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
-    "no-navwarn"
+    "no-navwarn",
+    "site-unmapped"
    ],
    "frozen_at": "2026-11-19T11:46:14+00:00",
    "lat": 38.863128,
@@ -17363,7 +17453,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18712,7 +18802,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18995,7 +19085,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19923,7 +20013,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19959,7 +20049,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-19T11:46:14+00:00",
+    "updated_at": "2026-11-20T11:47:12+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
