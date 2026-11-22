@@ -482,7 +482,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -1228,7 +1228,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2776,7 +2776,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -3260,7 +3260,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | NROL-136",
    "net_first": "2026-11-21T12:30:00Z",
-   "net_last": "2026-11-22T12:16:00Z",
+   "net_last": "2026-11-22T12:23:56Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -3277,9 +3277,9 @@
     "incl": 69.66,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 319.72,
+    "raan_at_net": 321.71,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [
      "XII-811/26"
     ],
@@ -13484,7 +13484,7 @@
     "model": "v3",
     "raan_at_net": 7.87,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [
      "XII-819/26",
      "XII-794/26"
@@ -14127,7 +14127,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16502,7 +16502,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17365,7 +17365,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17721,7 +17721,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17757,7 +17757,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "酒泉衛星発射センター (CHN)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -18442,7 +18442,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19115,7 +19115,81 @@
    "status": "Launch Successful"
   },
   "2026-long-march-8a-satnet-leo-group-30": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-22T11:32:19+00:00",
+    "cospar": "2026-260",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 49.99,
+    "incl_spread": 0.04,
+    "n_objects": 10,
+    "objects": [
+     {
+      "incl": "49.97",
+      "intldes": "2026-260K",
+      "name": "CZ-8A R/B",
+      "norad": "101425"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-260J",
+      "name": "OBJECT J",
+      "norad": "101424"
+     },
+     {
+      "incl": "50.00",
+      "intldes": "2026-260H",
+      "name": "OBJECT H",
+      "norad": "101423"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-260G",
+      "name": "OBJECT G",
+      "norad": "101422"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-260F",
+      "name": "OBJECT F",
+      "norad": "101421"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-260E",
+      "name": "OBJECT E",
+      "norad": "101420"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-260D",
+      "name": "OBJECT D",
+      "norad": "101419"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-260C",
+      "name": "OBJECT C",
+      "norad": "101418"
+     },
+     {
+      "incl": "49.97",
+      "intldes": "2026-260B",
+      "name": "OBJECT B",
+      "norad": "101417"
+     },
+     {
+      "incl": "50.01",
+      "intldes": "2026-260A",
+      "name": "OBJECT A",
+      "norad": "101416"
+     }
+    ],
+    "raan": 189.05,
+    "raan_epoch": 182.096,
+    "raan_pred": null
+   },
    "flags": [
     "renamed",
     "no-navwarn"
@@ -19428,7 +19502,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -20356,7 +20430,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Baikonur Cosmodrome (KAZ)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -20392,7 +20466,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Andøya Spaceport (NOR)",
-    "updated_at": "2026-11-21T11:12:57+00:00",
+    "updated_at": "2026-11-22T11:32:19+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
