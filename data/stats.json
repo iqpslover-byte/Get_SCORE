@@ -182,7 +182,7 @@
   },
   "Soyuz 2.1b @ Baikonur Cosmodrome (KAZ)": {
    "incl": null,
-   "n": 1,
+   "n": 2,
    "raan": null
   },
   "Soyuz 2.1b Fregat-M @ Vostochny Cosmodrome, Siberia, Russian Federation": {
@@ -244,7 +244,7 @@
    "n": 37,
    "sd": 16.546
   },
-  "n": 88,
+  "n": 89,
   "raan": {
    "mae": 26.077,
    "mean": 2.877,
@@ -252,5 +252,5 @@
    "sd": 52.902
   }
  },
- "updated_at": "2026-11-24T13:49:51+00:00"
+ "updated_at": "2026-11-25T13:02:51+00:00"
 }
