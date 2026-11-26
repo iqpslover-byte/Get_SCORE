@@ -451,7 +451,8 @@
   "2026-ariane-64-block-2-amazon-leo-le-04": {
    "ans": null,
    "flags": [
-    "no-navwarn"
+    "no-navwarn",
+    "ambiguous-cospar"
    ],
    "frozen_at": "2026-11-25T13:02:50+00:00",
    "lat": 5.256319,
@@ -1123,24 +1124,24 @@
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
-    "az_measured": 80.8,
-    "az_used": 99.2,
+    "az_measured": 79.8,
+    "az_used": 100.2,
     "corridor": [
      30,
      200
     ],
     "debris_warnings": [
-     "HYDROPAC-3445/26"
+     "HYDROPAC-3473/26"
     ],
     "dir": "south",
-    "incl": 40.15,
+    "incl": 40.35,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 349.33,
+    "raan_at_net": 350.87,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [
-     "HYDROPAC-3446/26"
+     "HYDROPAC-3472/26"
     ],
     "zones": [
      [
@@ -1163,24 +1164,6 @@
       [
        -39.4,
        177.8
-      ]
-     ],
-     [
-      [
-       -37.7,
-       -177.3
-      ],
-      [
-       -37.0,
-       -173.2
-      ],
-      [
-       -38.6,
-       -172.8
-      ],
-      [
-       -39.3,
-       -176.95
       ]
      ]
     ],
@@ -2612,6 +2595,42 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Launch Successful"
   },
+  "2026-falcon-9-block-5-chorus": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 28.56194122,
+   "liftoff": null,
+   "location": "Cape Canaveral SFS, FL, USA",
+   "lon": -80.57735736,
+   "lsp": "SpaceX",
+   "name": "Falcon 9 Block 5 | CHORUS",
+   "net_first": "2026-12-04T12:55:00Z",
+   "net_last": "2026-12-04T12:55:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Space Launch Complex 40",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     35,
+     120
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Kennedy Space Center (USA)",
+    "updated_at": "2026-11-26T12:43:01+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Falcon 9 Block 5",
+   "status": "Go for Launch"
+  },
   "2026-falcon-9-block-5-crew-13": {
    "ans": {
     "checked_at": "2026-11-17T11:57:47+00:00",
@@ -2768,7 +2787,7 @@
     "model": "v3",
     "raan_at_net": 198.26,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [
      "IV-1141/26"
     ],
@@ -3355,7 +3374,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -13568,9 +13587,36 @@
    "status": "Launch in Flight"
   },
   "2026-falcon-9-block-5-ussf-266": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-26T12:43:01+00:00",
+    "cospar": "2026-266",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 41.47,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "41.44",
+      "intldes": "2026-266B",
+      "name": "CZ-2F R/B",
+      "norad": "101513"
+     },
+     {
+      "incl": "41.47",
+      "intldes": "2026-266A",
+      "name": "SZ-24",
+      "norad": "101512"
+     }
+    ],
+    "raan": 66.838,
+    "raan_epoch": 62.715,
+    "raan_pred": null
+   },
    "flags": [
-    "no-navwarn"
+    "no-navwarn",
+    "early-tle"
    ],
    "frozen_at": "2026-11-25T13:02:50+00:00",
    "lat": 34.632,
@@ -14006,7 +14052,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -16412,7 +16458,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17275,7 +17321,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17631,7 +17677,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "西昌衛星発射センター (CHN)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17640,9 +17686,36 @@
    "status": "Go for Launch"
   },
   "2026-long-march-2f-g-shenzhou-24": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-26T12:43:01+00:00",
+    "cospar": "2026-266",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 41.47,
+    "incl_spread": 0.0,
+    "n_objects": 2,
+    "objects": [
+     {
+      "incl": "41.44",
+      "intldes": "2026-266B",
+      "name": "CZ-2F R/B",
+      "norad": "101513"
+     },
+     {
+      "incl": "41.47",
+      "intldes": "2026-266A",
+      "name": "SZ-24",
+      "norad": "101512"
+     }
+    ],
+    "raan": 64.638,
+    "raan_epoch": 62.715,
+    "raan_pred": null
+   },
    "flags": [
-    "no-navwarn"
+    "no-navwarn",
+    "early-tle"
    ],
    "frozen_at": "2026-11-25T13:02:50+00:00",
    "lat": 40.957893,
@@ -18354,7 +18427,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -19414,7 +19487,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-25T13:02:50+00:00",
+    "updated_at": "2026-11-26T12:43:01+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
