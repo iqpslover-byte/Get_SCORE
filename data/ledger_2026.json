@@ -101,6 +101,42 @@
    "rocket": "Angara 1.2",
    "status": "To Be Determined"
   },
+  "2026-ariane-62-metop-sg-b1": {
+   "ans": null,
+   "flags": [],
+   "frozen_at": null,
+   "lat": 5.256319,
+   "liftoff": null,
+   "location": "Guiana Space Centre, French Guiana",
+   "lon": -52.786838,
+   "lsp": "Arianespace",
+   "name": "Ariane 62 | Metop-SG B1",
+   "net_first": "2026-12-18T00:36:00Z",
+   "net_last": "2026-12-18T00:36:00Z",
+   "orbit": "Sun-Synchronous Orbit",
+   "pad": "Ariane Launch Area 4",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     349,
+     90
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "Guiana Space Centre (FRA)",
+    "updated_at": "2026-11-27T12:32:27+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Ariane 62",
+   "status": "Go for Launch"
+  },
   "2026-ariane-62-mtg-i2": {
    "ans": {
     "checked_at": "2026-08-30T09:17:30+00:00",
@@ -449,7 +485,141 @@
    "status": "Launch Successful"
   },
   "2026-ariane-64-block-2-amazon-leo-le-04": {
-   "ans": null,
+   "ans": {
+    "checked_at": "2026-11-27T12:32:27+00:00",
+    "cospar": "2026-264",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 51.88,
+    "incl_spread": 0.0,
+    "n_objects": 36,
+    "objects": [
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AM",
+      "name": "KUIPER-00726",
+      "norad": "101494"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AL",
+      "name": "KUIPER-00725",
+      "norad": "101493"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AK",
+      "name": "KUIPER-00723",
+      "norad": "101492"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AJ",
+      "name": "KUIPER-00722",
+      "norad": "101491"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AH",
+      "name": "KUIPER-00720",
+      "norad": "101490"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AG",
+      "name": "KUIPER-00719",
+      "norad": "101489"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AF",
+      "name": "KUIPER-00717",
+      "norad": "101488"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AE",
+      "name": "KUIPER-00715",
+      "norad": "101487"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AD",
+      "name": "KUIPER-00714",
+      "norad": "101486"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AC",
+      "name": "KUIPER-00713",
+      "norad": "101485"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AB",
+      "name": "KUIPER-00712",
+      "norad": "101484"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264AA",
+      "name": "KUIPER-00711",
+      "norad": "101483"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264Z",
+      "name": "KUIPER-00709",
+      "norad": "101482"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264Y",
+      "name": "KUIPER-00708",
+      "norad": "101481"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264X",
+      "name": "KUIPER-00706",
+      "norad": "101480"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264W",
+      "name": "KUIPER-00704",
+      "norad": "101479"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264V",
+      "name": "KUIPER-00703",
+      "norad": "101478"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264U",
+      "name": "KUIPER-00702",
+      "norad": "101477"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264T",
+      "name": "KUIPER-00701",
+      "norad": "101476"
+     },
+     {
+      "incl": "51.88",
+      "intldes": "2026-264S",
+      "name": "KUIPER-00699",
+      "norad": "101475"
+     }
+    ],
+    "raan": 178.442,
+    "raan_epoch": 167.013,
+    "raan_pred": null
+   },
    "flags": [
     "no-navwarn",
     "ambiguous-cospar"
@@ -1112,15 +1282,15 @@
   "2026-electron-night-owls-never-sleep-strix-launch-14": {
    "ans": null,
    "flags": [],
-   "frozen_at": null,
+   "frozen_at": "2026-11-27T12:32:27+00:00",
    "lat": -39.260881,
-   "liftoff": null,
+   "liftoff": "2026-11-27T00:15:00Z",
    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
    "lon": 177.865826,
    "lsp": "Rocket Lab",
    "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
    "net_first": "2026-11-27T00:00:00Z",
-   "net_last": "2026-11-27T00:05:00Z",
+   "net_last": "2026-11-27T00:15:00Z",
    "orbit": "Low Earth Orbit",
    "pad": "Unknown Pad",
    "pred": {
@@ -1137,9 +1307,9 @@
     "incl": 40.35,
     "incl_method": "bearing",
     "model": "v3",
-    "raan_at_net": 350.87,
+    "raan_at_net": 353.37,
     "site_ref": "Rocket Lab LC-1 (NZL)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [
      "HYDROPAC-3472/26"
     ],
@@ -1207,7 +1377,7 @@
     ]
    },
    "rocket": "Electron",
-   "status": "Go for Launch"
+   "status": "Launch Successful"
   },
   "2026-electron-owl-around-the-world-strix-launch-11": {
    "ans": {
@@ -2623,7 +2793,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2787,7 +2957,7 @@
     "model": "v3",
     "raan_at_net": 198.26,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [
      "IV-1141/26"
     ],
@@ -3374,7 +3544,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -14052,7 +14222,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -16458,7 +16628,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -16691,7 +16861,7 @@
    "lsp": "ExPace",
    "name": "Kuaizhou 11 | Unknown Payload",
    "net_first": "2026-06-17T03:40:00Z",
-   "net_last": "2026-12-01T08:00:00Z",
+   "net_last": "2026-12-02T11:55:00Z",
    "orbit": "Unknown",
    "pad": "Launch Area 95A",
    "pred": {
@@ -16711,7 +16881,7 @@
     "zones": []
    },
    "rocket": "Kuaizhou 11",
-   "status": "To Be Confirmed"
+   "status": "Go for Launch"
   },
   "2026-long-march-10b-demo-flight": {
    "ans": {
@@ -17321,7 +17491,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17651,10 +17821,13 @@
   },
   "2026-long-march-2d-unknown-payload": {
    "ans": null,
-   "flags": [],
-   "frozen_at": null,
+   "flags": [
+    "vanished-before-status",
+    "no-navwarn"
+   ],
+   "frozen_at": "2026-11-27T12:32:27+00:00",
    "lat": 28.247059,
-   "liftoff": null,
+   "liftoff": "2026-11-26T09:35:00Z",
    "location": "Xichang Satellite Launch Center, People's Republic of China",
    "lon": 102.029008,
    "lsp": "China Aerospace Science and Technology Corporation",
@@ -18427,7 +18600,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-26T12:43:01+00:00",
+    "updated_at": "2026-11-27T12:32:27+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
