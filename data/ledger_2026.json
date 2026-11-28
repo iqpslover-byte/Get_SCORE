@@ -129,7 +129,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Guiana Space Centre (FRA)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -1280,8 +1280,43 @@
    "status": "To Be Determined"
   },
   "2026-electron-night-owls-never-sleep-strix-launch-14": {
-   "ans": null,
-   "flags": [],
+   "ans": {
+    "checked_at": "2026-11-28T11:53:35+00:00",
+    "cospar": "2026-267",
+    "d_incl": -5.35,
+    "d_raan": -171.973,
+    "identified": true,
+    "incl": 35.0,
+    "incl_spread": 0.0,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "35.00",
+      "intldes": "2026-267C",
+      "name": "OBJECT C",
+      "norad": "101516"
+     },
+     {
+      "incl": "35.00",
+      "intldes": "2026-267B",
+      "name": "OBJECT B",
+      "norad": "101515"
+     },
+     {
+      "incl": "35.00",
+      "intldes": "2026-267A",
+      "name": "OBJECT A",
+      "norad": "101514"
+     }
+    ],
+    "raan": 181.449,
+    "raan_epoch": 175.514,
+    "raan_pred": 353.422
+   },
+   "flags": [
+    "site-unmapped",
+    "early-tle"
+   ],
    "frozen_at": "2026-11-27T12:32:27+00:00",
    "lat": -39.260881,
    "liftoff": "2026-11-27T00:15:00Z",
@@ -2793,7 +2828,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -2957,7 +2992,7 @@
     "model": "v3",
     "raan_at_net": 198.26,
     "site_ref": "Kennedy Space Center (USA)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [
      "IV-1141/26"
     ],
@@ -3537,17 +3572,50 @@
      153,
      240
     ],
-    "debris_warnings": [],
+    "debris_warnings": [
+     "HYDROPAC-3503/26"
+    ],
     "dir": null,
     "incl": null,
     "incl_method": null,
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
-    "zones_debris": []
+    "zones_debris": [
+     [
+      [
+       -27.983333333333334,
+       -122.73333333333333
+      ],
+      [
+       -27.15,
+       -120.71666666666667
+      ],
+      [
+       -38.35,
+       -115.06666666666666
+      ],
+      [
+       -49.15,
+       -107.36666666666666
+      ],
+      [
+       -59.15,
+       -95.56666666666666
+      ],
+      [
+       -59.96666666666667,
+       -99.08333333333333
+      ],
+      [
+       -44.56666666666667,
+       -114.21666666666667
+      ]
+     ]
+    ]
    },
    "rocket": "Falcon 9 Block 5",
    "status": "To Be Confirmed"
@@ -14203,7 +14271,7 @@
    "lsp": "SpaceX",
    "name": "Falcon 9 Block 5 | USSF-380",
    "net_first": "2026-11-28T04:53:00Z",
-   "net_last": "2026-11-29T04:39:00Z",
+   "net_last": "2026-11-29T04:39:03Z",
    "orbit": "Low Earth Orbit",
    "pad": "Space Launch Complex 4E",
    "pred": {
@@ -14222,7 +14290,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "Vandenberg SFB (USA)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": [
@@ -16628,7 +16696,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": null,
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17491,7 +17559,7 @@
     "model": "v3",
     "raan_at_net": null,
     "site_ref": "海南商業宇宙発射場 (CHN)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
@@ -17823,7 +17891,8 @@
    "ans": null,
    "flags": [
     "vanished-before-status",
-    "no-navwarn"
+    "no-navwarn",
+    "ambiguous-cospar"
    ],
    "frozen_at": "2026-11-27T12:32:27+00:00",
    "lat": 28.247059,
@@ -18572,42 +18641,6 @@
    "rocket": "Long March 6A",
    "status": "Launch Successful"
   },
-  "2026-long-march-6a-unknown-payload": {
-   "ans": null,
-   "flags": [],
-   "frozen_at": null,
-   "lat": 38.8583,
-   "liftoff": null,
-   "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "lon": 111.5802,
-   "lsp": "China Aerospace Science and Technology Corporation",
-   "name": "Long March 6A | Unknown Payload",
-   "net_first": "2026-11-27T13:00:00Z",
-   "net_last": "2026-11-27T13:00:00Z",
-   "orbit": "Unknown",
-   "pad": "Launch Complex 9A",
-   "pred": {
-    "az_measured": null,
-    "az_used": null,
-    "corridor": [
-     160,
-     200
-    ],
-    "debris_warnings": [],
-    "dir": null,
-    "incl": null,
-    "incl_method": null,
-    "model": "v3",
-    "raan_at_net": null,
-    "site_ref": "太原衛星発射センター (CHN)",
-    "updated_at": "2026-11-27T12:32:27+00:00",
-    "warnings": [],
-    "zones": [],
-    "zones_debris": []
-   },
-   "rocket": "Long March 6A",
-   "status": "Go for Launch"
-  },
   "2026-long-march-6a-yaogan-40-group-04": {
    "ans": {
     "checked_at": "2026-11-09T11:40:22+00:00",
@@ -18685,6 +18718,79 @@
     "raan_at_net": null,
     "site_ref": "太原衛星発射センター (CHN)",
     "updated_at": "2026-10-24T08:11:35+00:00",
+    "warnings": [],
+    "zones": [],
+    "zones_debris": []
+   },
+   "rocket": "Long March 6A",
+   "status": "Launch Successful"
+  },
+  "2026-long-march-6a-yaogan-50-04": {
+   "ans": {
+    "checked_at": "2026-11-28T11:53:35+00:00",
+    "cospar": "2026-267",
+    "d_incl": null,
+    "d_raan": null,
+    "identified": true,
+    "incl": 35.0,
+    "incl_spread": 0.0,
+    "n_objects": 3,
+    "objects": [
+     {
+      "incl": "35.00",
+      "intldes": "2026-267C",
+      "name": "OBJECT C",
+      "norad": "101516"
+     },
+     {
+      "incl": "35.00",
+      "intldes": "2026-267B",
+      "name": "OBJECT B",
+      "norad": "101515"
+     },
+     {
+      "incl": "35.00",
+      "intldes": "2026-267A",
+      "name": "OBJECT A",
+      "norad": "101514"
+     }
+    ],
+    "raan": 178.089,
+    "raan_epoch": 175.514,
+    "raan_pred": null
+   },
+   "flags": [
+    "renamed",
+    "no-navwarn",
+    "site-unmapped",
+    "early-tle"
+   ],
+   "frozen_at": "2026-11-28T11:53:35+00:00",
+   "lat": 38.8583,
+   "liftoff": "2026-11-27T13:05:00Z",
+   "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "lon": 111.5802,
+   "lsp": "China Aerospace Science and Technology Corporation",
+   "name": "Long March 6A | Yaogan 50-04",
+   "net_first": "2026-11-27T13:00:00Z",
+   "net_last": "2026-11-27T13:05:00Z",
+   "orbit": "Low Earth Orbit",
+   "pad": "Launch Complex 9A",
+   "pred": {
+    "az_measured": null,
+    "az_used": null,
+    "corridor": [
+     160,
+     200
+    ],
+    "debris_warnings": [],
+    "dir": null,
+    "incl": null,
+    "incl_method": null,
+    "model": "v3",
+    "raan_at_net": null,
+    "site_ref": "太原衛星発射センター (CHN)",
+    "updated_at": "2026-11-28T11:53:35+00:00",
     "warnings": [],
     "zones": [],
     "zones_debris": []
